@@ -1,0 +1,8 @@
+{
+  "mappings": [
+    "/content/jksn-tst/:/"
+  ],
+  "includes": [
+    "/content/jksn-tst/"
+  ]
+}

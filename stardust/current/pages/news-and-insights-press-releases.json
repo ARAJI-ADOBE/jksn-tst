@@ -1,0 +1,1566 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-18T08:25:47.283Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200,
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-18T08:37:15.982Z",
+    "readArtifacts": [
+      "https://www.ppmamerica.com/news-and-insights/press-releases",
+      "stardust/current/pages/news-and-insights-press-releases.html",
+      "stardust/current/_computed-styles.json"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.37.2",
+    "contentType": "text/html",
+    "heroSource": "dom",
+    "enrichment": {
+      "by": "playwright live pass (sequential, 1440x900, reduced-motion, disclosure gate accepted)",
+      "fetchedStatus": 200,
+      "ms": 3734,
+      "fields": [
+        "heroHeadline",
+        "heroLede",
+        "landmarks",
+        "links",
+        "media.images",
+        "forms",
+        "components",
+        "perSectionStyle",
+        "stats"
+      ]
+    }
+  },
+  "slug": "news-and-insights-press-releases",
+  "url": "https://www.ppmamerica.com/news-and-insights/press-releases",
+  "finalUrl": "https://www.ppmamerica.com/news-and-insights/press-releases",
+  "title": "Press Releases | PPM America",
+  "metaDescription": "Read the latest news about us and our efforts to help our clients achieve their long-term value goals.",
+  "description": "Read the latest news about us and our efforts to help our clients achieve their long-term value goals.",
+  "heroHeadline": "Press Releases",
+  "heroLede": "Read the latest news about us and our efforts to help our clients achieve their long-term value goals.",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "themeColor": {},
+  "language": "en",
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Press Releases"
+    },
+    {
+      "tag": "h2",
+      "text": "August 05, 2026"
+    },
+    {
+      "tag": "h2",
+      "text": "PPM America Bolsters Commercial Real Estate Team"
+    },
+    {
+      "tag": "h2",
+      "text": "April 09, 2026"
+    },
+    {
+      "tag": "h2",
+      "text": "Chris Raub Named President and CEO of PPM America, Inc."
+    },
+    {
+      "tag": "h2",
+      "text": "March 12, 2026"
+    },
+    {
+      "tag": "h2",
+      "text": "PPM America Capital Partners Promotes Tiffany Luna to Partner"
+    },
+    {
+      "tag": "h2",
+      "text": "December 09, 2025"
+    },
+    {
+      "tag": "h2",
+      "text": "PPM America Earns “Best Places to Work in Money Management” Honor for Sixth Time"
+    },
+    {
+      "tag": "h2",
+      "text": "October 28, 2025"
+    },
+    {
+      "tag": "h2",
+      "text": "PPM America Expands Westward with New LA Office"
+    },
+    {
+      "tag": "h2",
+      "text": "October 08, 2025"
+    },
+    {
+      "tag": "h2",
+      "text": "Craig Smith to Retire as PPM America President and CEO"
+    },
+    {
+      "tag": "h2",
+      "text": "March 19, 2025"
+    },
+    {
+      "tag": "h2",
+      "text": "PPM America Closes 14th CLO"
+    },
+    {
+      "tag": "h2",
+      "text": "January 12, 2025"
+    },
+    {
+      "tag": "h2",
+      "text": "PPM Hires Seasoned Emerging Market Debt Team"
+    },
+    {
+      "tag": "h2",
+      "text": "December 09, 2024"
+    },
+    {
+      "tag": "h2",
+      "text": "PPM America Repeats As One of the “Best Places to Work in Money Management”"
+    },
+    {
+      "tag": "h2",
+      "text": "November 14, 2024"
+    },
+    {
+      "tag": "h2",
+      "text": "PPM America Closes Mutual Funds to Focus on Other Commingled Vehicles"
+    },
+    {
+      "tag": "h2",
+      "text": "November 10, 2024"
+    },
+    {
+      "tag": "h2",
+      "text": "PPM America Capital Partners Hires Seasoned Industry Professional to Bolster Private Equity Team"
+    },
+    {
+      "tag": "h2",
+      "text": "June 26, 2024"
+    },
+    {
+      "tag": "h2",
+      "text": "PPM America Announces Thirteenth CLO Closing"
+    },
+    {
+      "tag": "h2",
+      "text": "February 11, 2024"
+    },
+    {
+      "tag": "h2",
+      "text": "PPM Adds PGIM Principal to Global Distribution Team"
+    },
+    {
+      "tag": "h2",
+      "text": "January 29, 2024"
+    },
+    {
+      "tag": "h2",
+      "text": "PPM America Capital Partners Closes on $660 Million Private Equity Fund"
+    },
+    {
+      "tag": "h2",
+      "text": "January 07, 2024"
+    },
+    {
+      "tag": "h2",
+      "text": "PPM Continues Global Distribution Team Expansion"
+    },
+    {
+      "tag": "h2",
+      "text": "December 10, 2023"
+    },
+    {
+      "tag": "h2",
+      "text": "PPM America Repeats As One of the “Best Places to Work in Money Management”"
+    },
+    {
+      "tag": "h2",
+      "text": "November 01, 2023"
+    },
+    {
+      "tag": "h2",
+      "text": "PPM Builds Global Distribution Team"
+    },
+    {
+      "tag": "h2",
+      "text": "September 11, 2023"
+    },
+    {
+      "tag": "h2",
+      "text": "PPM Promotes Within Investment Team"
+    },
+    {
+      "tag": "h2",
+      "text": "December 19, 2022"
+    },
+    {
+      "tag": "h2",
+      "text": "PPM America Announces Twelfth CLO Closing"
+    },
+    {
+      "tag": "h2",
+      "text": "December 11, 2022"
+    },
+    {
+      "tag": "h2",
+      "text": "PPM America Named One of the “Best Places to Work in Money Management”"
+    }
+  ],
+  "landmarks": [
+    {
+      "role": "banner",
+      "tag": "header",
+      "selector": "div#cmp-desktop-mobile-ppm-header-container > header.cmp-header",
+      "ariaLabel": null,
+      "headingSequence": [],
+      "linkLabels": [
+        "PPM Logo",
+        "INVESTMENT SOLUTIONS",
+        "NEWS AND INSIGHTS",
+        "OUR COMMITMENTS",
+        "OUR STORY"
+      ]
+    },
+    {
+      "role": "navigation",
+      "tag": "nav",
+      "selector": "nav#ppm-nav-desktop",
+      "ariaLabel": null,
+      "headingSequence": [],
+      "linkLabels": [
+        "INVESTMENT SOLUTIONS",
+        "NEWS AND INSIGHTS",
+        "OUR COMMITMENTS",
+        "OUR STORY"
+      ]
+    },
+    {
+      "role": "navigation",
+      "tag": "nav",
+      "selector": "nav#breadcrumb-f744f3d224",
+      "ariaLabel": "Breadcrumb",
+      "headingSequence": [],
+      "linkLabels": [
+        "Home",
+        "News and Insights"
+      ]
+    },
+    {
+      "role": "contentinfo",
+      "tag": "div",
+      "selector": "div#container-fe1fcac067 > div.aem-Grid.aem-Grid--12 > div.footer",
+      "ariaLabel": null,
+      "headingSequence": [],
+      "linkLabels": [
+        "Visit our LinkedIn Page ",
+        "Contact Us",
+        "Privacy Policy",
+        "Terms and Conditions",
+        "Social"
+      ],
+      "note": "no <footer> element; AEM experience-fragment div.footer > .cmp-footer carries the site footer"
+    }
+  ],
+  "body": [
+    "Investment Solutions Public Fixed Income Commercial Real Estate Debt Private and Structured Credit Private Equity Collateralized Loan Obligations",
+    "News and Insights Blog Market Insights Press Releases",
+    "Our Commitments Responsible Investment Community Engagement Inclusion and Engagement",
+    "Our Story Our Values Our Team Careers Contact Us",
+    "Home",
+    "News and Insights",
+    "Press Releases",
+    "Read the latest news about us and our efforts to help our clients achieve their long-term value goals.",
+    "225 West Wacker Drive",
+    "Suite 1200",
+    "Chicago, IL 60606",
+    "312-634-2500",
+    "Contact Us",
+    "Privacy Policy",
+    "Terms and Conditions",
+    "Social"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Investment Solutions",
+      "href": "/investment-solutions"
+    },
+    {
+      "label": "News and Insights",
+      "href": "/news-and-insights"
+    },
+    {
+      "label": "Our Commitments",
+      "href": "/our-commitments"
+    },
+    {
+      "label": "Our Story",
+      "href": "/our-story"
+    },
+    {
+      "label": "Home",
+      "href": "/home"
+    },
+    {
+      "label": "News and Insights",
+      "href": "/news-and-insights"
+    },
+    {
+      "label": "August 05, 2026 PPM America Bolsters Commercial Real Estate Team",
+      "href": "/news-and-insights/press-releases/2026/08/cre-team"
+    },
+    {
+      "label": "April 09, 2026 Chris Raub Named President and CEO of PPM America, Inc.",
+      "href": "/news-and-insights/press-releases/2026/04/chris-raub"
+    },
+    {
+      "label": "March 12, 2026 PPM America Capital Partners Promotes Tiffany Luna to Partner",
+      "href": "/news-and-insights/press-releases/2026/03/promotion-tiffany-luna"
+    },
+    {
+      "label": "December 09, 2025 PPM America Earns “Best Places to Work in Money Management” Honor for Sixth Time",
+      "href": "/news-and-insights/press-releases/2025/12/pensions-and-investments"
+    },
+    {
+      "label": "October 28, 2025 PPM America Expands Westward with New LA Office",
+      "href": "/news-and-insights/press-releases/2025/10/new-la-office"
+    },
+    {
+      "label": "October 08, 2025 Craig Smith to Retire as PPM America President and CEO",
+      "href": "/news-and-insights/press-releases/2025/10/craig-smith"
+    },
+    {
+      "label": "March 19, 2025 PPM America Closes 14th CLO",
+      "href": "/news-and-insights/press-releases/2025/03/clo-8"
+    },
+    {
+      "label": "January 12, 2025 PPM Hires Seasoned Emerging Market Debt Team",
+      "href": "/news-and-insights/press-releases/2025/01/emerging-market-debt-team"
+    },
+    {
+      "label": "December 09, 2024 PPM America Repeats As One of the “Best Places to Work in Money Management”",
+      "href": "/news-and-insights/press-releases/2024/12/pensions-and-investments"
+    },
+    {
+      "label": "November 14, 2024 PPM America Closes Mutual Funds to Focus on Other Commingled Vehicles",
+      "href": "/news-and-insights/press-releases/2024/11/ppm-funds"
+    },
+    {
+      "label": "November 10, 2024 PPM America Capital Partners Hires Seasoned Industry Professional to Bolster Private Equity Team",
+      "href": "/news-and-insights/press-releases/2024/11/team-bhumika-gashti"
+    },
+    {
+      "label": "June 26, 2024 PPM America Announces Thirteenth CLO Closing",
+      "href": "/news-and-insights/press-releases/2024/06/clo-7"
+    },
+    {
+      "label": "February 11, 2024 PPM Adds PGIM Principal to Global Distribution Team",
+      "href": "/news-and-insights/press-releases/2024/02/distribution-team"
+    },
+    {
+      "label": "January 29, 2024 PPM America Capital Partners Closes on $660 Million Private Equity Fund",
+      "href": "/news-and-insights/press-releases/2024/01/private-equity-fund-8"
+    },
+    {
+      "label": "January 07, 2024 PPM Continues Global Distribution Team Expansion",
+      "href": "/news-and-insights/press-releases/2024/01/distribution-team"
+    },
+    {
+      "label": "December 10, 2023 PPM America Repeats As One of the “Best Places to Work in Money Management”",
+      "href": "/news-and-insights/press-releases/2023/12/pensions-and-investments"
+    },
+    {
+      "label": "November 01, 2023 PPM Builds Global Distribution Team",
+      "href": "/news-and-insights/press-releases/2023/11/02/distribution-team"
+    },
+    {
+      "label": "September 11, 2023 PPM Promotes Within Investment Team",
+      "href": "/news-and-insights/press-releases/2023/09/org-changes"
+    },
+    {
+      "label": "December 19, 2022 PPM America Announces Twelfth CLO Closing",
+      "href": "/news-and-insights/press-releases/2022/12/clo-6"
+    },
+    {
+      "label": "December 11, 2022 PPM America Named One of the “Best Places to Work in Money Management”",
+      "href": "/news-and-insights/press-releases/2022/12/pensions-and-investments"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/our-story/contact-us"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "/privacy-policy"
+    },
+    {
+      "label": "Terms and Conditions",
+      "href": "/terms-and-conditions"
+    },
+    {
+      "label": "Social",
+      "href": "/social"
+    }
+  ],
+  "links": {
+    "internal": [
+      {
+        "text": "PPM Logo",
+        "href": "https://www.ppmamerica.com/home"
+      },
+      {
+        "text": "INVESTMENT SOLUTIONS",
+        "href": "https://www.ppmamerica.com/investment-solutions"
+      },
+      {
+        "text": "NEWS AND INSIGHTS",
+        "href": "https://www.ppmamerica.com/news-and-insights"
+      },
+      {
+        "text": "OUR COMMITMENTS",
+        "href": "https://www.ppmamerica.com/our-commitments"
+      },
+      {
+        "text": "OUR STORY",
+        "href": "https://www.ppmamerica.com/our-story"
+      },
+      {
+        "text": "Home",
+        "href": "https://www.ppmamerica.com/home"
+      },
+      {
+        "text": "News and Insights",
+        "href": "https://www.ppmamerica.com/news-and-insights"
+      },
+      {
+        "text": "AUGUST 05, 2026 PPM AMERICA BOLSTERS COMMERCIAL REAL ESTATE TEAM",
+        "href": "https://www.ppmamerica.com/news-and-insights/press-releases/2026/08/cre-team"
+      },
+      {
+        "text": "APRIL 09, 2026 CHRIS RAUB NAMED PRESIDENT AND CEO OF PPM AMERICA, INC.",
+        "href": "https://www.ppmamerica.com/news-and-insights/press-releases/2026/04/chris-raub"
+      },
+      {
+        "text": "MARCH 12, 2026 PPM AMERICA CAPITAL PARTNERS PROMOTES TIFFANY LUNA TO PARTNER",
+        "href": "https://www.ppmamerica.com/news-and-insights/press-releases/2026/03/promotion-tiffany-luna"
+      },
+      {
+        "text": "DECEMBER 09, 2025 PPM AMERICA EARNS “BEST PLACES TO WORK IN MONEY MANAGEMENT” HONOR FOR SIXTH TIME",
+        "href": "https://www.ppmamerica.com/news-and-insights/press-releases/2025/12/pensions-and-investments"
+      },
+      {
+        "text": "OCTOBER 28, 2025 PPM AMERICA EXPANDS WESTWARD WITH NEW LA OFFICE",
+        "href": "https://www.ppmamerica.com/news-and-insights/press-releases/2025/10/new-la-office"
+      },
+      {
+        "text": "OCTOBER 08, 2025 CRAIG SMITH TO RETIRE AS PPM AMERICA PRESIDENT AND CEO",
+        "href": "https://www.ppmamerica.com/news-and-insights/press-releases/2025/10/craig-smith"
+      },
+      {
+        "text": "MARCH 19, 2025 PPM AMERICA CLOSES 14TH CLO",
+        "href": "https://www.ppmamerica.com/news-and-insights/press-releases/2025/03/clo-8"
+      },
+      {
+        "text": "JANUARY 12, 2025 PPM HIRES SEASONED EMERGING MARKET DEBT TEAM",
+        "href": "https://www.ppmamerica.com/news-and-insights/press-releases/2025/01/emerging-market-debt-team"
+      },
+      {
+        "text": "DECEMBER 09, 2024 PPM AMERICA REPEATS AS ONE OF THE “BEST PLACES TO WORK IN MONEY MANAGEMENT”",
+        "href": "https://www.ppmamerica.com/news-and-insights/press-releases/2024/12/pensions-and-investments"
+      },
+      {
+        "text": "NOVEMBER 14, 2024 PPM AMERICA CLOSES MUTUAL FUNDS TO FOCUS ON OTHER COMMINGLED VEHICLES",
+        "href": "https://www.ppmamerica.com/news-and-insights/press-releases/2024/11/ppm-funds"
+      },
+      {
+        "text": "NOVEMBER 10, 2024 PPM AMERICA CAPITAL PARTNERS HIRES SEASONED INDUSTRY PROFESSIONAL TO BOLSTER PRIVATE EQUITY TEAM",
+        "href": "https://www.ppmamerica.com/news-and-insights/press-releases/2024/11/team-bhumika-gashti"
+      },
+      {
+        "text": "JUNE 26, 2024 PPM AMERICA ANNOUNCES THIRTEENTH CLO CLOSING",
+        "href": "https://www.ppmamerica.com/news-and-insights/press-releases/2024/06/clo-7"
+      },
+      {
+        "text": "FEBRUARY 11, 2024 PPM ADDS PGIM PRINCIPAL TO GLOBAL DISTRIBUTION TEAM",
+        "href": "https://www.ppmamerica.com/news-and-insights/press-releases/2024/02/distribution-team"
+      },
+      {
+        "text": "JANUARY 29, 2024 PPM AMERICA CAPITAL PARTNERS CLOSES ON $660 MILLION PRIVATE EQUITY FUND",
+        "href": "https://www.ppmamerica.com/news-and-insights/press-releases/2024/01/private-equity-fund-8"
+      },
+      {
+        "text": "JANUARY 07, 2024 PPM CONTINUES GLOBAL DISTRIBUTION TEAM EXPANSION",
+        "href": "https://www.ppmamerica.com/news-and-insights/press-releases/2024/01/distribution-team"
+      },
+      {
+        "text": "DECEMBER 10, 2023 PPM AMERICA REPEATS AS ONE OF THE “BEST PLACES TO WORK IN MONEY MANAGEMENT”",
+        "href": "https://www.ppmamerica.com/news-and-insights/press-releases/2023/12/pensions-and-investments"
+      },
+      {
+        "text": "NOVEMBER 01, 2023 PPM BUILDS GLOBAL DISTRIBUTION TEAM",
+        "href": "https://www.ppmamerica.com/news-and-insights/press-releases/2023/11/02/distribution-team"
+      },
+      {
+        "text": "SEPTEMBER 11, 2023 PPM PROMOTES WITHIN INVESTMENT TEAM",
+        "href": "https://www.ppmamerica.com/news-and-insights/press-releases/2023/09/org-changes"
+      },
+      {
+        "text": "DECEMBER 19, 2022 PPM AMERICA ANNOUNCES TWELFTH CLO CLOSING",
+        "href": "https://www.ppmamerica.com/news-and-insights/press-releases/2022/12/clo-6"
+      },
+      {
+        "text": "DECEMBER 11, 2022 PPM AMERICA NAMED ONE OF THE “BEST PLACES TO WORK IN MONEY MANAGEMENT”",
+        "href": "https://www.ppmamerica.com/news-and-insights/press-releases/2022/12/pensions-and-investments"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://www.ppmamerica.com/our-story/contact-us"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://www.ppmamerica.com/privacy-policy"
+      },
+      {
+        "text": "Terms and Conditions",
+        "href": "https://www.ppmamerica.com/terms-and-conditions"
+      },
+      {
+        "text": "Social",
+        "href": "https://www.ppmamerica.com/social"
+      }
+    ],
+    "external": [
+      {
+        "text": "Visit our LinkedIn Page ",
+        "href": "https://www.linkedin.com/company/ppm-america-inc-/"
+      }
+    ]
+  },
+  "linkUrls": [
+    "https://www.ppmamerica.com/home",
+    "https://www.ppmamerica.com/investment-solutions",
+    "https://www.ppmamerica.com/investment-solutions/fixed-income",
+    "https://www.ppmamerica.com/investment-solutions/commercial-real-estate-debt",
+    "https://www.ppmamerica.com/investment-solutions/private-and-structured-credit",
+    "https://www.ppmamerica.com/investment-solutions/private-equity",
+    "https://www.ppmamerica.com/investment-solutions/collateralized-loan-obligations",
+    "https://www.ppmamerica.com/news-and-insights",
+    "https://www.ppmamerica.com/news-and-insights/blog",
+    "https://www.ppmamerica.com/news-and-insights/market-insights",
+    "https://www.ppmamerica.com/news-and-insights/press-releases",
+    "https://www.ppmamerica.com/our-commitments",
+    "https://www.ppmamerica.com/our-commitments/responsible-investment",
+    "https://www.ppmamerica.com/our-commitments/community-engagement",
+    "https://www.ppmamerica.com/our-commitments/inclusion-and-engagement",
+    "https://www.ppmamerica.com/our-story",
+    "https://www.ppmamerica.com/our-story/our-values",
+    "https://www.ppmamerica.com/our-story/our-team",
+    "https://www.ppmamerica.com/our-story/careers",
+    "https://www.ppmamerica.com/our-story/contact-us",
+    "https://www.ppmamerica.com/news-and-insights/press-releases/2026/08/cre-team",
+    "https://www.ppmamerica.com/news-and-insights/press-releases/2026/04/chris-raub",
+    "https://www.ppmamerica.com/news-and-insights/press-releases/2026/03/promotion-tiffany-luna",
+    "https://www.ppmamerica.com/news-and-insights/press-releases/2025/12/pensions-and-investments",
+    "https://www.ppmamerica.com/news-and-insights/press-releases/2025/10/new-la-office",
+    "https://www.ppmamerica.com/news-and-insights/press-releases/2025/10/craig-smith",
+    "https://www.ppmamerica.com/news-and-insights/press-releases/2025/03/clo-8",
+    "https://www.ppmamerica.com/news-and-insights/press-releases/2025/01/emerging-market-debt-team",
+    "https://www.ppmamerica.com/news-and-insights/press-releases/2024/12/pensions-and-investments",
+    "https://www.ppmamerica.com/news-and-insights/press-releases/2024/11/ppm-funds",
+    "https://www.ppmamerica.com/news-and-insights/press-releases/2024/11/team-bhumika-gashti",
+    "https://www.ppmamerica.com/news-and-insights/press-releases/2024/06/clo-7",
+    "https://www.ppmamerica.com/news-and-insights/press-releases/2024/02/distribution-team",
+    "https://www.ppmamerica.com/news-and-insights/press-releases/2024/01/private-equity-fund-8",
+    "https://www.ppmamerica.com/news-and-insights/press-releases/2024/01/distribution-team",
+    "https://www.ppmamerica.com/news-and-insights/press-releases/2023/12/pensions-and-investments",
+    "https://www.ppmamerica.com/news-and-insights/press-releases/2023/11/02/distribution-team",
+    "https://www.ppmamerica.com/news-and-insights/press-releases/2023/09/org-changes",
+    "https://www.ppmamerica.com/news-and-insights/press-releases/2022/12/clo-6",
+    "https://www.ppmamerica.com/news-and-insights/press-releases/2022/12/pensions-and-investments",
+    "https://www.linkedin.com/company/ppm-america-inc-/",
+    "https://www.ppmamerica.com/privacy-policy",
+    "https://www.ppmamerica.com/terms-and-conditions",
+    "https://www.ppmamerica.com/social"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.ppmamerica.com/content/experience-fragments/ppm/language-masters/en/site/header/master/_jcr_content/root/header/image.coreimg.png/1782482847451/ppmlogo.png",
+        "alt": "PPM Logo",
+        "w": 1108,
+        "h": 167
+      },
+      {
+        "src": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/icons/search-icon.svg",
+        "alt": "",
+        "w": 23,
+        "h": 23
+      },
+      {
+        "src": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/icons/search-icon.svg",
+        "alt": "",
+        "w": 23,
+        "h": 23
+      },
+      {
+        "src": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/icons/x-icon.svg",
+        "alt": "PPM Cross Icon",
+        "w": 20,
+        "h": 20
+      },
+      {
+        "src": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/icons/search-icon-white.svg",
+        "alt": "",
+        "w": 23,
+        "h": 23
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/ppm/us/en/news-and-insights/press-releases/_jcr_content/root/container_1854298409/container/herotitle.coreimg.jpeg/1779465187745/banner-press-releases-620x275.jpeg",
+        "alt": "",
+        "w": 620,
+        "h": 275
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_light-green.jpg",
+        "alt": "",
+        "w": 620,
+        "h": 275
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_blue.jpg",
+        "alt": "",
+        "w": 620,
+        "h": 275
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_teal.jpg",
+        "alt": "",
+        "w": 620,
+        "h": 275
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_black.jpg",
+        "alt": "",
+        "w": 620,
+        "h": 275
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_light-green.jpg",
+        "alt": "",
+        "w": 620,
+        "h": 275
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_blue.jpg",
+        "alt": "",
+        "w": 620,
+        "h": 275
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_teal.jpg",
+        "alt": "",
+        "w": 620,
+        "h": 275
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_black.jpg",
+        "alt": "",
+        "w": 620,
+        "h": 275
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_light-green.jpg",
+        "alt": "",
+        "w": 620,
+        "h": 275
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_blue.jpg",
+        "alt": "",
+        "w": 620,
+        "h": 275
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_teal.jpg",
+        "alt": "",
+        "w": 620,
+        "h": 275
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_black.jpg",
+        "alt": "",
+        "w": 620,
+        "h": 275
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_light-green.jpg",
+        "alt": "",
+        "w": 620,
+        "h": 275
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_blue.jpg",
+        "alt": "",
+        "w": 620,
+        "h": 275
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_teal.jpg",
+        "alt": "",
+        "w": 620,
+        "h": 275
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_black.jpg",
+        "alt": "",
+        "w": 620,
+        "h": 275
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_blue.jpg",
+        "alt": "",
+        "w": 620,
+        "h": 275
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_teal.jpg",
+        "alt": "",
+        "w": 620,
+        "h": 275
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_black.jpg",
+        "alt": "",
+        "w": 620,
+        "h": 275
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_light-green.jpg",
+        "alt": "",
+        "w": 620,
+        "h": 275
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/experience-fragments/ppm/language-masters/en/site/footer/master/_jcr_content/root/footer/logo.coreimg.png/1782482847451/ppmlogo.png",
+        "alt": "PPM logo",
+        "w": 1108,
+        "h": 167
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/experience-fragments/ppm/language-masters/en/site/footer/master/_jcr_content/root/footer/image.coreimg.svg/1745420422247/linkedinlogo.svg",
+        "alt": "Visit our LinkedIn Page ",
+        "w": 24,
+        "h": 23
+      }
+    ],
+    "allImgCount": 28,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": [],
+    "images": [
+      {
+        "src": "https://www.ppmamerica.com/content/experience-fragments/ppm/language-masters/en/site/header/master/_jcr_content/root/header/image.coreimg.png/1782482847451/ppmlogo.png",
+        "srcset": null,
+        "alt": "PPM Logo",
+        "intrinsicWidth": 1108,
+        "intrinsicHeight": 167,
+        "visible": true,
+        "rect": {
+          "x": 20,
+          "y": 33,
+          "width": 263,
+          "height": 40
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/icons/search-icon.svg",
+        "srcset": null,
+        "alt": "",
+        "intrinsicWidth": 23,
+        "intrinsicHeight": 23,
+        "visible": true,
+        "rect": {
+          "x": 1351,
+          "y": 36,
+          "width": 37,
+          "height": 37
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/icons/search-icon.svg",
+        "srcset": null,
+        "alt": "",
+        "intrinsicWidth": 23,
+        "intrinsicHeight": 23,
+        "visible": false,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/icons/x-icon.svg",
+        "srcset": null,
+        "alt": "PPM Cross Icon",
+        "intrinsicWidth": 20,
+        "intrinsicHeight": 20,
+        "visible": false,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/icons/search-icon-white.svg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 23,
+        "intrinsicHeight": 23,
+        "visible": false,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/ppm/us/en/news-and-insights/press-releases/_jcr_content/root/container_1854298409/container/herotitle.coreimg.jpeg/1779465187745/banner-press-releases-620x275.jpeg",
+        "srcset": null,
+        "alt": "",
+        "intrinsicWidth": 620,
+        "intrinsicHeight": 275,
+        "visible": true,
+        "rect": {
+          "x": 805,
+          "y": 149,
+          "width": 620,
+          "height": 275
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_light-green.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 620,
+        "intrinsicHeight": 275,
+        "visible": true,
+        "rect": {
+          "x": 15,
+          "y": 546,
+          "width": 450,
+          "height": 200
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_blue.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 620,
+        "intrinsicHeight": 275,
+        "visible": true,
+        "rect": {
+          "x": 495,
+          "y": 546,
+          "width": 450,
+          "height": 200
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_teal.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 620,
+        "intrinsicHeight": 275,
+        "visible": true,
+        "rect": {
+          "x": 975,
+          "y": 546,
+          "width": 450,
+          "height": 200
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_black.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 620,
+        "intrinsicHeight": 275,
+        "visible": true,
+        "rect": {
+          "x": 15,
+          "y": 942,
+          "width": 450,
+          "height": 200
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_light-green.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 620,
+        "intrinsicHeight": 275,
+        "visible": true,
+        "rect": {
+          "x": 495,
+          "y": 942,
+          "width": 450,
+          "height": 200
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_blue.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 620,
+        "intrinsicHeight": 275,
+        "visible": true,
+        "rect": {
+          "x": 975,
+          "y": 942,
+          "width": 450,
+          "height": 200
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_teal.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 620,
+        "intrinsicHeight": 275,
+        "visible": true,
+        "rect": {
+          "x": 15,
+          "y": 1367,
+          "width": 450,
+          "height": 200
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_black.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 620,
+        "intrinsicHeight": 275,
+        "visible": true,
+        "rect": {
+          "x": 495,
+          "y": 1367,
+          "width": 450,
+          "height": 200
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_light-green.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 620,
+        "intrinsicHeight": 275,
+        "visible": true,
+        "rect": {
+          "x": 975,
+          "y": 1367,
+          "width": 450,
+          "height": 200
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_blue.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 620,
+        "intrinsicHeight": 275,
+        "visible": true,
+        "rect": {
+          "x": 15,
+          "y": 1763,
+          "width": 450,
+          "height": 200
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_teal.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 620,
+        "intrinsicHeight": 275,
+        "visible": true,
+        "rect": {
+          "x": 495,
+          "y": 1763,
+          "width": 450,
+          "height": 200
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_black.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 620,
+        "intrinsicHeight": 275,
+        "visible": true,
+        "rect": {
+          "x": 975,
+          "y": 1763,
+          "width": 450,
+          "height": 200
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_light-green.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 620,
+        "intrinsicHeight": 275,
+        "visible": true,
+        "rect": {
+          "x": 15,
+          "y": 2188,
+          "width": 450,
+          "height": 200
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_blue.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 620,
+        "intrinsicHeight": 275,
+        "visible": true,
+        "rect": {
+          "x": 495,
+          "y": 2188,
+          "width": 450,
+          "height": 200
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_teal.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 620,
+        "intrinsicHeight": 275,
+        "visible": true,
+        "rect": {
+          "x": 975,
+          "y": 2188,
+          "width": 450,
+          "height": 200
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_black.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 620,
+        "intrinsicHeight": 275,
+        "visible": true,
+        "rect": {
+          "x": 15,
+          "y": 2584,
+          "width": 450,
+          "height": 200
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_blue.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 620,
+        "intrinsicHeight": 275,
+        "visible": true,
+        "rect": {
+          "x": 495,
+          "y": 2584,
+          "width": 450,
+          "height": 200
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_teal.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 620,
+        "intrinsicHeight": 275,
+        "visible": true,
+        "rect": {
+          "x": 975,
+          "y": 2584,
+          "width": 450,
+          "height": 200
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_black.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 620,
+        "intrinsicHeight": 275,
+        "visible": true,
+        "rect": {
+          "x": 15,
+          "y": 2979,
+          "width": 450,
+          "height": 200
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/news/News_620x275_light-green.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 620,
+        "intrinsicHeight": 275,
+        "visible": true,
+        "rect": {
+          "x": 495,
+          "y": 2979,
+          "width": 450,
+          "height": 200
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/experience-fragments/ppm/language-masters/en/site/footer/master/_jcr_content/root/footer/logo.coreimg.png/1782482847451/ppmlogo.png",
+        "srcset": null,
+        "alt": "PPM logo",
+        "intrinsicWidth": 1108,
+        "intrinsicHeight": 167,
+        "visible": true,
+        "rect": {
+          "x": 15,
+          "y": 3453,
+          "width": 212,
+          "height": 32
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/experience-fragments/ppm/language-masters/en/site/footer/master/_jcr_content/root/footer/image.coreimg.svg/1745420422247/linkedinlogo.svg",
+        "srcset": null,
+        "alt": "Visit our LinkedIn Page ",
+        "intrinsicWidth": 24,
+        "intrinsicHeight": 23,
+        "visible": true,
+        "rect": {
+          "x": 1401,
+          "y": 3453,
+          "width": 24,
+          "height": 23
+        },
+        "resolves": true,
+        "localPath": null
+      }
+    ],
+    "heroImage": {
+      "src": "https://www.ppmamerica.com/content/ppm/us/en/news-and-insights/press-releases/_jcr_content/root/container_1854298409/container/herotitle.coreimg.jpeg/1779465187745/banner-press-releases-620x275.jpeg",
+      "srcset": null,
+      "alt": "",
+      "intrinsicWidth": 620,
+      "intrinsicHeight": 275,
+      "visible": true,
+      "rect": {
+        "x": 805,
+        "y": 149,
+        "width": 620,
+        "height": 275
+      },
+      "resolves": true,
+      "localPath": null
+    }
+  },
+  "forms": [
+    {
+      "selector": "form#ppm-nav-desktop-search-form",
+      "action": "/search",
+      "method": "get",
+      "visible": false,
+      "fields": [
+        {
+          "type": "text",
+          "name": "searchTerm",
+          "placeholder": "Search"
+        }
+      ]
+    },
+    {
+      "selector": "li#ppm-nav-mobile-search-input-list-item > form",
+      "action": "/search",
+      "method": "get",
+      "visible": false,
+      "fields": [
+        {
+          "type": "text",
+          "name": "searchTerm",
+          "placeholder": "Search"
+        }
+      ]
+    }
+  ],
+  "widgets": {
+    "dialogs": [
+      {
+        "selector": ".cmp-modal",
+        "role": "Disclosure Agreement (institutional-investor gate)",
+        "actions": [
+          "ACCEPT",
+          "DECLINE"
+        ]
+      }
+    ]
+  },
+  "components": {
+    "cards": {
+      "count": 20,
+      "examples": [
+        "div#container-85b2c5bb95 > div.aem-Grid.aem-Grid--12 > div.cmp-card > a.cmp-card__link"
+      ]
+    },
+    "grids": {
+      "count": 1,
+      "examples": [
+        "div#container-85b2c5bb95 > div.aem-Grid.aem-Grid--12"
+      ]
+    },
+    "accordions": {
+      "count": 0,
+      "examples": []
+    },
+    "tabs": {
+      "count": 0,
+      "examples": []
+    },
+    "tables": {
+      "count": 0,
+      "examples": []
+    },
+    "modals": {
+      "count": 1,
+      "examples": [
+        ".cmp-modal (Disclosure Agreement, hidden after Accept)"
+      ]
+    },
+    "carousels": {
+      "count": 0,
+      "examples": []
+    },
+    "videos": {
+      "count": 0,
+      "examples": []
+    },
+    "iframes": {
+      "count": 0,
+      "examples": []
+    },
+    "dataVizEmbeds": {
+      "count": 0,
+      "examples": []
+    },
+    "teamTiles": {
+      "count": 0,
+      "examples": []
+    },
+    "pricingTiles": {
+      "count": 0,
+      "examples": []
+    },
+    "testimonialCards": {
+      "count": 0,
+      "examples": []
+    },
+    "logoStrip": {
+      "count": 0,
+      "examples": []
+    },
+    "timeline": {
+      "count": 0,
+      "examples": []
+    },
+    "breadcrumbs": {
+      "count": 1,
+      "examples": [
+        "nav#breadcrumb-f744f3d224"
+      ]
+    },
+    "statRow": {
+      "count": 0,
+      "examples": []
+    },
+    "ctaBand": {
+      "count": 0,
+      "examples": []
+    },
+    "formFields": {
+      "count": 0,
+      "examples": []
+    },
+    "other": []
+  },
+  "perSectionStyle": [
+    {
+      "sectionRef": "div#container-0a1a4f4dec > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+      "index": 0,
+      "purpose": "header",
+      "heading": null,
+      "rect": {
+        "y": 0,
+        "h": 106
+      },
+      "background": {
+        "color": "rgb(255, 255, 255)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(106, 115, 123)"
+      },
+      "spacing": {
+        "paddingBlock": "0px 0px",
+        "paddingInline": "0px 0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "AzoSans-Light",
+        "AzoSans-Bold"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "div#container-0a1a4f4dec > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+      "index": 1,
+      "purpose": "breadcrumb",
+      "heading": null,
+      "rect": {
+        "y": 106,
+        "h": 43
+      },
+      "background": {
+        "color": "rgb(255, 255, 255)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(255, 255, 255)"
+      },
+      "spacing": {
+        "paddingBlock": "0px 0px",
+        "paddingInline": "0px 0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "AzoSans-Light"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "div#container-0a1a4f4dec > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+      "index": 2,
+      "purpose": "hero",
+      "heading": "Press Releases",
+      "rect": {
+        "y": 149,
+        "h": 320
+      },
+      "background": {
+        "color": "rgb(255, 255, 255)",
+        "hasImage": true,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(37, 40, 42)"
+      },
+      "spacing": {
+        "paddingBlock": "0px 0px",
+        "paddingInline": "0px 0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "AzoSans-Light",
+        "CenturyStd-Book"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "div#container-0a1a4f4dec > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+      "index": 3,
+      "purpose": "content",
+      "heading": null,
+      "rect": {
+        "y": 469,
+        "h": 77
+      },
+      "background": {
+        "color": "rgb(255, 255, 255)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(37, 40, 42)"
+      },
+      "spacing": {
+        "paddingBlock": "0px 0px",
+        "paddingInline": "0px 0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "AzoSans-Light"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "div#container-0a1a4f4dec > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+      "index": 4,
+      "purpose": "content",
+      "heading": "AUGUST 05, 2026",
+      "rect": {
+        "y": 0,
+        "h": 3380
+      },
+      "background": {
+        "color": "rgb(255, 255, 255)",
+        "hasImage": true,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(37, 40, 42)"
+      },
+      "spacing": {
+        "paddingBlock": "0px 0px",
+        "paddingInline": "0px 0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "AzoSans-Light",
+        "AzoSans-Regular",
+        "AzoSans-Bold"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "div#container-0a1a4f4dec > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+      "index": 5,
+      "purpose": "footer",
+      "heading": null,
+      "rect": {
+        "y": 3380,
+        "h": 250
+      },
+      "background": {
+        "color": "rgb(255, 255, 255)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(37, 40, 42)"
+      },
+      "spacing": {
+        "paddingBlock": "0px 0px",
+        "paddingInline": "0px 0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "AzoSans-Light",
+        "CenturyStd-Book"
+      ],
+      "shadowsUsed": []
+    }
+  ],
+  "embedDominance": {
+    "dominated": false,
+    "iframeSrc": null,
+    "viewportCoveragePct": null,
+    "mainHeightCoveragePct": null,
+    "screenshot": null
+  },
+  "cssCustomProperties": [],
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 40,
+    "mainTextLen": 4437,
+    "realImageCount": 28,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "stardust/current/assets/screenshots/news-and-insights-press-releases.png",
+  "renderedHtml": "stardust/current/pages/news-and-insights-press-releases.html",
+  "stats": {
+    "wordCount": 303,
+    "ctaCount": 30,
+    "internalLinkCount": 31,
+    "externalLinkCount": 1,
+    "imageCount": 28
+  }
+}

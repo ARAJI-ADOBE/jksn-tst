@@ -323,3 +323,17 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+
+main .section.light-grey,
+main .section.tan {
+  margin: 0;
+  padding: 40px 0;
+}
+
+main .section.light-grey {
+  background-color: #ebebeb;
+}
+
+main .section.tan {
+  background-color: #d4b5a3;
+}

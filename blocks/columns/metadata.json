@@ -1,0 +1,13 @@
+{
+  "variantName": "columns",
+  "baseBlock": "columns",
+  "canonicalModel": "columns",
+  "visualCharacteristics": "Default: side-by-side columns from 900px, stacked below. Consent option: image left, text right (h2, paragraph, list), a checkbox with its label above a primary CTA button that stays disabled until the checkbox is ticked.",
+  "contentPattern": "One row with two cells: an image cell and a text cell. For the consent option the text cell ends with a plain paragraph (the checkbox label, e.g. 'I understand') followed by a paragraph holding only the CTA link (e.g. bold 'Start matching').",
+  "options": [
+    { "class": "consent", "label": "Consent (checkbox-gated CTA)" }
+  ],
+  "memberVariantIds": ["columns-consent"],
+  "usage": "Image|text feature rows. Use the consent option when the visitor must acknowledge terms before following the CTA, as in the Considerations section of /financial-professional/annuity-products/product-match-pro (tan section).",
+  "reuseGuidance": "The last link outside a list in the text cell is the gated CTA; the plain paragraph right before it becomes the checkbox label. If no label paragraph is authored the block adds an 'I understand' label. The CTA href must be set by the author (currently a '#' placeholder)."
+}

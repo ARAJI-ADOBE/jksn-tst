@@ -1,0 +1,793 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-18T08:26:58.576Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200,
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-18T08:37:15.982Z",
+    "readArtifacts": [
+      "https://www.ppmamerica.com/news-and-insights/market-insights/2026/10/clo-equity-outlook",
+      "stardust/current/pages/news-and-insights-market-insights-2026-10-clo-equity-outlook.html",
+      "stardust/current/_computed-styles.json"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.37.2",
+    "contentType": "text/html",
+    "heroSource": "dom",
+    "enrichment": {
+      "by": "playwright live pass (sequential, 1440x900, reduced-motion, disclosure gate accepted)",
+      "fetchedStatus": 200,
+      "ms": 3743,
+      "fields": [
+        "heroHeadline",
+        "heroLede",
+        "landmarks",
+        "links",
+        "media.images",
+        "forms",
+        "components",
+        "perSectionStyle",
+        "stats"
+      ]
+    }
+  },
+  "slug": "news-and-insights-market-insights-2026-10-clo-equity-outlook",
+  "url": "https://www.ppmamerica.com/news-and-insights/market-insights/2026/10/clo-equity-outlook",
+  "finalUrl": "https://www.ppmamerica.com/news-and-insights/market-insights/2026/10/clo-equity-outlook",
+  "title": "CLO Equity Outlook",
+  "metaDescription": "CLO equity has historically provided consistent income and diversification through actively managed exposure to senior secured loans. Explore its potential role in portfolios, including as a complement to private equity allocations. Read our latest CLO Equity Outlook.",
+  "description": "CLO equity has historically provided consistent income and diversification through actively managed exposure to senior secured loans. Explore its potential role in portfolios, including as a complement to private equity allocations. Read our latest CLO Equity Outlook.",
+  "heroHeadline": "CLO Equity Outlook",
+  "heroLede": "CLO equity has historically offered investors a compelling combination of consistent income and portfolio diversification. In our latest CLO Equity Outlook, we explore how its structure, diversified exposure to senior secured loans and active management can play a role in portfolios, including as a complement to private equity allocations.",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "themeColor": {},
+  "language": "en",
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "CLO Equity Outlook"
+    },
+    {
+      "tag": "h2",
+      "text": "October 27, 2026"
+    }
+  ],
+  "landmarks": [
+    {
+      "role": "banner",
+      "tag": "header",
+      "selector": "div#cmp-desktop-mobile-ppm-header-container > header.cmp-header",
+      "ariaLabel": null,
+      "headingSequence": [],
+      "linkLabels": [
+        "PPM Logo",
+        "INVESTMENT SOLUTIONS",
+        "NEWS AND INSIGHTS",
+        "OUR COMMITMENTS",
+        "OUR STORY"
+      ]
+    },
+    {
+      "role": "navigation",
+      "tag": "nav",
+      "selector": "nav#ppm-nav-desktop",
+      "ariaLabel": null,
+      "headingSequence": [],
+      "linkLabels": [
+        "INVESTMENT SOLUTIONS",
+        "NEWS AND INSIGHTS",
+        "OUR COMMITMENTS",
+        "OUR STORY"
+      ]
+    },
+    {
+      "role": "navigation",
+      "tag": "nav",
+      "selector": "nav#breadcrumb-99388bab80",
+      "ariaLabel": "Breadcrumb",
+      "headingSequence": [],
+      "linkLabels": [
+        "Home",
+        "News and Insights",
+        "Market Insights"
+      ]
+    },
+    {
+      "role": "contentinfo",
+      "tag": "div",
+      "selector": "div#container-d5b46647f4 > div.aem-Grid.aem-Grid--12 > div.footer",
+      "ariaLabel": null,
+      "headingSequence": [],
+      "linkLabels": [
+        "Visit our LinkedIn Page ",
+        "Contact Us",
+        "Privacy Policy",
+        "Terms and Conditions",
+        "Social"
+      ],
+      "note": "no <footer> element; AEM experience-fragment div.footer > .cmp-footer carries the site footer"
+    }
+  ],
+  "body": [
+    "Investment Solutions Public Fixed Income Commercial Real Estate Debt Private and Structured Credit Private Equity Collateralized Loan Obligations",
+    "News and Insights Blog Market Insights Press Releases",
+    "Our Commitments Responsible Investment Community Engagement Inclusion and Engagement",
+    "Our Story Our Values Our Team Careers Contact Us",
+    "Home",
+    "News and Insights",
+    "Market Insights",
+    "CLO Equity Outlook",
+    "CLO equity has historically offered investors a compelling combination of consistent income and portfolio diversification. In our latest CLO Equity Outlook, we explore how its structure, diversified exposure to senior secured loans and active management can play a role in portfolios, including as a complement to private equity allocations.",
+    "Unless otherwise stated, the information presented has been prepared from market observations and other sources believed in good faith to be reliable. Information and opinions expressed by PPM are current as of the date indicated and are subject to change without notice. Forward-looking statements are subject to uncertainties that could cause actual developments and results to differ materially from the expectations expressed.",
+    "Past performance is no guarantee of future results. Investments involve varying degrees of risk and may lose value.",
+    "© 2026 PPM America, Inc. All rights reserved.",
+    "225 West Wacker Drive",
+    "Suite 1200",
+    "Chicago, IL 60606",
+    "312-634-2500",
+    "Contact Us",
+    "Privacy Policy",
+    "Terms and Conditions",
+    "Social"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Investment Solutions",
+      "href": "/investment-solutions"
+    },
+    {
+      "label": "News and Insights",
+      "href": "/news-and-insights"
+    },
+    {
+      "label": "Our Commitments",
+      "href": "/our-commitments"
+    },
+    {
+      "label": "Our Story",
+      "href": "/our-story"
+    },
+    {
+      "label": "Home",
+      "href": "/home"
+    },
+    {
+      "label": "News and Insights",
+      "href": "/news-and-insights"
+    },
+    {
+      "label": "Market Insights",
+      "href": "/news-and-insights/market-insights"
+    },
+    {
+      "label": "DOWNLOAD THE FULL PDF",
+      "href": "/content/dam/ppm/en/pdfs/our-insights/2026/2026-10-27_PPM_Quarterly_CLO-Equity.pdf"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/our-story/contact-us"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "/privacy-policy"
+    },
+    {
+      "label": "Terms and Conditions",
+      "href": "/terms-and-conditions"
+    },
+    {
+      "label": "Social",
+      "href": "/social"
+    }
+  ],
+  "links": {
+    "internal": [
+      {
+        "text": "PPM Logo",
+        "href": "https://www.ppmamerica.com/home"
+      },
+      {
+        "text": "INVESTMENT SOLUTIONS",
+        "href": "https://www.ppmamerica.com/investment-solutions"
+      },
+      {
+        "text": "NEWS AND INSIGHTS",
+        "href": "https://www.ppmamerica.com/news-and-insights"
+      },
+      {
+        "text": "OUR COMMITMENTS",
+        "href": "https://www.ppmamerica.com/our-commitments"
+      },
+      {
+        "text": "OUR STORY",
+        "href": "https://www.ppmamerica.com/our-story"
+      },
+      {
+        "text": "Home",
+        "href": "https://www.ppmamerica.com/home"
+      },
+      {
+        "text": "News and Insights",
+        "href": "https://www.ppmamerica.com/news-and-insights"
+      },
+      {
+        "text": "Market Insights",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights"
+      },
+      {
+        "text": "DOWNLOAD THE FULL PDF",
+        "href": "https://www.ppmamerica.com/content/dam/ppm/en/pdfs/our-insights/2026/2026-10-27_PPM_Quarterly_CLO-Equity.pdf"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://www.ppmamerica.com/our-story/contact-us"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://www.ppmamerica.com/privacy-policy"
+      },
+      {
+        "text": "Terms and Conditions",
+        "href": "https://www.ppmamerica.com/terms-and-conditions"
+      },
+      {
+        "text": "Social",
+        "href": "https://www.ppmamerica.com/social"
+      }
+    ],
+    "external": [
+      {
+        "text": "Visit our LinkedIn Page ",
+        "href": "https://www.linkedin.com/company/ppm-america-inc-/"
+      }
+    ]
+  },
+  "linkUrls": [
+    "https://www.ppmamerica.com/home",
+    "https://www.ppmamerica.com/investment-solutions",
+    "https://www.ppmamerica.com/investment-solutions/fixed-income",
+    "https://www.ppmamerica.com/investment-solutions/commercial-real-estate-debt",
+    "https://www.ppmamerica.com/investment-solutions/private-and-structured-credit",
+    "https://www.ppmamerica.com/investment-solutions/private-equity",
+    "https://www.ppmamerica.com/investment-solutions/collateralized-loan-obligations",
+    "https://www.ppmamerica.com/news-and-insights",
+    "https://www.ppmamerica.com/news-and-insights/blog",
+    "https://www.ppmamerica.com/news-and-insights/market-insights",
+    "https://www.ppmamerica.com/news-and-insights/press-releases",
+    "https://www.ppmamerica.com/our-commitments",
+    "https://www.ppmamerica.com/our-commitments/responsible-investment",
+    "https://www.ppmamerica.com/our-commitments/community-engagement",
+    "https://www.ppmamerica.com/our-commitments/inclusion-and-engagement",
+    "https://www.ppmamerica.com/our-story",
+    "https://www.ppmamerica.com/our-story/our-values",
+    "https://www.ppmamerica.com/our-story/our-team",
+    "https://www.ppmamerica.com/our-story/careers",
+    "https://www.ppmamerica.com/our-story/contact-us",
+    "https://www.ppmamerica.com/content/dam/ppm/en/pdfs/our-insights/2026/2026-10-27_PPM_Quarterly_CLO-Equity.pdf",
+    "https://www.linkedin.com/company/ppm-america-inc-/",
+    "https://www.ppmamerica.com/privacy-policy",
+    "https://www.ppmamerica.com/terms-and-conditions",
+    "https://www.ppmamerica.com/social"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.ppmamerica.com/content/experience-fragments/ppm/language-masters/en/site/header/master/_jcr_content/root/header/image.coreimg.png/1782482847451/ppmlogo.png",
+        "alt": "PPM Logo",
+        "w": 1108,
+        "h": 167
+      },
+      {
+        "src": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/icons/search-icon.svg",
+        "alt": "",
+        "w": 23,
+        "h": 23
+      },
+      {
+        "src": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/icons/search-icon.svg",
+        "alt": "",
+        "w": 23,
+        "h": 23
+      },
+      {
+        "src": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/icons/x-icon.svg",
+        "alt": "PPM Cross Icon",
+        "w": 20,
+        "h": 20
+      },
+      {
+        "src": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/icons/search-icon-white.svg",
+        "alt": "",
+        "w": 23,
+        "h": 23
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/ppm/us/en/news-and-insights/market-insights/2026/10/clo-equity-outlook/_jcr_content/root/container_456787356/container_435199822/image.coreimg.jpeg/1793048471179/2026-10-27-qi-clo-620x275.jpeg",
+        "alt": "",
+        "w": 620,
+        "h": 275
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/experience-fragments/ppm/language-masters/en/site/footer/master/_jcr_content/root/footer/logo.coreimg.png/1782482847451/ppmlogo.png",
+        "alt": "PPM logo",
+        "w": 1108,
+        "h": 167
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/experience-fragments/ppm/language-masters/en/site/footer/master/_jcr_content/root/footer/image.coreimg.svg/1745420422247/linkedinlogo.svg",
+        "alt": "Visit our LinkedIn Page ",
+        "w": 24,
+        "h": 23
+      }
+    ],
+    "allImgCount": 8,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": [],
+    "images": [
+      {
+        "src": "https://www.ppmamerica.com/content/experience-fragments/ppm/language-masters/en/site/header/master/_jcr_content/root/header/image.coreimg.png/1782482847451/ppmlogo.png",
+        "srcset": null,
+        "alt": "PPM Logo",
+        "intrinsicWidth": 1108,
+        "intrinsicHeight": 167,
+        "visible": true,
+        "rect": {
+          "x": 20,
+          "y": 33,
+          "width": 263,
+          "height": 40
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/icons/search-icon.svg",
+        "srcset": null,
+        "alt": "",
+        "intrinsicWidth": 23,
+        "intrinsicHeight": 23,
+        "visible": true,
+        "rect": {
+          "x": 1351,
+          "y": 36,
+          "width": 37,
+          "height": 37
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/icons/search-icon.svg",
+        "srcset": null,
+        "alt": "",
+        "intrinsicWidth": 23,
+        "intrinsicHeight": 23,
+        "visible": false,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/icons/x-icon.svg",
+        "srcset": null,
+        "alt": "PPM Cross Icon",
+        "intrinsicWidth": 20,
+        "intrinsicHeight": 20,
+        "visible": false,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/icons/search-icon-white.svg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 23,
+        "intrinsicHeight": 23,
+        "visible": false,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/ppm/us/en/news-and-insights/market-insights/2026/10/clo-equity-outlook/_jcr_content/root/container_456787356/container_435199822/image.coreimg.jpeg/1793048471179/2026-10-27-qi-clo-620x275.jpeg",
+        "srcset": null,
+        "alt": "",
+        "intrinsicWidth": 620,
+        "intrinsicHeight": 275,
+        "visible": true,
+        "rect": {
+          "x": 970,
+          "y": 411,
+          "width": 455,
+          "height": 202
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/experience-fragments/ppm/language-masters/en/site/footer/master/_jcr_content/root/footer/logo.coreimg.png/1782482847451/ppmlogo.png",
+        "srcset": null,
+        "alt": "PPM logo",
+        "intrinsicWidth": 1108,
+        "intrinsicHeight": 167,
+        "visible": true,
+        "rect": {
+          "x": 15,
+          "y": 948,
+          "width": 212,
+          "height": 32
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/experience-fragments/ppm/language-masters/en/site/footer/master/_jcr_content/root/footer/image.coreimg.svg/1745420422247/linkedinlogo.svg",
+        "srcset": null,
+        "alt": "Visit our LinkedIn Page ",
+        "intrinsicWidth": 24,
+        "intrinsicHeight": 23,
+        "visible": true,
+        "rect": {
+          "x": 1401,
+          "y": 948,
+          "width": 24,
+          "height": 23
+        },
+        "resolves": true,
+        "localPath": null
+      }
+    ],
+    "heroImage": null
+  },
+  "forms": [
+    {
+      "selector": "form#ppm-nav-desktop-search-form",
+      "action": "/search",
+      "method": "get",
+      "visible": false,
+      "fields": [
+        {
+          "type": "text",
+          "name": "searchTerm",
+          "placeholder": "Search"
+        }
+      ]
+    },
+    {
+      "selector": "li#ppm-nav-mobile-search-input-list-item > form",
+      "action": "/search",
+      "method": "get",
+      "visible": false,
+      "fields": [
+        {
+          "type": "text",
+          "name": "searchTerm",
+          "placeholder": "Search"
+        }
+      ]
+    }
+  ],
+  "widgets": {
+    "dialogs": [
+      {
+        "selector": ".cmp-modal",
+        "role": "Disclosure Agreement (institutional-investor gate)",
+        "actions": [
+          "ACCEPT",
+          "DECLINE"
+        ]
+      }
+    ]
+  },
+  "components": {
+    "cards": {
+      "count": 0,
+      "examples": []
+    },
+    "grids": {
+      "count": 0,
+      "examples": []
+    },
+    "accordions": {
+      "count": 0,
+      "examples": []
+    },
+    "tabs": {
+      "count": 0,
+      "examples": []
+    },
+    "tables": {
+      "count": 0,
+      "examples": []
+    },
+    "modals": {
+      "count": 1,
+      "examples": [
+        ".cmp-modal (Disclosure Agreement, hidden after Accept)"
+      ]
+    },
+    "carousels": {
+      "count": 0,
+      "examples": []
+    },
+    "videos": {
+      "count": 0,
+      "examples": []
+    },
+    "iframes": {
+      "count": 0,
+      "examples": []
+    },
+    "dataVizEmbeds": {
+      "count": 0,
+      "examples": []
+    },
+    "teamTiles": {
+      "count": 0,
+      "examples": []
+    },
+    "pricingTiles": {
+      "count": 0,
+      "examples": []
+    },
+    "testimonialCards": {
+      "count": 0,
+      "examples": []
+    },
+    "logoStrip": {
+      "count": 0,
+      "examples": []
+    },
+    "timeline": {
+      "count": 0,
+      "examples": []
+    },
+    "breadcrumbs": {
+      "count": 1,
+      "examples": [
+        "nav#breadcrumb-99388bab80"
+      ]
+    },
+    "statRow": {
+      "count": 0,
+      "examples": []
+    },
+    "ctaBand": {
+      "count": 0,
+      "examples": []
+    },
+    "formFields": {
+      "count": 0,
+      "examples": []
+    },
+    "other": []
+  },
+  "perSectionStyle": [
+    {
+      "sectionRef": "div#container-a11d0ae5ce > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+      "index": 0,
+      "purpose": "header",
+      "heading": null,
+      "rect": {
+        "y": 0,
+        "h": 106
+      },
+      "background": {
+        "color": "rgb(255, 255, 255)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(106, 115, 123)"
+      },
+      "spacing": {
+        "paddingBlock": "0px 0px",
+        "paddingInline": "0px 0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "AzoSans-Light",
+        "AzoSans-Bold"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "div#container-a11d0ae5ce > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+      "index": 1,
+      "purpose": "breadcrumb",
+      "heading": null,
+      "rect": {
+        "y": 106,
+        "h": 43
+      },
+      "background": {
+        "color": "rgb(255, 255, 255)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(255, 255, 255)"
+      },
+      "spacing": {
+        "paddingBlock": "0px 0px",
+        "paddingInline": "0px 0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "AzoSans-Light"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "div#container-a11d0ae5ce > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+      "index": 2,
+      "purpose": "hero",
+      "heading": "CLO Equity Outlook",
+      "rect": {
+        "y": 149,
+        "h": 193
+      },
+      "background": {
+        "color": "rgb(255, 255, 255)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(37, 40, 42)"
+      },
+      "spacing": {
+        "paddingBlock": "0px 0px",
+        "paddingInline": "0px 0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "AzoSans-Light",
+        "CenturyStd-Book"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "div#container-a11d0ae5ce > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+      "index": 3,
+      "purpose": "content",
+      "heading": "OCTOBER 27, 2026",
+      "rect": {
+        "y": 0,
+        "h": 366
+      },
+      "background": {
+        "color": "rgb(255, 255, 255)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(106, 115, 123)"
+      },
+      "spacing": {
+        "paddingBlock": "0px 0px",
+        "paddingInline": "0px 0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "AzoSans-Light",
+        "AzoSans-Bold"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "div#container-a11d0ae5ce > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+      "index": 4,
+      "purpose": "content",
+      "heading": null,
+      "rect": {
+        "y": 411,
+        "h": 275
+      },
+      "background": {
+        "color": "rgb(255, 255, 255)",
+        "hasImage": true,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(37, 40, 42)"
+      },
+      "spacing": {
+        "paddingBlock": "0px 0px",
+        "paddingInline": "0px 0px",
+        "gap": "normal"
+      },
+      "borderRadius": "2px",
+      "fontFamilies": [
+        "AzoSans-Light",
+        "AzoSans-Bold"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "div#container-a11d0ae5ce > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+      "index": 5,
+      "purpose": "footer",
+      "heading": null,
+      "rect": {
+        "y": 731,
+        "h": 394
+      },
+      "background": {
+        "color": "rgb(255, 255, 255)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(37, 40, 42)"
+      },
+      "spacing": {
+        "paddingBlock": "0px 0px",
+        "paddingInline": "0px 0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "AzoSans-Light",
+        "CenturyStd-Book"
+      ],
+      "shadowsUsed": []
+    }
+  ],
+  "embedDominance": {
+    "dominated": false,
+    "iframeSrc": null,
+    "viewportCoveragePct": null,
+    "mainHeightCoveragePct": null,
+    "screenshot": null
+  },
+  "cssCustomProperties": [],
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 2,
+    "mainTextLen": 4069,
+    "realImageCount": 8,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "stardust/current/assets/screenshots/news-and-insights-market-insights-2026-10-clo-equity-outlook.png",
+  "renderedHtml": "stardust/current/pages/news-and-insights-market-insights-2026-10-clo-equity-outlook.html",
+  "stats": {
+    "wordCount": 191,
+    "ctaCount": 12,
+    "internalLinkCount": 13,
+    "externalLinkCount": 1,
+    "imageCount": 8
+  }
+}

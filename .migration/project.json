@@ -1,0 +1,9 @@
+{
+  "sites": {
+    "jksn-tst": {
+      "previewOrg": "ARAJI-ADOBE",
+      "previewSite": "jksn-tst",
+      "contentHostUrl": "https://content.da.live/araji-adobe/jksn-tst/"
+    }
+  }
+}

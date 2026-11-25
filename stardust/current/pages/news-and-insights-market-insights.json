@@ -1,0 +1,2307 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-18T08:25:11.418Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200,
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-18T08:37:15.982Z",
+    "readArtifacts": [
+      "https://www.ppmamerica.com/news-and-insights/market-insights",
+      "stardust/current/pages/news-and-insights-market-insights.html",
+      "stardust/current/_computed-styles.json"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.37.2",
+    "contentType": "text/html",
+    "heroSource": "dom",
+    "enrichment": {
+      "by": "playwright live pass (sequential, 1440x900, reduced-motion, disclosure gate accepted)",
+      "fetchedStatus": 200,
+      "ms": 3759,
+      "fields": [
+        "heroHeadline",
+        "heroLede",
+        "landmarks",
+        "links",
+        "media.images",
+        "forms",
+        "components",
+        "perSectionStyle",
+        "stats"
+      ]
+    }
+  },
+  "slug": "news-and-insights-market-insights",
+  "url": "https://www.ppmamerica.com/news-and-insights/market-insights",
+  "finalUrl": "https://www.ppmamerica.com/news-and-insights/market-insights",
+  "title": "Market Insights | PPM America",
+  "metaDescription": "Stay up to speed with the markets with timely market commentary from our CIO, portfolio managers and credit research team.",
+  "description": "Stay up to speed with the markets with timely market commentary from our CIO, portfolio managers and credit research team.",
+  "heroHeadline": "Market Insights",
+  "heroLede": "Stay up to speed with the markets with timely market commentary from our CIO, portfolio managers and credit research team.",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "themeColor": {},
+  "language": "en",
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Market Insights"
+    },
+    {
+      "tag": "h4",
+      "text": "CIO Letter"
+    },
+    {
+      "tag": "h2",
+      "text": "Higher Growth Driving Higher Yields"
+    },
+    {
+      "tag": "h4",
+      "text": "Quarterly Insights"
+    },
+    {
+      "tag": "h2",
+      "text": "CLO Equity Outlook"
+    },
+    {
+      "tag": "h4",
+      "text": "Quarterly Insights"
+    },
+    {
+      "tag": "h2",
+      "text": "Emerging Markets Debt Outlook"
+    },
+    {
+      "tag": "h4",
+      "text": "Quarterly Insights"
+    },
+    {
+      "tag": "h2",
+      "text": "High Yield Outlook"
+    },
+    {
+      "tag": "h4",
+      "text": "Emerging Markets Insights"
+    },
+    {
+      "tag": "h2",
+      "text": "Why Investment Grade Emerging Market Debt for Life General Accounts"
+    },
+    {
+      "tag": "h4",
+      "text": "Emerging Markets Insights"
+    },
+    {
+      "tag": "h2",
+      "text": "EM Private Credit: Another Arrow in the EM Quiver"
+    },
+    {
+      "tag": "h4",
+      "text": "Quarterly Insights"
+    },
+    {
+      "tag": "h2",
+      "text": "High Yield"
+    },
+    {
+      "tag": "h4",
+      "text": "Quarterly Insights"
+    },
+    {
+      "tag": "h2",
+      "text": "Investment Grade Private Credit"
+    },
+    {
+      "tag": "h4",
+      "text": "Quarterly Insights"
+    },
+    {
+      "tag": "h2",
+      "text": "Investment Grade"
+    },
+    {
+      "tag": "h4",
+      "text": "Quarterly Insights"
+    },
+    {
+      "tag": "h2",
+      "text": "Private Equity"
+    },
+    {
+      "tag": "h4",
+      "text": "CIO Letter"
+    },
+    {
+      "tag": "h2",
+      "text": "An Argument for the Tight Spread, Elevated Yield Environment"
+    },
+    {
+      "tag": "h4",
+      "text": "Private Equity Insights"
+    },
+    {
+      "tag": "h2",
+      "text": "Alignment and Access: Key Drivers of Single-Asset Continuation Vehicle Success"
+    },
+    {
+      "tag": "h4",
+      "text": "Annual Report"
+    },
+    {
+      "tag": "h2",
+      "text": "Corporate Responsibility Report"
+    },
+    {
+      "tag": "h4",
+      "text": "CIO Letter"
+    },
+    {
+      "tag": "h2",
+      "text": "A Tempest in a Teapot?"
+    },
+    {
+      "tag": "h4",
+      "text": "Asset Class Focus"
+    },
+    {
+      "tag": "h2",
+      "text": "US High Yield"
+    },
+    {
+      "tag": "h4",
+      "text": "Infographic"
+    },
+    {
+      "tag": "h2",
+      "text": "Get This Strait: Longer-Term Implications of Reduced Hormuz Traffic"
+    },
+    {
+      "tag": "h4",
+      "text": "Educational"
+    },
+    {
+      "tag": "h2",
+      "text": "Introduction to BDCs"
+    },
+    {
+      "tag": "h4",
+      "text": "Quarterly Insights"
+    },
+    {
+      "tag": "h2",
+      "text": "2025 vs. 2026: Spot the Differences"
+    },
+    {
+      "tag": "h4",
+      "text": "Infographic"
+    },
+    {
+      "tag": "h2",
+      "text": "The Plunge into AI Investing"
+    },
+    {
+      "tag": "h4",
+      "text": "2026 Outlook"
+    },
+    {
+      "tag": "h2",
+      "text": "Staying Grounded in a Shifting Landscape"
+    },
+    {
+      "tag": "h4",
+      "text": "Quarterly Insights"
+    },
+    {
+      "tag": "h2",
+      "text": "Old and New Risks Test Faith in Market Valuations"
+    },
+    {
+      "tag": "h4",
+      "text": "Emerging Markets Insights"
+    },
+    {
+      "tag": "h2",
+      "text": "Frontier Market Debt: Making History Rhyme"
+    },
+    {
+      "tag": "h4",
+      "text": "Intro"
+    },
+    {
+      "tag": "h2",
+      "text": "An Introduction to CLOs and CLO Equity"
+    },
+    {
+      "tag": "h4",
+      "text": "Quarterly Insights"
+    },
+    {
+      "tag": "h2",
+      "text": "Tariffs, the Dog That Barked (a Lot) but Didn't Bite?"
+    },
+    {
+      "tag": "h4",
+      "text": "Emerging Markets Insights"
+    },
+    {
+      "tag": "h2",
+      "text": "The Case for Emerging Market Local Currency Supranational Bonds"
+    },
+    {
+      "tag": "h4",
+      "text": "Annual Report"
+    },
+    {
+      "tag": "h2",
+      "text": "Corporate Responsibility Report"
+    },
+    {
+      "tag": "h4",
+      "text": "Quarterly Insights"
+    },
+    {
+      "tag": "h2",
+      "text": "Seeking (Bond) Shelter in a Tariff-ied World"
+    },
+    {
+      "tag": "h4",
+      "text": "Infographic"
+    },
+    {
+      "tag": "h2",
+      "text": "Putting Alternative Economic Data Under the Microscope"
+    },
+    {
+      "tag": "h4",
+      "text": "Fixed Income Insights"
+    },
+    {
+      "tag": "h2",
+      "text": "Capitalizing on M&A Activity"
+    },
+    {
+      "tag": "h4",
+      "text": "Quarterly Insights"
+    },
+    {
+      "tag": "h2",
+      "text": "Beware of Bull Market Complacency"
+    },
+    {
+      "tag": "h4",
+      "text": "Infographic"
+    },
+    {
+      "tag": "h2",
+      "text": "Will M&A and IPO Potential Become Reality?"
+    },
+    {
+      "tag": "h4",
+      "text": "Infographic"
+    },
+    {
+      "tag": "h2",
+      "text": "Visualizing China's Economic Issues"
+    },
+    {
+      "tag": "h4",
+      "text": "Infographic"
+    },
+    {
+      "tag": "h2",
+      "text": "The Burgeoning Influence of Technology"
+    },
+    {
+      "tag": "h4",
+      "text": "Macro Insights"
+    },
+    {
+      "tag": "h2",
+      "text": "The Unexpected Tailwinds of Higher Rates"
+    },
+    {
+      "tag": "h4",
+      "text": "CRE Insights"
+    },
+    {
+      "tag": "h2",
+      "text": "CRE: Finding Value in a Misunderstood Market"
+    },
+    {
+      "tag": "h4",
+      "text": "Infographic"
+    },
+    {
+      "tag": "h2",
+      "text": "Market, Economic Impacts of AI"
+    },
+    {
+      "tag": "h4",
+      "text": "Insights"
+    },
+    {
+      "tag": "h2",
+      "text": "Looking for Long Bonds?"
+    },
+    {
+      "tag": "h4",
+      "text": "Insights"
+    },
+    {
+      "tag": "h2",
+      "text": "Post Hoc: US Regional Banks After the Crisis"
+    },
+    {
+      "tag": "h4",
+      "text": "Insights"
+    },
+    {
+      "tag": "h2",
+      "text": "Investors Now Have a Unique Way to Combine Public and Private Investments"
+    }
+  ],
+  "landmarks": [
+    {
+      "role": "banner",
+      "tag": "header",
+      "selector": "div#cmp-desktop-mobile-ppm-header-container > header.cmp-header",
+      "ariaLabel": null,
+      "headingSequence": [],
+      "linkLabels": [
+        "PPM Logo",
+        "INVESTMENT SOLUTIONS",
+        "NEWS AND INSIGHTS",
+        "OUR COMMITMENTS",
+        "OUR STORY"
+      ]
+    },
+    {
+      "role": "navigation",
+      "tag": "nav",
+      "selector": "nav#ppm-nav-desktop",
+      "ariaLabel": null,
+      "headingSequence": [],
+      "linkLabels": [
+        "INVESTMENT SOLUTIONS",
+        "NEWS AND INSIGHTS",
+        "OUR COMMITMENTS",
+        "OUR STORY"
+      ]
+    },
+    {
+      "role": "navigation",
+      "tag": "nav",
+      "selector": "nav#breadcrumb-f744f3d224",
+      "ariaLabel": "Breadcrumb",
+      "headingSequence": [],
+      "linkLabels": [
+        "Home",
+        "News and Insights"
+      ]
+    },
+    {
+      "role": "contentinfo",
+      "tag": "div",
+      "selector": "div#container-fe1fcac067 > div.aem-Grid.aem-Grid--12 > div.footer",
+      "ariaLabel": null,
+      "headingSequence": [],
+      "linkLabels": [
+        "Visit our LinkedIn Page ",
+        "Contact Us",
+        "Privacy Policy",
+        "Terms and Conditions",
+        "Social"
+      ],
+      "note": "no <footer> element; AEM experience-fragment div.footer > .cmp-footer carries the site footer"
+    }
+  ],
+  "body": [
+    "Investment Solutions Public Fixed Income Commercial Real Estate Debt Private and Structured Credit Private Equity Collateralized Loan Obligations",
+    "News and Insights Blog Market Insights Press Releases",
+    "Our Commitments Responsible Investment Community Engagement Inclusion and Engagement",
+    "Our Story Our Values Our Team Careers Contact Us",
+    "Home",
+    "News and Insights",
+    "Market Insights",
+    "Stay up to speed with the markets with timely market commentary from our CIO, portfolio managers and credit research team.",
+    "225 West Wacker Drive",
+    "Suite 1200",
+    "Chicago, IL 60606",
+    "312-634-2500",
+    "Contact Us",
+    "Privacy Policy",
+    "Terms and Conditions",
+    "Social"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Investment Solutions",
+      "href": "/investment-solutions"
+    },
+    {
+      "label": "News and Insights",
+      "href": "/news-and-insights"
+    },
+    {
+      "label": "Our Commitments",
+      "href": "/our-commitments"
+    },
+    {
+      "label": "Our Story",
+      "href": "/our-story"
+    },
+    {
+      "label": "Home",
+      "href": "/home"
+    },
+    {
+      "label": "News and Insights",
+      "href": "/news-and-insights"
+    },
+    {
+      "label": "CIO Letter Higher Growth Driving Higher Yields",
+      "href": "/news-and-insights/market-insights/2026/10/cio-letter"
+    },
+    {
+      "label": "Quarterly Insights CLO Equity Outlook",
+      "href": "/news-and-insights/market-insights/2026/10/clo-equity-outlook"
+    },
+    {
+      "label": "Quarterly Insights Emerging Markets Debt Outlook",
+      "href": "/news-and-insights/market-insights/2026/10/emd-outlook"
+    },
+    {
+      "label": "Quarterly Insights High Yield Outlook",
+      "href": "/news-and-insights/market-insights/2026/10/hy-outlook"
+    },
+    {
+      "label": "Emerging Markets Insights Why Investment Grade Emerging Market Debt for Life General Accounts",
+      "href": "/news-and-insights/market-insights/2026/09/why-em-for-life-ga"
+    },
+    {
+      "label": "Emerging Markets Insights EM Private Credit: Another Arrow in the EM Quiver",
+      "href": "/news-and-insights/market-insights/2026/08/ig-emd"
+    },
+    {
+      "label": "Quarterly Insights High Yield",
+      "href": "/news-and-insights/market-insights/2026/07/hy-outlook"
+    },
+    {
+      "label": "Quarterly Insights Investment Grade Private Credit",
+      "href": "/news-and-insights/market-insights/2026/07/igpc-outlook"
+    },
+    {
+      "label": "Quarterly Insights Investment Grade",
+      "href": "/news-and-insights/market-insights/2026/07/ig-outlook"
+    },
+    {
+      "label": "Quarterly Insights Private Equity",
+      "href": "/news-and-insights/market-insights/2026/07/pe-outlook"
+    },
+    {
+      "label": "CIO Letter An Argument for the Tight Spread, Elevated Yield Environment",
+      "href": "/news-and-insights/market-insights/2026/07/cio-letter"
+    },
+    {
+      "label": "Private Equity Insights Alignment and Access: Key Drivers of Single-Asset Continuation Vehicle Success",
+      "href": "/news-and-insights/market-insights/2026/07/single-asset-continuation-vehicles"
+    },
+    {
+      "label": "Annual Report Corporate Responsibility Report",
+      "href": "/news-and-insights/market-insights/2026/05/corporate-responsibility-report"
+    },
+    {
+      "label": "CIO Letter A Tempest in a Teapot?",
+      "href": "/news-and-insights/market-insights/2026/04/cio-letter"
+    },
+    {
+      "label": "Asset Class Focus US High Yield",
+      "href": "/news-and-insights/market-insights/2026/04/asset-class-focus"
+    },
+    {
+      "label": "Infographic Get This Strait: Longer-Term Implications of Reduced Hormuz Traffic",
+      "href": "/news-and-insights/market-insights/2026/04/infographic"
+    },
+    {
+      "label": "Educational Introduction to BDCs",
+      "href": "/news-and-insights/market-insights/2026/04/into-to-bdcs"
+    },
+    {
+      "label": "Quarterly Insights 2025 vs. 2026: Spot the Differences",
+      "href": "/news-and-insights/market-insights/2026/01/quarterly-insights"
+    },
+    {
+      "label": "Infographic The Plunge into AI Investing",
+      "href": "/news-and-insights/market-insights/2026/01/infographic"
+    },
+    {
+      "label": "2026 Outlook Staying Grounded in a Shifting Landscape",
+      "href": "/news-and-insights/market-insights/2025/12/2026-outlook"
+    },
+    {
+      "label": "Quarterly Insights Old and New Risks Test Faith in Market Valuations",
+      "href": "/news-and-insights/market-insights/2025/10/quarterly-insights"
+    },
+    {
+      "label": "Emerging Markets Insights Frontier Market Debt: Making History Rhyme",
+      "href": "/news-and-insights/market-insights/2025/09/em-spotlight"
+    },
+    {
+      "label": "Intro An Introduction to CLOs and CLO Equity",
+      "href": "/news-and-insights/market-insights/2025/08/clo-equity"
+    },
+    {
+      "label": "Quarterly Insights Tariffs, the Dog That Barked (a Lot) but Didn't Bite?",
+      "href": "/news-and-insights/market-insights/2025/07/quarterly-insights"
+    },
+    {
+      "label": "Emerging Markets Insights The Case for Emerging Market Local Currency Supranational Bonds",
+      "href": "/news-and-insights/market-insights/2025/06/em-spotlight"
+    },
+    {
+      "label": "Annual Report Corporate Responsibility Report",
+      "href": "/news-and-insights/market-insights/2025/05/corporate-responsibility-report"
+    },
+    {
+      "label": "Quarterly Insights Seeking (Bond) Shelter in a Tariff-ied World",
+      "href": "/news-and-insights/market-insights/2025/04/quarterly-insights"
+    },
+    {
+      "label": "Infographic Putting Alternative Economic Data Under the Microscope",
+      "href": "/news-and-insights/market-insights/2025/04/infographic"
+    },
+    {
+      "label": "Fixed Income Insights Capitalizing on M&A Activity",
+      "href": "/news-and-insights/market-insights/2025/02/ma-activity"
+    },
+    {
+      "label": "Quarterly Insights Beware of Bull Market Complacency",
+      "href": "/news-and-insights/market-insights/2025/01/quarterly-insights"
+    },
+    {
+      "label": "Infographic Will M&A and IPO Potential Become Reality?",
+      "href": "/news-and-insights/market-insights/2025/01/infographic"
+    },
+    {
+      "label": "Infographic Visualizing China's Economic Issues",
+      "href": "/news-and-insights/market-insights/2024/10/infographics"
+    },
+    {
+      "label": "Infographic The Burgeoning Influence of Technology",
+      "href": "/news-and-insights/market-insights/2024/07/infographics"
+    },
+    {
+      "label": "Macro Insights The Unexpected Tailwinds of Higher Rates",
+      "href": "/news-and-insights/market-insights/2024/05/macro-insights"
+    },
+    {
+      "label": "CRE Insights CRE: Finding Value in a Misunderstood Market",
+      "href": "/news-and-insights/market-insights/2024/04/cre-spolight"
+    },
+    {
+      "label": "Infographic Market, Economic Impacts of AI",
+      "href": "/news-and-insights/market-insights/2024/04/infographics"
+    },
+    {
+      "label": "Insights Looking for Long Bonds?",
+      "href": "/news-and-insights/market-insights/2024/01/long-bonds"
+    },
+    {
+      "label": "Insights Post Hoc: US Regional Banks After the Crisis",
+      "href": "/news-and-insights/market-insights/2023/10/regional-banks-spotlight"
+    },
+    {
+      "label": "Insights Investors Now Have a Unique Way to Combine Public and Private Investments",
+      "href": "/news-and-insights/market-insights/2023/09/igppc-spotlight"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/our-story/contact-us"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "/privacy-policy"
+    },
+    {
+      "label": "Terms and Conditions",
+      "href": "/terms-and-conditions"
+    },
+    {
+      "label": "Social",
+      "href": "/social"
+    }
+  ],
+  "links": {
+    "internal": [
+      {
+        "text": "PPM Logo",
+        "href": "https://www.ppmamerica.com/home"
+      },
+      {
+        "text": "INVESTMENT SOLUTIONS",
+        "href": "https://www.ppmamerica.com/investment-solutions"
+      },
+      {
+        "text": "NEWS AND INSIGHTS",
+        "href": "https://www.ppmamerica.com/news-and-insights"
+      },
+      {
+        "text": "OUR COMMITMENTS",
+        "href": "https://www.ppmamerica.com/our-commitments"
+      },
+      {
+        "text": "OUR STORY",
+        "href": "https://www.ppmamerica.com/our-story"
+      },
+      {
+        "text": "Home",
+        "href": "https://www.ppmamerica.com/home"
+      },
+      {
+        "text": "News and Insights",
+        "href": "https://www.ppmamerica.com/news-and-insights"
+      },
+      {
+        "text": "CIO LETTER HIGHER GROWTH DRIVING HIGHER YIELDS",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2026/10/cio-letter"
+      },
+      {
+        "text": "QUARTERLY INSIGHTS CLO EQUITY OUTLOOK",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2026/10/clo-equity-outlook"
+      },
+      {
+        "text": "QUARTERLY INSIGHTS EMERGING MARKETS DEBT OUTLOOK",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2026/10/emd-outlook"
+      },
+      {
+        "text": "QUARTERLY INSIGHTS HIGH YIELD OUTLOOK",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2026/10/hy-outlook"
+      },
+      {
+        "text": "EMERGING MARKETS INSIGHTS WHY INVESTMENT GRADE EMERGING MARKET DEBT FOR LIFE GENERAL ACCOUNTS",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2026/09/why-em-for-life-ga"
+      },
+      {
+        "text": "EMERGING MARKETS INSIGHTS EM PRIVATE CREDIT: ANOTHER ARROW IN THE EM QUIVER",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2026/08/ig-emd"
+      },
+      {
+        "text": "QUARTERLY INSIGHTS HIGH YIELD",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2026/07/hy-outlook"
+      },
+      {
+        "text": "QUARTERLY INSIGHTS INVESTMENT GRADE PRIVATE CREDIT",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2026/07/igpc-outlook"
+      },
+      {
+        "text": "QUARTERLY INSIGHTS INVESTMENT GRADE",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2026/07/ig-outlook"
+      },
+      {
+        "text": "QUARTERLY INSIGHTS PRIVATE EQUITY",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2026/07/pe-outlook"
+      },
+      {
+        "text": "CIO LETTER AN ARGUMENT FOR THE TIGHT SPREAD, ELEVATED YIELD ENVIRONMENT",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2026/07/cio-letter"
+      },
+      {
+        "text": "PRIVATE EQUITY INSIGHTS ALIGNMENT AND ACCESS: KEY DRIVERS OF SINGLE-ASSET CONTINUATION VEHICLE SUCCESS",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2026/07/single-asset-continuation-vehicles"
+      },
+      {
+        "text": "ANNUAL REPORT CORPORATE RESPONSIBILITY REPORT",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2026/05/corporate-responsibility-report"
+      },
+      {
+        "text": "CIO LETTER A TEMPEST IN A TEAPOT?",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2026/04/cio-letter"
+      },
+      {
+        "text": "ASSET CLASS FOCUS US HIGH YIELD",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2026/04/asset-class-focus"
+      },
+      {
+        "text": "INFOGRAPHIC GET THIS STRAIT: LONGER-TERM IMPLICATIONS OF REDUCED HORMUZ TRAFFIC",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2026/04/infographic"
+      },
+      {
+        "text": "EDUCATIONAL INTRODUCTION TO BDCS",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2026/04/into-to-bdcs"
+      },
+      {
+        "text": "QUARTERLY INSIGHTS 2025 VS. 2026: SPOT THE DIFFERENCES",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2026/01/quarterly-insights"
+      },
+      {
+        "text": "INFOGRAPHIC THE PLUNGE INTO AI INVESTING",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2026/01/infographic"
+      },
+      {
+        "text": "2026 OUTLOOK STAYING GROUNDED IN A SHIFTING LANDSCAPE",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2025/12/2026-outlook"
+      },
+      {
+        "text": "QUARTERLY INSIGHTS OLD AND NEW RISKS TEST FAITH IN MARKET VALUATIONS",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2025/10/quarterly-insights"
+      },
+      {
+        "text": "EMERGING MARKETS INSIGHTS FRONTIER MARKET DEBT: MAKING HISTORY RHYME",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2025/09/em-spotlight"
+      },
+      {
+        "text": "INTRO AN INTRODUCTION TO CLOS AND CLO EQUITY",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2025/08/clo-equity"
+      },
+      {
+        "text": "QUARTERLY INSIGHTS TARIFFS, THE DOG THAT BARKED (A LOT) BUT DIDN'T BITE?",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2025/07/quarterly-insights"
+      },
+      {
+        "text": "EMERGING MARKETS INSIGHTS THE CASE FOR EMERGING MARKET LOCAL CURRENCY SUPRANATIONAL BONDS",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2025/06/em-spotlight"
+      },
+      {
+        "text": "ANNUAL REPORT CORPORATE RESPONSIBILITY REPORT",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2025/05/corporate-responsibility-report"
+      },
+      {
+        "text": "QUARTERLY INSIGHTS SEEKING (BOND) SHELTER IN A TARIFF-IED WORLD",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2025/04/quarterly-insights"
+      },
+      {
+        "text": "INFOGRAPHIC PUTTING ALTERNATIVE ECONOMIC DATA UNDER THE MICROSCOPE",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2025/04/infographic"
+      },
+      {
+        "text": "FIXED INCOME INSIGHTS CAPITALIZING ON M&A ACTIVITY",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2025/02/ma-activity"
+      },
+      {
+        "text": "QUARTERLY INSIGHTS BEWARE OF BULL MARKET COMPLACENCY",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2025/01/quarterly-insights"
+      },
+      {
+        "text": "INFOGRAPHIC WILL M&A AND IPO POTENTIAL BECOME REALITY?",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2025/01/infographic"
+      },
+      {
+        "text": "INFOGRAPHIC VISUALIZING CHINA'S ECONOMIC ISSUES",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2024/10/infographics"
+      },
+      {
+        "text": "INFOGRAPHIC THE BURGEONING INFLUENCE OF TECHNOLOGY",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2024/07/infographics"
+      },
+      {
+        "text": "MACRO INSIGHTS THE UNEXPECTED TAILWINDS OF HIGHER RATES",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2024/05/macro-insights"
+      },
+      {
+        "text": "CRE INSIGHTS CRE: FINDING VALUE IN A MISUNDERSTOOD MARKET",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2024/04/cre-spolight"
+      },
+      {
+        "text": "INFOGRAPHIC MARKET, ECONOMIC IMPACTS OF AI",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2024/04/infographics"
+      },
+      {
+        "text": "INSIGHTS LOOKING FOR LONG BONDS?",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2024/01/long-bonds"
+      },
+      {
+        "text": "INSIGHTS POST HOC: US REGIONAL BANKS AFTER THE CRISIS",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2023/10/regional-banks-spotlight"
+      },
+      {
+        "text": "INSIGHTS INVESTORS NOW HAVE A UNIQUE WAY TO COMBINE PUBLIC AND PRIVATE INVESTMENTS",
+        "href": "https://www.ppmamerica.com/news-and-insights/market-insights/2023/09/igppc-spotlight"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://www.ppmamerica.com/our-story/contact-us"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://www.ppmamerica.com/privacy-policy"
+      },
+      {
+        "text": "Terms and Conditions",
+        "href": "https://www.ppmamerica.com/terms-and-conditions"
+      },
+      {
+        "text": "Social",
+        "href": "https://www.ppmamerica.com/social"
+      }
+    ],
+    "external": [
+      {
+        "text": "Visit our LinkedIn Page ",
+        "href": "https://www.linkedin.com/company/ppm-america-inc-/"
+      }
+    ]
+  },
+  "linkUrls": [
+    "https://www.ppmamerica.com/home",
+    "https://www.ppmamerica.com/investment-solutions",
+    "https://www.ppmamerica.com/investment-solutions/fixed-income",
+    "https://www.ppmamerica.com/investment-solutions/commercial-real-estate-debt",
+    "https://www.ppmamerica.com/investment-solutions/private-and-structured-credit",
+    "https://www.ppmamerica.com/investment-solutions/private-equity",
+    "https://www.ppmamerica.com/investment-solutions/collateralized-loan-obligations",
+    "https://www.ppmamerica.com/news-and-insights",
+    "https://www.ppmamerica.com/news-and-insights/blog",
+    "https://www.ppmamerica.com/news-and-insights/market-insights",
+    "https://www.ppmamerica.com/news-and-insights/press-releases",
+    "https://www.ppmamerica.com/our-commitments",
+    "https://www.ppmamerica.com/our-commitments/responsible-investment",
+    "https://www.ppmamerica.com/our-commitments/community-engagement",
+    "https://www.ppmamerica.com/our-commitments/inclusion-and-engagement",
+    "https://www.ppmamerica.com/our-story",
+    "https://www.ppmamerica.com/our-story/our-values",
+    "https://www.ppmamerica.com/our-story/our-team",
+    "https://www.ppmamerica.com/our-story/careers",
+    "https://www.ppmamerica.com/our-story/contact-us",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2026/10/cio-letter",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2026/10/clo-equity-outlook",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2026/10/emd-outlook",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2026/10/hy-outlook",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2026/09/why-em-for-life-ga",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2026/08/ig-emd",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2026/07/hy-outlook",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2026/07/igpc-outlook",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2026/07/ig-outlook",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2026/07/pe-outlook",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2026/07/cio-letter",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2026/07/single-asset-continuation-vehicles",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2026/05/corporate-responsibility-report",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2026/04/cio-letter",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2026/04/asset-class-focus",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2026/04/infographic",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2026/04/into-to-bdcs",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2026/01/quarterly-insights",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2026/01/infographic",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2025/12/2026-outlook",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2025/10/quarterly-insights",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2025/09/em-spotlight",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2025/08/clo-equity",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2025/07/quarterly-insights",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2025/06/em-spotlight",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2025/05/corporate-responsibility-report",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2025/04/quarterly-insights",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2025/04/infographic",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2025/02/ma-activity",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2025/01/quarterly-insights",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2025/01/infographic",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2024/10/infographics",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2024/07/infographics",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2024/05/macro-insights",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2024/04/cre-spolight",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2024/04/infographics",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2024/01/long-bonds",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2023/10/regional-banks-spotlight",
+    "https://www.ppmamerica.com/news-and-insights/market-insights/2023/09/igppc-spotlight",
+    "https://www.linkedin.com/company/ppm-america-inc-/",
+    "https://www.ppmamerica.com/privacy-policy",
+    "https://www.ppmamerica.com/terms-and-conditions",
+    "https://www.ppmamerica.com/social"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.ppmamerica.com/content/experience-fragments/ppm/language-masters/en/site/header/master/_jcr_content/root/header/image.coreimg.png/1782482847451/ppmlogo.png",
+        "alt": "PPM Logo",
+        "w": 1108,
+        "h": 167
+      },
+      {
+        "src": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/icons/search-icon.svg",
+        "alt": "",
+        "w": 23,
+        "h": 23
+      },
+      {
+        "src": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/icons/search-icon.svg",
+        "alt": "",
+        "w": 23,
+        "h": 23
+      },
+      {
+        "src": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/icons/x-icon.svg",
+        "alt": "PPM Cross Icon",
+        "w": 20,
+        "h": 20
+      },
+      {
+        "src": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/icons/search-icon-white.svg",
+        "alt": "",
+        "w": 23,
+        "h": 23
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/ppm/us/en/news-and-insights/market-insights/_jcr_content/root/container_1854298409/container/herotitle.coreimg.jpeg/1745351794069/banner-our-insights-620x275.jpeg",
+        "alt": "",
+        "w": 620,
+        "h": 275
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-team/Nwachukwu-Ogechi_620x275.jpg",
+        "alt": "",
+        "w": 620,
+        "h": 275
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2026/2026-10-27_QI_CLO_620x275.jpg",
+        "alt": "",
+        "w": 620,
+        "h": 275
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2026/2026-10-27_QI_EM_620x275.jpg",
+        "alt": "",
+        "w": 620,
+        "h": 275
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2026/2026-10-27_QI_HY_620x275.jpg",
+        "alt": "",
+        "w": 620,
+        "h": 275
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2025/iStock-489433903_business%20touch%20screen%20world%20map_square.jpg",
+        "alt": "",
+        "w": 275,
+        "h": 275
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2026/2026-08-13_Our-Insights_EM%20Priv%20Credit_477x477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2026/2026-07-30_QI-HY_477x477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2026/2026-07_22_IGPC-Outlook_477x477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2026/2026-07_22_IG-Outlook_477x477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2026/2026-07_22_PE-Outlook_477x477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/pms/Nwachukwu-Ogechi_477x477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2026/2026-07-20_PE-SCV_477x477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2026/2026-05-05_Corporate-Responsibility_477x477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/pms/Nwachukwu-Ogechi_477x477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2026/2026-04-20_Asset-Class-Focus_477x477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2026/2026-04-17_Infographic_477x477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2026/2026-04-10-BDC_477x477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2026/2026-01-26-QI_477x477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2026/2026-01-25_Infographic_477x477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2025/2025-12-17_2026-Outlook_477x477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2025/2025-10-23_Quarterly-Insights_477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2025/2025-09-05_EM-Spotlight_477x477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2025/2025-08-01_CLO-Equity_477x477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2025/2025-07-23_Quarterly-Insights_477x477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2025/2025-06-13_EM-Spotlight_477x477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2025/2025-05-06_Corporate-Responsibility_477x477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2025/2025-04-23_Quarterly-Insights_477x477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2025/2025-04-23_Infographic_477x477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2025/2025-02-27_MA-Activity_477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2025/2025-01-28_Quarterly-Insights_477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2025/2025-01-28_Infographic_477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2024/2024-10-23_Infographic_477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2024/2024-07-24_Infographic_477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2024/2024-05-22_Macro-Insights_477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2024/2024-04-29_Spotlight-CPRED_477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2024/2024-04-23_Infographic_477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2024/2024-01-09_Bulletin_477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2023/2023-10-02_Regional-Banks-Spotlight_477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2023/2023-09-18_IGPPC-Spotlight_477.jpg",
+        "alt": "",
+        "w": 477,
+        "h": 477
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/experience-fragments/ppm/language-masters/en/site/footer/master/_jcr_content/root/footer/logo.coreimg.png/1782482847451/ppmlogo.png",
+        "alt": "PPM logo",
+        "w": 1108,
+        "h": 167
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/experience-fragments/ppm/language-masters/en/site/footer/master/_jcr_content/root/footer/image.coreimg.svg/1745420422247/linkedinlogo.svg",
+        "alt": "Visit our LinkedIn Page ",
+        "w": 24,
+        "h": 23
+      }
+    ],
+    "allImgCount": 47,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": [],
+    "images": [
+      {
+        "src": "https://www.ppmamerica.com/content/experience-fragments/ppm/language-masters/en/site/header/master/_jcr_content/root/header/image.coreimg.png/1782482847451/ppmlogo.png",
+        "srcset": null,
+        "alt": "PPM Logo",
+        "intrinsicWidth": 1108,
+        "intrinsicHeight": 167,
+        "visible": true,
+        "rect": {
+          "x": 20,
+          "y": 33,
+          "width": 263,
+          "height": 40
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/icons/search-icon.svg",
+        "srcset": null,
+        "alt": "",
+        "intrinsicWidth": 23,
+        "intrinsicHeight": 23,
+        "visible": true,
+        "rect": {
+          "x": 1351,
+          "y": 36,
+          "width": 37,
+          "height": 37
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/icons/search-icon.svg",
+        "srcset": null,
+        "alt": "",
+        "intrinsicWidth": 23,
+        "intrinsicHeight": 23,
+        "visible": false,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/icons/x-icon.svg",
+        "srcset": null,
+        "alt": "PPM Cross Icon",
+        "intrinsicWidth": 20,
+        "intrinsicHeight": 20,
+        "visible": false,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/icons/search-icon-white.svg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 23,
+        "intrinsicHeight": 23,
+        "visible": false,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/ppm/us/en/news-and-insights/market-insights/_jcr_content/root/container_1854298409/container/herotitle.coreimg.jpeg/1745351794069/banner-our-insights-620x275.jpeg",
+        "srcset": null,
+        "alt": "",
+        "intrinsicWidth": 620,
+        "intrinsicHeight": 275,
+        "visible": true,
+        "rect": {
+          "x": 805,
+          "y": 149,
+          "width": 620,
+          "height": 275
+        },
+        "resolves": true,
+        "localPath": "stardust/current/assets/media/banner-our-insights-620x275-f2dab9.jpeg"
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-team/Nwachukwu-Ogechi_620x275.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 620,
+        "intrinsicHeight": 275,
+        "visible": true,
+        "rect": {
+          "x": 15,
+          "y": 546,
+          "width": 450,
+          "height": 200
+        },
+        "resolves": true,
+        "localPath": "stardust/current/assets/media/Nwachukwu-Ogechi_620x275-f09352.jpg"
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2026/2026-10-27_QI_CLO_620x275.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 620,
+        "intrinsicHeight": 275,
+        "visible": true,
+        "rect": {
+          "x": 495,
+          "y": 546,
+          "width": 450,
+          "height": 200
+        },
+        "resolves": true,
+        "localPath": "stardust/current/assets/media/2026-10-27_QI_CLO_620x275-ca02a1.jpg"
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2026/2026-10-27_QI_EM_620x275.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 620,
+        "intrinsicHeight": 275,
+        "visible": true,
+        "rect": {
+          "x": 975,
+          "y": 546,
+          "width": 450,
+          "height": 200
+        },
+        "resolves": true,
+        "localPath": "stardust/current/assets/media/2026-10-27_QI_EM_620x275-30eb7e.jpg"
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2026/2026-10-27_QI_HY_620x275.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 620,
+        "intrinsicHeight": 275,
+        "visible": true,
+        "rect": {
+          "x": 15,
+          "y": 913,
+          "width": 450,
+          "height": 200
+        },
+        "resolves": true,
+        "localPath": "stardust/current/assets/media/2026-10-27_QI_HY_620x275-a1f3d1.jpg"
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2025/iStock-489433903_business%20touch%20screen%20world%20map_square.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 275,
+        "intrinsicHeight": 275,
+        "visible": true,
+        "rect": {
+          "x": 495,
+          "y": 913,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": "stardust/current/assets/media/iStock-489433903_business_touch_screen_world_map_square-6351c3.jpg"
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2026/2026-08-13_Our-Insights_EM%20Priv%20Credit_477x477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 975,
+          "y": 913,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": "stardust/current/assets/media/2026-08-13_Our-Insights_EM_Priv_Credit_477x477-bd107c.jpg"
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2026/2026-07-30_QI-HY_477x477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 15,
+          "y": 1560,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": "stardust/current/assets/media/2026-07-30_QI-HY_477x477-5e62bf.jpg"
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2026/2026-07_22_IGPC-Outlook_477x477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 495,
+          "y": 1560,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": "stardust/current/assets/media/2026-07_22_IGPC-Outlook_477x477-6d1a04.jpg"
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2026/2026-07_22_IG-Outlook_477x477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 975,
+          "y": 1560,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": "stardust/current/assets/media/2026-07_22_IG-Outlook_477x477-04d10c.jpg"
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2026/2026-07_22_PE-Outlook_477x477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 15,
+          "y": 2177,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": "stardust/current/assets/media/2026-07_22_PE-Outlook_477x477-7fa01e.jpg"
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/pms/Nwachukwu-Ogechi_477x477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 495,
+          "y": 2177,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": "stardust/current/assets/media/Nwachukwu-Ogechi_477x477-30f1ed.jpg"
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2026/2026-07-20_PE-SCV_477x477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 975,
+          "y": 2177,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": "stardust/current/assets/media/2026-07-20_PE-SCV_477x477-54ff13.jpg"
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2026/2026-05-05_Corporate-Responsibility_477x477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 15,
+          "y": 2824,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": "stardust/current/assets/media/2026-05-05_Corporate-Responsibility_477x477-be3ed5.jpg"
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/pms/Nwachukwu-Ogechi_477x477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 495,
+          "y": 2824,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": "stardust/current/assets/media/Nwachukwu-Ogechi_477x477-30f1ed.jpg"
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2026/2026-04-20_Asset-Class-Focus_477x477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 975,
+          "y": 2824,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": "stardust/current/assets/media/2026-04-20_Asset-Class-Focus_477x477-e860dc.jpg"
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2026/2026-04-17_Infographic_477x477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 15,
+          "y": 3441,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": "stardust/current/assets/media/2026-04-17_Infographic_477x477-87850c.jpg"
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2026/2026-04-10-BDC_477x477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 495,
+          "y": 3441,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": "stardust/current/assets/media/2026-04-10-BDC_477x477-7b2f6f.jpg"
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2026/2026-01-26-QI_477x477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 975,
+          "y": 3441,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": "stardust/current/assets/media/2026-01-26-QI_477x477-701b52.jpg"
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2026/2026-01-25_Infographic_477x477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 15,
+          "y": 4088,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": "stardust/current/assets/media/2026-01-25_Infographic_477x477-13387a.jpg"
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2025/2025-12-17_2026-Outlook_477x477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 495,
+          "y": 4088,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2025/2025-10-23_Quarterly-Insights_477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 975,
+          "y": 4088,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2025/2025-09-05_EM-Spotlight_477x477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 15,
+          "y": 4705,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2025/2025-08-01_CLO-Equity_477x477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 495,
+          "y": 4705,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2025/2025-07-23_Quarterly-Insights_477x477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 975,
+          "y": 4705,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2025/2025-06-13_EM-Spotlight_477x477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 15,
+          "y": 5323,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2025/2025-05-06_Corporate-Responsibility_477x477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 495,
+          "y": 5323,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2025/2025-04-23_Quarterly-Insights_477x477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 975,
+          "y": 5323,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2025/2025-04-23_Infographic_477x477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 15,
+          "y": 5969,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2025/2025-02-27_MA-Activity_477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 495,
+          "y": 5969,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2025/2025-01-28_Quarterly-Insights_477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 975,
+          "y": 5969,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2025/2025-01-28_Infographic_477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 15,
+          "y": 6616,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2024/2024-10-23_Infographic_477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 495,
+          "y": 6616,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2024/2024-07-24_Infographic_477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 975,
+          "y": 6616,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2024/2024-05-22_Macro-Insights_477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 15,
+          "y": 7233,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2024/2024-04-29_Spotlight-CPRED_477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 495,
+          "y": 7233,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2024/2024-04-23_Infographic_477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 975,
+          "y": 7233,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2024/2024-01-09_Bulletin_477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 15,
+          "y": 7851,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2023/2023-10-02_Regional-Banks-Spotlight_477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 495,
+          "y": 7851,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-insights/2023/2023-09-18_IGPPC-Spotlight_477.jpg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 477,
+        "intrinsicHeight": 477,
+        "visible": true,
+        "rect": {
+          "x": 975,
+          "y": 7851,
+          "width": 450,
+          "height": 450
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/experience-fragments/ppm/language-masters/en/site/footer/master/_jcr_content/root/footer/logo.coreimg.png/1782482847451/ppmlogo.png",
+        "srcset": null,
+        "alt": "PPM logo",
+        "intrinsicWidth": 1108,
+        "intrinsicHeight": 167,
+        "visible": true,
+        "rect": {
+          "x": 15,
+          "y": 8575,
+          "width": 212,
+          "height": 32
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/experience-fragments/ppm/language-masters/en/site/footer/master/_jcr_content/root/footer/image.coreimg.svg/1745420422247/linkedinlogo.svg",
+        "srcset": null,
+        "alt": "Visit our LinkedIn Page ",
+        "intrinsicWidth": 24,
+        "intrinsicHeight": 23,
+        "visible": true,
+        "rect": {
+          "x": 1401,
+          "y": 8575,
+          "width": 24,
+          "height": 23
+        },
+        "resolves": true,
+        "localPath": null
+      }
+    ],
+    "heroImage": {
+      "src": "https://www.ppmamerica.com/content/ppm/us/en/news-and-insights/market-insights/_jcr_content/root/container_1854298409/container/herotitle.coreimg.jpeg/1745351794069/banner-our-insights-620x275.jpeg",
+      "srcset": null,
+      "alt": "",
+      "intrinsicWidth": 620,
+      "intrinsicHeight": 275,
+      "visible": true,
+      "rect": {
+        "x": 805,
+        "y": 149,
+        "width": 620,
+        "height": 275
+      },
+      "resolves": true,
+      "localPath": "stardust/current/assets/media/banner-our-insights-620x275-f2dab9.jpeg"
+    }
+  },
+  "forms": [
+    {
+      "selector": "form#ppm-nav-desktop-search-form",
+      "action": "/search",
+      "method": "get",
+      "visible": false,
+      "fields": [
+        {
+          "type": "text",
+          "name": "searchTerm",
+          "placeholder": "Search"
+        }
+      ]
+    },
+    {
+      "selector": "li#ppm-nav-mobile-search-input-list-item > form",
+      "action": "/search",
+      "method": "get",
+      "visible": false,
+      "fields": [
+        {
+          "type": "text",
+          "name": "searchTerm",
+          "placeholder": "Search"
+        }
+      ]
+    }
+  ],
+  "widgets": {
+    "dialogs": [
+      {
+        "selector": ".cmp-modal",
+        "role": "Disclosure Agreement (institutional-investor gate)",
+        "actions": [
+          "ACCEPT",
+          "DECLINE"
+        ]
+      }
+    ]
+  },
+  "components": {
+    "cards": {
+      "count": 39,
+      "examples": [
+        "div#container-85b2c5bb95 > div.aem-Grid.aem-Grid--12 > div.cmp-card > a.cmp-card__link"
+      ]
+    },
+    "grids": {
+      "count": 1,
+      "examples": [
+        "div#container-85b2c5bb95 > div.aem-Grid.aem-Grid--12"
+      ]
+    },
+    "accordions": {
+      "count": 0,
+      "examples": []
+    },
+    "tabs": {
+      "count": 0,
+      "examples": []
+    },
+    "tables": {
+      "count": 0,
+      "examples": []
+    },
+    "modals": {
+      "count": 1,
+      "examples": [
+        ".cmp-modal (Disclosure Agreement, hidden after Accept)"
+      ]
+    },
+    "carousels": {
+      "count": 0,
+      "examples": []
+    },
+    "videos": {
+      "count": 0,
+      "examples": []
+    },
+    "iframes": {
+      "count": 0,
+      "examples": []
+    },
+    "dataVizEmbeds": {
+      "count": 0,
+      "examples": []
+    },
+    "teamTiles": {
+      "count": 0,
+      "examples": []
+    },
+    "pricingTiles": {
+      "count": 0,
+      "examples": []
+    },
+    "testimonialCards": {
+      "count": 0,
+      "examples": []
+    },
+    "logoStrip": {
+      "count": 0,
+      "examples": []
+    },
+    "timeline": {
+      "count": 0,
+      "examples": []
+    },
+    "breadcrumbs": {
+      "count": 1,
+      "examples": [
+        "nav#breadcrumb-f744f3d224"
+      ]
+    },
+    "statRow": {
+      "count": 0,
+      "examples": []
+    },
+    "ctaBand": {
+      "count": 0,
+      "examples": []
+    },
+    "formFields": {
+      "count": 0,
+      "examples": []
+    },
+    "other": []
+  },
+  "perSectionStyle": [
+    {
+      "sectionRef": "div#container-0a1a4f4dec > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+      "index": 0,
+      "purpose": "header",
+      "heading": null,
+      "rect": {
+        "y": 0,
+        "h": 106
+      },
+      "background": {
+        "color": "rgb(255, 255, 255)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(106, 115, 123)"
+      },
+      "spacing": {
+        "paddingBlock": "0px 0px",
+        "paddingInline": "0px 0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "AzoSans-Light",
+        "AzoSans-Bold"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "div#container-0a1a4f4dec > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+      "index": 1,
+      "purpose": "breadcrumb",
+      "heading": null,
+      "rect": {
+        "y": 106,
+        "h": 43
+      },
+      "background": {
+        "color": "rgb(255, 255, 255)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(255, 255, 255)"
+      },
+      "spacing": {
+        "paddingBlock": "0px 0px",
+        "paddingInline": "0px 0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "AzoSans-Light"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "div#container-0a1a4f4dec > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+      "index": 2,
+      "purpose": "hero",
+      "heading": "Market Insights",
+      "rect": {
+        "y": 149,
+        "h": 275
+      },
+      "background": {
+        "color": "rgb(255, 255, 255)",
+        "hasImage": true,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(37, 40, 42)"
+      },
+      "spacing": {
+        "paddingBlock": "0px 0px",
+        "paddingInline": "0px 0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "AzoSans-Light",
+        "CenturyStd-Book"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "div#container-0a1a4f4dec > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+      "index": 3,
+      "purpose": "content",
+      "heading": null,
+      "rect": {
+        "y": 424,
+        "h": 122
+      },
+      "background": {
+        "color": "rgb(255, 255, 255)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(37, 40, 42)"
+      },
+      "spacing": {
+        "paddingBlock": "0px 0px",
+        "paddingInline": "0px 0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "AzoSans-Light"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "div#container-0a1a4f4dec > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+      "index": 4,
+      "purpose": "content",
+      "heading": "HIGHER GROWTH DRIVING HIGHER YIELDS",
+      "rect": {
+        "y": 0,
+        "h": 8502
+      },
+      "background": {
+        "color": "rgb(255, 255, 255)",
+        "hasImage": true,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(37, 40, 42)"
+      },
+      "spacing": {
+        "paddingBlock": "0px 0px",
+        "paddingInline": "0px 0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "AzoSans-Light",
+        "AzoSans-Regular",
+        "AzoSans-Bold"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "div#container-0a1a4f4dec > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+      "index": 5,
+      "purpose": "footer",
+      "heading": null,
+      "rect": {
+        "y": 8502,
+        "h": 250
+      },
+      "background": {
+        "color": "rgb(255, 255, 255)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(37, 40, 42)"
+      },
+      "spacing": {
+        "paddingBlock": "0px 0px",
+        "paddingInline": "0px 0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "AzoSans-Light",
+        "CenturyStd-Book"
+      ],
+      "shadowsUsed": []
+    }
+  ],
+  "embedDominance": {
+    "dominated": false,
+    "iframeSrc": null,
+    "viewportCoveragePct": null,
+    "mainHeightCoveragePct": null,
+    "screenshot": null
+  },
+  "cssCustomProperties": [],
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 53,
+    "mainTextLen": 5123,
+    "realImageCount": 47,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "stardust/current/assets/screenshots/news-and-insights-market-insights.png",
+  "renderedHtml": "stardust/current/pages/news-and-insights-market-insights.html",
+  "stats": {
+    "wordCount": 364,
+    "ctaCount": 49,
+    "internalLinkCount": 50,
+    "externalLinkCount": 1,
+    "imageCount": 47
+  }
+}

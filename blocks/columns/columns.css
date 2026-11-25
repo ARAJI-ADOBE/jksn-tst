@@ -31,3 +31,34 @@
     order: unset;
   }
 }
+
+/* consent option: image left, text right, checkbox-gated CTA */
+.columns.consent .columns-consent-field {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.columns.consent .columns-consent-field input[type="checkbox"] {
+  flex: 0 0 auto;
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.columns.consent .columns-consent-field label {
+  cursor: pointer;
+}
+
+@media (width >= 900px) {
+  .columns.consent > div {
+    flex-wrap: nowrap;
+    gap: 32px;
+  }
+
+  .columns.consent > div > .columns-img-col {
+    order: -1;
+  }
+}

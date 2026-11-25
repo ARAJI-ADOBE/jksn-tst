@@ -1,0 +1,164 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-18T08:42:12.329Z",
+    "stardustVersion": "0.37.2"
+  },
+  "site": {
+    "originUrl": "https://www.ppmamerica.com",
+    "scopePath": "/news-and-insights",
+    "inputUrl": "http://ppmamerica.com/news-and-insights",
+    "deployUrl": null,
+    "extractedAt": "2026-11-18T08:42:12.329Z",
+    "pageCap": 8,
+    "totalDiscovered": 10,
+    "crawled": 8
+  },
+  "direction": null,
+  "pages": [
+    {
+      "slug": "news-and-insights",
+      "url": "https://www.ppmamerica.com/news-and-insights",
+      "title": "News and Insights | PPM America",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-18T08:23:56.588Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/news-and-insights.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "news-and-insights-blog",
+      "url": "https://www.ppmamerica.com/news-and-insights/blog",
+      "title": "Blog | PPM America",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-18T08:24:33.165Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/news-and-insights-blog.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "news-and-insights-market-insights",
+      "url": "https://www.ppmamerica.com/news-and-insights/market-insights",
+      "title": "Market Insights | PPM America",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-18T08:25:11.418Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/news-and-insights-market-insights.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "news-and-insights-press-releases",
+      "url": "https://www.ppmamerica.com/news-and-insights/press-releases",
+      "title": "Press Releases | PPM America",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-18T08:25:47.283Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/news-and-insights-press-releases.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "news-and-insights-market-insights-2026-10-cio-letter",
+      "url": "https://www.ppmamerica.com/news-and-insights/market-insights/2026/10/cio-letter",
+      "title": "CIO Letter",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-18T08:26:22.961Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/news-and-insights-market-insights-2026-10-cio-letter.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "news-and-insights-market-insights-2026-10-clo-equity-outlook",
+      "url": "https://www.ppmamerica.com/news-and-insights/market-insights/2026/10/clo-equity-outlook",
+      "title": "CLO Equity Outlook",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-18T08:26:58.576Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/news-and-insights-market-insights-2026-10-clo-equity-outlook.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "news-and-insights-blog-2026-10-cre-market-valuations",
+      "url": "https://www.ppmamerica.com/news-and-insights/blog/2026/10/cre-market-valuations",
+      "title": "CRE Market Valuations",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-18T08:27:34.332Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/news-and-insights-blog-2026-10-cre-market-valuations.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "news-and-insights-press-releases-2026-08-cre-team",
+      "url": "https://www.ppmamerica.com/news-and-insights/press-releases/2026/08/cre-team",
+      "title": "CRE Team",
+      "type": null,
+      "status": "extracted",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-18T08:28:10.259Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/news-and-insights-press-releases-2026-08-cre-team.json",
+      "prototypePath": null,
+      "migratedPath": null
+    }
+  ]
+}

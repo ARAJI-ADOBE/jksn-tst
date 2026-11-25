@@ -1,0 +1,1142 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:audit",
+    "writtenAt": "2026-11-18T09:05:44Z",
+    "againstInput": "http://ppmamerica.com/news-and-insights",
+    "readArtifacts": [
+      "stardust/current/_brand-extraction.json",
+      "stardust/current/brand-review.html",
+      "stardust/current/_crawl-log.json",
+      "stardust/current/PRODUCT.md",
+      "stardust/current/DESIGN.md",
+      "stardust/state.json",
+      "stardust/current/pages/news-and-insights.json",
+      "stardust/current/pages/news-and-insights-blog.json",
+      "stardust/current/pages/news-and-insights-market-insights.json",
+      "stardust/current/pages/news-and-insights-press-releases.json",
+      "stardust/current/pages/news-and-insights-market-insights-2026-10-cio-letter.json",
+      "stardust/current/pages/news-and-insights-market-insights-2026-10-clo-equity-outlook.json",
+      "stardust/current/pages/news-and-insights-blog-2026-10-cre-market-valuations.json",
+      "stardust/current/pages/news-and-insights-press-releases-2026-08-cre-team.json",
+      "stardust/current/pages/news-and-insights.html",
+      "stardust/current/pages/news-and-insights-blog.html",
+      "stardust/current/pages/news-and-insights-market-insights.html",
+      "stardust/current/pages/news-and-insights-press-releases.html",
+      "stardust/current/pages/news-and-insights-market-insights-2026-10-cio-letter.html",
+      "stardust/current/pages/news-and-insights-market-insights-2026-10-clo-equity-outlook.html",
+      "stardust/current/pages/news-and-insights-blog-2026-10-cre-market-valuations.html",
+      "stardust/current/pages/news-and-insights-press-releases-2026-08-cre-team.html",
+      "stardust/current/assets/screenshots/news-and-insights.png",
+      "stardust/current/assets/screenshots/news-and-insights-press-releases.png",
+      "stardust/current/assets/screenshots/news-and-insights-market-insights-2026-10-cio-letter.png",
+      "stardust/current/assets/screenshots/news-and-insights-blog-2026-10-cre-market-valuations.png",
+      "https://www.ppmamerica.com/news-and-insights (+7 subtree pages, live)",
+      "https://www.ppmamerica.com/robots.txt",
+      "https://www.ppmamerica.com/sitemap.xml",
+      "https://www.ppmamerica.com/llms.txt"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.37.2"
+  },
+  "site": {
+    "url": "https://www.ppmamerica.com/news-and-insights",
+    "inputUrl": "http://ppmamerica.com/news-and-insights",
+    "domainSlug": "ppmamerica-com",
+    "scopePath": "/news-and-insights",
+    "pagesAudited": [
+      "news-and-insights",
+      "news-and-insights-blog",
+      "news-and-insights-market-insights",
+      "news-and-insights-press-releases",
+      "news-and-insights-market-insights-2026-10-cio-letter",
+      "news-and-insights-market-insights-2026-10-clo-equity-outlook",
+      "news-and-insights-blog-2026-10-cre-market-valuations",
+      "news-and-insights-press-releases-2026-08-cre-team"
+    ],
+    "extraction": {
+      "reused": true,
+      "extractedAt": "2026-11-18T08:42:12.329Z",
+      "pageCount": 8,
+      "newestFetchedAt": "2026-11-18T08:28:10.259Z"
+    }
+  },
+  "assumptions": [
+    "Audit scope is the /news-and-insights subtree (the entry URL's path). The subtree hub /news-and-insights stands in for 'home' in the home-only measurements (brandColorShare, the first-viewport analysis, the impeccable critique target).",
+    "No lead form or subscription exists on the 8 audited pages. The primary conversion is therefore assumed to be an institutional prospect or consultant contacting the firm or subscribing to research. The existing asks are 'Contact Us' (footer text link) and 'Our Story' (hub band).",
+    "The extraction from minutes earlier (2026-11-18T08:42Z) was reused, including its page selection: emd-outlook and hy-outlook were swapped out for the blog-article and press-release detail templates.",
+    "The Disclosure Agreement gate was accepted before every measurement except Core Web Vitals, which were taken as a first-time visitor sees the page (gate showing). The LCP element is the gate paragraph.",
+    "Brand hues are taken as #008578, #004f59, #47d7ac and #5c068c. #ffffff and #f4f4f4 count as near-white, and so do photographic pixels with all channels >= 240; they are excluded from the painted pixels in brandColorShare.",
+    "The hub screenshot shows the 'Market Insights' column in grey with an underline. This is treated as a hover state captured during extraction, not a design defect, and its contrast is not scored.",
+    "The AI-agent edge timeouts were observed from one non-verified lab IP. They are reported as a risk to verify, not a confirmed block of real crawlers."
+  ],
+  "scorecard": {
+    "overall": 50,
+    "scoredWeight": 100,
+    "dimensions": {
+      "brand-expression": {
+        "score": 64,
+        "weight": 10,
+        "evidence": [
+          "measurements.brandColorShare",
+          "measurements.radiusSprawl",
+          "T-color-imbalance",
+          "T-no-tokens",
+          "T-logo-variants",
+          "F-016",
+          "F-017"
+        ],
+        "notMeasured": [],
+        "rationale": "brandColorShare 29% clears the 15% bar, but 84% of it is one background-only mint (T-color-imbalance); single radius (2px) is coherent and the Century display serif is a real register, yet no tokens, a single raster logo and stock/placeholder imagery keep it below the 70 anchor."
+      },
+      "visual-hierarchy-craft": {
+        "score": 45,
+        "weight": 15,
+        "evidence": [
+          "measurements.typeScale",
+          "measurements.impeccableCritique",
+          "T-scale",
+          "F-014",
+          "F-015"
+        ],
+        "notMeasured": [],
+        "rationale": "typeScale ad-hoc (40 anchor) and an equal-weight wall-of-cards hub/listings; lifted slightly by the article template (Key Takeaway band, author rail, titled chart)."
+      },
+      "conversion-focus": {
+        "score": 35,
+        "weight": 20,
+        "evidence": [
+          "measurements.ctaInventory",
+          "measurements.ctaFragmentation",
+          "measurements.mobileUi",
+          "F-001"
+        ],
+        "notMeasured": [],
+        "rationale": "No primary CTA in the first viewport (desktop or mobile); the hub's only button sits at the bottom and exits the hub; 5 of 8 pages have no button; 0 subscribe/contact asks. CTA vocabulary is not fragmented (1 label per bucket) - the deficit is absence of an ask."
+      },
+      "accessibility": {
+        "score": 42,
+        "weight": 10,
+        "evidence": [
+          "measurements.altCoverage",
+          "measurements.landmarks",
+          "measurements.contrast",
+          "measurements.headingOrder",
+          "T-img-alt-empty",
+          "F-003",
+          "F-004"
+        ],
+        "notMeasured": [],
+        "rationale": "Two 40-anchor states hold (over 30% empty alt; no <main>), plus an unnamed mobile menu button; offset by every observed palette pair passing AA, exactly one h1 per page, no content-free link labels and a focus-trapped, labelled-role disclosure dialog."
+      },
+      "technical-seo": {
+        "score": 48,
+        "weight": 15,
+        "evidence": [
+          "measurements.sitemapValid",
+          "measurements.titleQuality",
+          "measurements.ogCompleteness",
+          "measurements.jsonldTypes",
+          "measurements.redirectChain",
+          "measurements.canonical",
+          "F-005"
+        ],
+        "notMeasured": [],
+        "rationale": "Sitemap 500 (40 anchor) and a 2-hop redirect; but titles unique and present on 8/8, canonical self-referential on 8/8, index on 8/8, exactly one h1 per page. Metadata quality weak: slug titles on details, 268-436-char descriptions, no OG, no JSON-LD."
+      },
+      "content-llm-visibility": {
+        "score": 52,
+        "weight": 15,
+        "evidence": [
+          "measurements.aiReadability",
+          "measurements.llmsTxt",
+          "measurements.jsonldTypes",
+          "measurements.extractableProseWords",
+          "measurements.headingQuestionCoverage",
+          "measurements.botAccess",
+          "T-card-excerpt-mismatch"
+        ],
+        "notMeasured": [],
+        "rationale": "Served-text parity is perfect (strict 100 on 8/8, nothing JS-rendered) and the blog/press details are deep and specific; but no structured data, no llms.txt, flagship research in PDFs, date-as-heading outlines, a mismatched hub excerpt, and AI-agent UAs timing out in the lab."
+      },
+      "performance": {
+        "score": 74,
+        "weight": 15,
+        "evidence": [
+          "measurements.cwv",
+          "F-013"
+        ],
+        "notMeasured": [],
+        "rationale": "Every mobile metric good (LCP 0.62s, CLS 0.085, TBT 96ms, worst of 2 cold runs); desktop CLS 0.196 needs-improvement (median of 3; one run poor at 0.369) with an identified cause (unsized banner/card images). LCP element is the disclosure gate and the lab had no network throttle, so the 90 anchor is not claimed."
+      }
+    }
+  },
+  "measurements": {
+    "brandColorShare": {
+      "value": 0.2935,
+      "unit": "share-of-painted-pixels",
+      "status": "measured",
+      "method": "pixel-sample",
+      "detail": {
+        "screenshot": "assets/screenshots/news-and-insights.png",
+        "size": "1440x2808",
+        "grid": "every 8th px (63,180 samples)",
+        "tolerance": "nearest palette entry within euclidean RGB distance 30",
+        "nearWhiteExcluded": "samples with all channels >= 240 (#ffffff and #f4f4f4) excluded from painted",
+        "paintedSamples": 22709,
+        "brandSamples": 6664,
+        "brandHues": [
+          "#008578",
+          "#004f59",
+          "#47d7ac",
+          "#5c068c"
+        ],
+        "perBrandHue": {
+          "#47d7ac": 5611,
+          "#004f59": 897,
+          "#008578": 156,
+          "#5c068c": 0
+        },
+        "unclassifiedPaintedSamples": 12481,
+        "note": "Unclassified painted samples are photography and raster tiles; the subtree hub stands in for home (crawl scope /news-and-insights)."
+      }
+    },
+    "ctaFragmentation": {
+      "value": 1,
+      "unit": "distinct-labels-per-bucket",
+      "status": "measured",
+      "method": "pages-json-aggregation",
+      "detail": {
+        "buckets": {
+          "about-firm": {
+            "Our Story / OUR STORY": 9
+          },
+          "download": {
+            "DOWNLOAD THE FULL PDF": 2
+          },
+          "contact": {
+            "Contact Us": 8
+          }
+        },
+        "note": "No bucket has more than one label (case-normalized); T-cta-vocab did not fire. The problem is the absence of asks, not fragmentation."
+      }
+    },
+    "ctaInventory": {
+      "value": 1,
+      "unit": "pages-with-a-button-other-than-PDF-download",
+      "status": "measured",
+      "method": "pages-json-aggregation + screenshot",
+      "detail": {
+        "pagesAudited": 8,
+        "hub": "OUR STORY (bottom mint band, below the fold)",
+        "pdfDownloadPages": 2,
+        "pagesWithNoButton": 5,
+        "subscribeOrContactAsks": 0,
+        "footerContactLink": "Contact Us text link on all 8 pages"
+      }
+    },
+    "typeScale": {
+      "value": "ad-hoc",
+      "unit": "scale-kind",
+      "status": "measured",
+      "method": "brand-extraction",
+      "detail": {
+        "headingSizes": [
+          48,
+          32,
+          24,
+          20
+        ],
+        "ratios": [
+          1.5,
+          1.333,
+          1.2
+        ],
+        "matchedScale": null,
+        "displayFace": "CenturyStd-Book (h1/h3)",
+        "headingFace": "AzoSans uppercase tracked (h2/h4/h5)"
+      }
+    },
+    "radiusSprawl": {
+      "value": 1,
+      "unit": "distinct-radii",
+      "status": "measured",
+      "method": "brand-extraction",
+      "detail": {
+        "occurrences": {
+          "2px": 3
+        },
+        "note": "2px on buttons only; all other surfaces square (0px)."
+      }
+    },
+    "contrast": {
+      "status": "measured",
+      "method": "wcag-computed",
+      "detail": {
+        "source": "computed color/background pairs sampled from the live DOM (hub, cre-market-valuations, cio-letter; gate accepted)",
+        "pairs": [
+          {
+            "fg": "#25282a",
+            "bg": "#ffffff",
+            "ratio": 14.83,
+            "role": "body text, card titles",
+            "passesAA": true
+          },
+          {
+            "fg": "#25282a",
+            "bg": "#f4f4f4",
+            "ratio": 13.49,
+            "role": "h1, lede, footer on title band",
+            "passesAA": true
+          },
+          {
+            "fg": "#25282a",
+            "bg": "#47d7ac",
+            "ratio": 8.18,
+            "role": "Our Advantage list, Key Takeaway on mint",
+            "passesAA": true
+          },
+          {
+            "fg": "#6a737b",
+            "bg": "#ffffff",
+            "ratio": 4.83,
+            "role": "top-nav links 16px; date h2 24px",
+            "passesAA": true
+          },
+          {
+            "fg": "#ffffff",
+            "bg": "#004f59",
+            "ratio": 9.28,
+            "role": "breadcrumb 13-14px",
+            "passesAA": true
+          },
+          {
+            "fg": "#ffffff",
+            "bg": "#008578",
+            "ratio": 4.54,
+            "role": "primary button label 16px",
+            "passesAA": true
+          },
+          {
+            "fg": "#004f59",
+            "bg": "#f4f4f4",
+            "ratio": 8.44,
+            "role": "author name h5",
+            "passesAA": true
+          },
+          {
+            "fg": "#383a42",
+            "bg": "#f4f4f4",
+            "ratio": 10.31,
+            "role": "12px disclaimer",
+            "passesAA": true
+          },
+          {
+            "fg": "#5c068c",
+            "bg": "#ffffff",
+            "ratio": 11.29,
+            "role": "inline body link",
+            "passesAA": true
+          },
+          {
+            "fg": "#008578",
+            "bg": "#47d7ac",
+            "ratio": 2.5,
+            "role": "button fill against mint band (non-text; label itself passes)",
+            "passesAA": null
+          }
+        ],
+        "notMeasured": "Hover/focus state colors not sampled. The grey 'Market Insights' column in news-and-insights.png appears to be a captured hover state; if it is #6a737b on #f4f4f4 it would compute 4.39:1, but that pairing was not observed in the live DOM."
+      }
+    },
+    "altCoverage": {
+      "value": 0.22,
+      "unit": "share-of-images-with-meaningful-alt",
+      "status": "measured",
+      "method": "pages-json-aggregation",
+      "detail": {
+        "images": 150,
+        "noAltAttribute": 67,
+        "emptyAlt": 50,
+        "genericAlt": 0,
+        "withAlt": 33,
+        "visibleContentImages": 109,
+        "visibleContentEmpty": 92,
+        "positive": "The CRE chart image carries a full descriptive alt."
+      }
+    },
+    "landmarks": {
+      "status": "measured",
+      "method": "pages-json + live DOM",
+      "detail": {
+        "pagesWithMain": 0,
+        "pages": 8,
+        "banner": "header on 8/8",
+        "navigation": "2 nav on 8/8 (primary + breadcrumb aria-label)",
+        "contentinfo": "div role on 8/8",
+        "skipLink": false,
+        "h1PerPage": "exactly 1 on 8/8",
+        "contentFreeLinkLabels": 0
+      }
+    },
+    "headingOrder": {
+      "status": "measured",
+      "method": "pages-json#headings",
+      "detail": {
+        "pagesWithSkips": 4,
+        "skips": {
+          "news-and-insights-blog-2026-10-cre-market-valuations": "h1->h4",
+          "news-and-insights-market-insights": "h1->h4, h2->h4 x4",
+          "news-and-insights-market-insights-2026-10-cio-letter": "h2->h5",
+          "news-and-insights-press-releases-2026-08-cre-team": "h2->h5"
+        }
+      }
+    },
+    "mobileUi": {
+      "status": "measured",
+      "method": "playwright-live 375x667, gate accepted",
+      "detail": {
+        "visibleInteractive": 18,
+        "under44px": 8,
+        "examples": {
+          "hamburger": "26x28, no accessible name, no aria-expanded",
+          "breadcrumb Home": "31x10 (10px text)",
+          "LinkedIn": "24x16",
+          "footer links": "18px tall"
+        },
+        "horizontalOverflow": false,
+        "documentHeight": 5431,
+        "firstViewport": "logo, h1 'News and Insights', lede, h2 'Blog'; no content item, no CTA"
+      }
+    },
+    "motion": {
+      "status": "measured",
+      "method": "playwright-live computed styles",
+      "detail": {
+        "cssAnimations": 0,
+        "elementsWithTransitions": 50,
+        "reducedMotionRules": 0
+      }
+    },
+    "disclosureGate": {
+      "status": "measured",
+      "method": "playwright-live",
+      "detail": {
+        "role": "dialog",
+        "ariaModal": true,
+        "focusTrapped": true,
+        "ariaLabelledby": null,
+        "escapeDismisses": false,
+        "words": 157,
+        "note": "Gate is keyboard-accessible; Escape not dismissing is consistent with a compliance gate."
+      }
+    },
+    "cwv": {
+      "status": "measured",
+      "method": "playwright-lab",
+      "detail": {
+        "mobile": {
+          "lcp": {
+            "value": 0.62,
+            "unit": "s",
+            "class": "good"
+          },
+          "cls": {
+            "value": 0.085,
+            "unit": "score",
+            "class": "good"
+          },
+          "tbt": {
+            "value": 96,
+            "unit": "ms",
+            "class": "good"
+          }
+        },
+        "desktop": {
+          "lcp": {
+            "value": 0.34,
+            "unit": "s",
+            "class": "good"
+          },
+          "cls": {
+            "value": 0.196,
+            "unit": "score",
+            "class": "needs-improvement"
+          },
+          "tbt": {
+            "value": 60,
+            "unit": "ms",
+            "class": "good"
+          }
+        },
+        "page": "https://www.ppmamerica.com/news-and-insights (hub); cross-check blog/2026/10/cre-market-valuations mobile LCP 0.54s / CLS 0.061 / TBT 80ms, desktop LCP 0.30s / CLS 0.186 / TBT 0ms",
+        "runs": {
+          "mobile": "2 cold runs (cache cleared, CPU 4x throttle, 375x667): LCP 0.62/0.50s, CLS 0.000/0.085, TBT 96/94ms; worst value per metric reported",
+          "desktop": "CLS from 3 cold runs 0.369/0.196/0.181 (median reported); LCP 0.34s, TBT 60ms from cold run"
+        },
+        "lcpElement": "the Disclosure Agreement paragraph ('This material has been created for and is for use only by in...') - first-visit LCP is the compliance gate, not page content; content LCP after Accept not measured",
+        "note": "Lab TBT is a proxy for INP; field data unavailable (PageSpeed Insights API returned HTTP 429 quota exhausted for keyless use). No network throttling was applied (datacenter link), so LCP is optimistic versus real mobile networks. Third parties observed: assets.adobedtm.com (render-blocking Launch script), hello.myfonts.net, smetrics.jackson.com, rum.hlx.page."
+      }
+    },
+    "redirectChain": {
+      "value": 2,
+      "unit": "hops",
+      "status": "measured",
+      "method": "curl -I",
+      "detail": {
+        "chain": [
+          "http://ppmamerica.com/news-and-insights 301",
+          "https://ppmamerica.com/news-and-insights 301",
+          "https://www.ppmamerica.com/news-and-insights 200"
+        ]
+      }
+    },
+    "robotsTxt": {
+      "value": "present",
+      "unit": "status",
+      "status": "measured",
+      "method": "playwright navigation",
+      "detail": {
+        "http": 200,
+        "body": "User-agent: * / Disallow:",
+        "sitemapDirective": false
+      }
+    },
+    "sitemapValid": {
+      "value": false,
+      "unit": "boolean",
+      "status": "measured",
+      "method": "playwright navigation + extract crawl log",
+      "detail": {
+        "/sitemap.xml": 500,
+        "/sitemap_index.xml": 404
+      }
+    },
+    "canonical": {
+      "value": 8,
+      "unit": "pages-with-self-canonical",
+      "status": "measured",
+      "method": "rendered html + live DOM",
+      "detail": {
+        "note": "8/8 self-referential; href is root-relative in source (e.g. '/news-and-insights'), absolute URLs preferred."
+      }
+    },
+    "metaRobots": {
+      "value": "index",
+      "unit": "directive",
+      "status": "measured",
+      "method": "rendered html",
+      "detail": {
+        "noindexPages": 0
+      }
+    },
+    "titleQuality": {
+      "status": "measured",
+      "method": "pages-json#title + metaDescription",
+      "detail": {
+        "titles": {
+          "news-and-insights": "News and Insights | PPM America (31)",
+          "news-and-insights-blog": "Blog | PPM America (18)",
+          "news-and-insights-market-insights": "Market Insights | PPM America (29)",
+          "news-and-insights-press-releases": "Press Releases | PPM America (28)",
+          "news-and-insights-market-insights-2026-10-cio-letter": "CIO Letter (10)",
+          "news-and-insights-market-insights-2026-10-clo-equity-outlook": "CLO Equity Outlook (18)",
+          "news-and-insights-blog-2026-10-cre-market-valuations": "CRE Market Valuations (21)",
+          "news-and-insights-press-releases-2026-08-cre-team": "CRE Team (8)"
+        },
+        "duplicateTitles": 0,
+        "missingTitles": 0,
+        "descriptionLengths": {
+          "news-and-insights": 121,
+          "news-and-insights-blog": 202,
+          "news-and-insights-market-insights": 122,
+          "news-and-insights-press-releases": 102,
+          "news-and-insights-market-insights-2026-10-cio-letter": 323,
+          "news-and-insights-market-insights-2026-10-clo-equity-outlook": 268,
+          "news-and-insights-blog-2026-10-cre-market-valuations": 353,
+          "news-and-insights-press-releases-2026-08-cre-team": 436
+        }
+      }
+    },
+    "ogCompleteness": {
+      "value": 0,
+      "unit": "share-of-pages-with-og",
+      "status": "measured",
+      "method": "pages-json#og + live DOM",
+      "detail": {
+        "ogTags": 0,
+        "twitterTags": 0,
+        "pages": 8
+      }
+    },
+    "jsonldTypes": {
+      "value": [],
+      "unit": "schema-types",
+      "status": "measured",
+      "method": "rendered html + live DOM",
+      "detail": {
+        "blocks": 0,
+        "pages": 8,
+        "timeElements": 0,
+        "metaAuthor": null
+      }
+    },
+    "llmsTxt": {
+      "value": false,
+      "unit": "boolean",
+      "status": "measured",
+      "method": "playwright navigation",
+      "detail": {
+        "/llms.txt": 404
+      }
+    },
+    "aiReadability": {
+      "value": 100,
+      "unit": "strict-score-min-across-pages",
+      "status": "measured",
+      "method": "ai-readability formula (deploy/scripts/ai-readability.mjs analyse(), strict scenario) reproduced in the session browser",
+      "detail": {
+        "perPage": {
+          "news-and-insights": "100 (524/524)",
+          "news-and-insights-blog": "100 (957/957)",
+          "news-and-insights-market-insights": "100 (485/485)",
+          "news-and-insights-press-releases": "100 (424/424)",
+          "news-and-insights-market-insights-2026-10-cio-letter": "100 (316/316)",
+          "news-and-insights-market-insights-2026-10-clo-equity-outlook": "100 (307/307)",
+          "news-and-insights-blog-2026-10-cre-market-valuations": "100 (782/782)",
+          "news-and-insights-press-releases-2026-08-cre-team": "100 (764/764)"
+        },
+        "landmarksCountedMin": 100,
+        "topBlocksAddingRenderedOnlyWords": "none - JavaScript adds 0 words on every page (AEM server-rendered)",
+        "deviation": "The script itself could not run (the playwright npm package is not resolvable in this environment). The served side was fetched with a Chrome UA and JavaScript disabled because the ChatGPT-User UA timed out (see botAccess); the checker itself falls back to a normal UA when the agent fetch fails."
+      }
+    },
+    "botAccess": {
+      "status": "measured",
+      "method": "playwright contexts, same host, /news-and-insights/blog",
+      "detail": {
+        "chromeUaNoJs": "200 in about 300ms (2 runs)",
+        "chatgptUserUa": "timeout 25s",
+        "gptbotUa": "timeout 25s",
+        "googlebotUa": "timeout 25s",
+        "plainCurl": "hangs for every UA",
+        "caveat": "Spoofed bot UAs from a non-verified IP are commonly challenged by Akamai; behaviour for verified crawler IPs not testable from here."
+      }
+    },
+    "extractableProseWords": {
+      "status": "measured",
+      "method": "served html, landmarks stripped, <p> blocks of 12+ words",
+      "detail": {
+        "news-and-insights": 284,
+        "news-and-insights-blog": 630,
+        "news-and-insights-market-insights": 174,
+        "news-and-insights-press-releases": 172,
+        "news-and-insights-market-insights-2026-10-cio-letter": 284,
+        "news-and-insights-market-insights-2026-10-clo-equity-outlook": 283,
+        "news-and-insights-blog-2026-10-cre-market-valuations": 612,
+        "news-and-insights-press-releases-2026-08-cre-team": 734,
+        "note": "Counts include the 157-word Disclosure Agreement text present in the served HTML of every page; on the market-insights and press-releases listings the first extractable prose block is that disclaimer."
+      }
+    },
+    "headingQuestionCoverage": {
+      "value": 0.0,
+      "unit": "share-of-h2-h3-phrased-as-questions-or-topics",
+      "status": "estimated",
+      "method": "manual classification of served h2/h3 text",
+      "detail": {
+        "basis": "Hub h2/h3 (18): 6 are date/type eyebrows ('Insights | October 27, 2026'), 3 are stream names, 6 are article titles (topics), 0 are phrased as questions. Detail pages: cio-letter h2s are 'October 27, 2026' and 'CIO Perspective'; clo-equity-outlook's only h2 is 'October 27, 2026'. Article-title headings scan as topics; in-article topic headings are absent on 3 of 4 detail pages.",
+        "topicalHeadingsOnHub": "6/18"
+      }
+    },
+    "impeccableCritique": {
+      "value": 15,
+      "unit": "nielsen-heuristics-points (max 36, heuristic 9 n/a)",
+      "status": "measured",
+      "method": "impeccable critique, dual-agent (A design review, B detector + browser)",
+      "detail": {
+        "band": "Poor (42%)",
+        "cognitiveLoadFailures": "6/8",
+        "detectorCli": "1 finding (marketing-buzzword, false positive) across 8 snapshots; CSS-dependent rules could not fire offline",
+        "detectorBrowser": {
+          "hub": 6,
+          "press-releases": 21,
+          "cre-market-valuations": 14,
+          "rules": [
+            "heading-rhythm",
+            "line-length",
+            "body-text-viewport-edge",
+            "skipped-heading",
+            "undersized-ui-text",
+            "first-viewport-column-overflow"
+          ],
+          "falsePositives": [
+            "gradient-text",
+            "marquee"
+          ]
+        }
+      }
+    }
+  },
+  "findings": [
+    {
+      "id": "F-001",
+      "severity": "P1",
+      "dimension": "conversion-focus",
+      "title": "Research dead-ends: no next step on 7 of 8 audited pages",
+      "evidence": {
+        "type": "screenshot",
+        "ref": "assets/screenshots/news-and-insights.png, Our Advantage band (bottom); assets/screenshots/news-and-insights-blog-2026-10-cre-market-valuations.png, end of article",
+        "observed": "The only button on the hub is 'OUR STORY' in the bottom mint band, which leaves the research hub. The 3 stream listings, the blog article and the press release carry no button at all (5 pages), and the blog article ends on disclaimer small print. The two market-insight pages offer only 'DOWNLOAD THE FULL PDF'. No subscribe, no 'contact the team' and no related-insights module appear on any of the 8 pages (measurements.ctaInventory)."
+      },
+      "businessImpact": "Institutional readers who finish a CIO letter or an outlook have no path to the strategy team, a subscription or a conversation, so research attention does not become a mandate conversation.",
+      "fix": "Add an end-of-article module to every detail template: 2-3 related insights in the same asset class, a link to the matching Investment Solutions strategy page, 'Contact the <strategy> team' and 'Subscribe to the CIO Letter'. On the hub, put one subscribe/contact ask in the first viewport.",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-002",
+      "severity": "P1",
+      "dimension": "content-llm-visibility",
+      "title": "Featured cards on the hub show the wrong or duplicate excerpts",
+      "evidence": {
+        "type": "tension",
+        "ref": "T-card-excerpt-mismatch",
+        "observed": "news-and-insights.png, Featured row 1: the 'CLO EQUITY OUTLOOK' card carries the Emerging Markets Debt excerpt ('Emerging markets debt has remained resilient...'). The 'EMERGING MARKETS DEBT OUTLOOK' card (row 1, right) and the 'HIGH YIELD OUTLOOK' card (row 2, left) share the same excerpt word for word ('Rising yields and risk-off sentiment created opportunities to selectively add high yield exposure...')."
+      },
+      "businessImpact": "A regulated asset manager's front shelf misdescribes two of its own products. Due-diligence readers see a controls lapse, and answer engines extract the wrong summary for the CLO outlook.",
+      "fix": "Bind each card's excerpt to its article (the article's meta description or lede) instead of a free-text card field. Add an authoring check that rejects identical excerpts in one card set.",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-003",
+      "severity": "P1",
+      "dimension": "accessibility",
+      "title": "78% of images carry no usable alt text; 67 have no alt attribute at all",
+      "evidence": {
+        "type": "check",
+        "ref": "check:img-alt",
+        "observed": "117/150 images across the 8 pages have empty or missing alt: 67 with no alt attribute and 50 with alt=\"\". This includes 92 of 109 visible content images: card thumbnails, banners, author headshots and the CTA photo (measurements.altCoverage, T-img-alt-empty)."
+      },
+      "businessImpact": "Screen-reader users get no description of the author headshots and article imagery. Images with no alt attribute are announced by file name, e.g. '2026-10-27_QI_CLO_620x275.jpg'.",
+      "fix": "Give author headshots alt text naming the person (e.g. 'Ogechi Nwachukwu, Chief Investment Officer'). Give informative thumbnails a short description. Set alt=\"\" explicitly on decorative ones, such as the press-release chevron tiles and the stock banners. Never omit the attribute.",
+      "guides": [
+        "mwg:accessibility",
+        "mwg:html"
+      ],
+      "ledgerId": null
+    },
+    {
+      "id": "F-004",
+      "severity": "P1",
+      "dimension": "accessibility",
+      "title": "The mobile menu button has no accessible name",
+      "evidence": {
+        "type": "check",
+        "ref": "measurements.mobileUi",
+        "observed": "At 375x667 the hamburger button (26x28px) has no text, no aria-label and no aria-expanded state (live hub, gate accepted)."
+      },
+      "businessImpact": "Screen-reader users on phones hear only 'button' with no label. The whole site navigation sits behind that one control, so they cannot tell it opens the menu.",
+      "fix": "Add aria-label=\"Menu\" plus aria-expanded/aria-controls tied to the off-canvas nav, and enlarge the hit area to at least 44x44px.",
+      "guides": [
+        "mwg:accessibility",
+        "mwg:navigation-drawer"
+      ],
+      "ledgerId": null
+    },
+    {
+      "id": "F-005",
+      "severity": "P1",
+      "dimension": "technical-seo",
+      "title": "The XML sitemap returns HTTP 500 and robots.txt declares none",
+      "evidence": {
+        "type": "check",
+        "ref": "check:sitemap",
+        "observed": "/sitemap.xml returned HTTP 500 during extract and again during this audit. /sitemap_index.xml returned 404. robots.txt is 'User-agent: * / Disallow:' with no Sitemap directive (measurements.sitemapValid)."
+      },
+      "businessImpact": "Search engines can find new CIO letters, outlooks and press releases only by following links. The Market Insights listing alone holds 39 cards, so new research is indexed late or missed.",
+      "fix": "Fix the AEM sitemap servlet so /sitemap.xml returns valid XML covering /news-and-insights/**, add 'Sitemap: https://www.ppmamerica.com/sitemap.xml' to robots.txt, and submit it in Search Console.",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-006",
+      "severity": "P2",
+      "dimension": "accessibility",
+      "title": "No <main> landmark and no skip link on any page",
+      "evidence": {
+        "type": "check",
+        "ref": "check:landmark-main",
+        "observed": "0 of 8 pages expose <main> or role=main (pages/*.json#landmarks; live DOM check). The footer is a <div role=contentinfo>, not a <footer> element. The first tab stop is the logo link and there is no skip link (measurements.landmarks)."
+      },
+      "businessImpact": "Keyboard and screen-reader users must pass the header and nav on every page before reaching the content, and landmark navigation has no content region to jump to.",
+      "fix": "Wrap the page body in <main id=\"main\"> and add a 'Skip to content' link as the first focusable element.",
+      "guides": [
+        "mwg:accessibility",
+        "mwg:html"
+      ],
+      "ledgerId": null
+    },
+    {
+      "id": "F-007",
+      "severity": "P2",
+      "dimension": "accessibility",
+      "title": "Heading levels skip on 4 of 8 pages, and card dates are marked up as headings",
+      "evidence": {
+        "type": "check",
+        "ref": "measurements.headingOrder",
+        "observed": "h1 jumps to h4 on blog/2026/10/cre-market-valuations and the market-insights listing. h2 jumps to h5 on the cio-letter and cre-team pages. On the hub, an h3 'Featured News and Insights' sits over 12 h2s, and half of those are eyebrows such as 'Insights | October 27, 2026'."
+      },
+      "businessImpact": "The heading outline that assistive tech and answer engines rely on is mostly dates. Topic structure cannot be recovered from it.",
+      "fix": "Make section titles h2 and card titles h3, and render category/date eyebrows as plain text (<p> or <time>). Never skip levels.",
+      "guides": [
+        "mwg:accessibility"
+      ],
+      "ledgerId": null
+    },
+    {
+      "id": "F-008",
+      "severity": "P2",
+      "dimension": "content-llm-visibility",
+      "title": "No structured data on any audited page",
+      "evidence": {
+        "type": "check",
+        "ref": "check:jsonld",
+        "observed": "0 application/ld+json blocks on all 8 pages, in both the server HTML and the live DOM (measurements.jsonldTypes). There are no <time> elements and no meta author."
+      },
+      "businessImpact": "Answer engines and Google cannot attach articles to PPM America as Organization, to named authors as Person or to publish dates, so citations and rich results go to aggregators instead.",
+      "fix": "Emit Organization JSON-LD site-wide. Emit Article or NewsArticle JSON-LD (headline, datePublished, author as Person with jobTitle, publisher) on blog, market-insight and press-release details. Emit CollectionPage/ItemList on the listings. Wrap dates in <time datetime>.",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-009",
+      "severity": "P2",
+      "dimension": "content-llm-visibility",
+      "title": "Flagship research is locked in PDFs; the HTML pages are teasers",
+      "evidence": {
+        "type": "measurement",
+        "ref": "measurements.extractableProseWords",
+        "observed": "The cio-letter page carries 284 extractable prose words and clo-equity-outlook 283, and the substance sits behind 'DOWNLOAD THE FULL PDF' (e.g. /content/dam/ppm/en/pdfs/our-insights/2026/2026-10-27_PPM_Quarterly_CIO-Letter.pdf). The CLO outlook's only heading is 'October 27, 2026'. By contrast, the blog article carries 612 prose words with a Key Takeaway first."
+      },
+      "businessImpact": "The CIO's house view, the firm's most citable asset, is a short HTML teaser. Answer engines and search snippets cite the few hundred teaser words instead of the full analysis in the PDF.",
+      "fix": "Publish each CIO letter and outlook in HTML: a Key Takeaway line, 3-5 topic headings and the key numbers as text. Keep the PDF as a secondary download.",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-010",
+      "severity": "P2",
+      "dimension": "content-llm-visibility",
+      "title": "AI-agent user agents time out at the edge from the lab while a browser UA succeeds",
+      "evidence": {
+        "type": "check",
+        "ref": "measurements.botAccess",
+        "observed": "From the audit host, /news-and-insights/blog returned 200 in about 300 ms to a Chrome UA but timed out after 25 s for the ChatGPT-User, GPTBot and Googlebot UA strings (same IP, same browser). Plain curl hangs for every UA. Real crawlers on verified IP ranges were not tested and may be allowed."
+      },
+      "businessImpact": "If Akamai Bot Manager also denies verified AI search and user agents, ChatGPT, Perplexity and similar answer engines cannot fetch PPM research to cite it.",
+      "fix": "Review the Akamai Bot Manager policy for verified AI agents (OAI-SearchBot, ChatGPT-User, PerplexityBot, Claude-User, Google-Extended). Allow the /news-and-insights/** paths, then verify with the providers' own fetch tools.",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-011",
+      "severity": "P2",
+      "dimension": "technical-seo",
+      "title": "No Open Graph or Twitter card tags on any page",
+      "evidence": {
+        "type": "check",
+        "ref": "measurements.ogCompleteness",
+        "observed": "0 og:* and 0 twitter:* meta tags on all 8 pages (pages/*.json#og all null; live DOM check)."
+      },
+      "businessImpact": "The research is shared on LinkedIn, the site's only social link. Without these tags shares render with scraped or blank titles and no image.",
+      "fix": "Emit og:title, og:description, og:image (the card thumbnail), og:type=article, og:url and twitter:card=summary_large_image from the page properties.",
+      "guides": [
+        "mwg:html"
+      ],
+      "ledgerId": null
+    },
+    {
+      "id": "F-012",
+      "severity": "P2",
+      "dimension": "technical-seo",
+      "title": "Detail-page titles are bare slugs and meta descriptions run long",
+      "evidence": {
+        "type": "measurement",
+        "ref": "measurements.titleQuality",
+        "observed": "The 4 detail-page titles are 'CIO Letter' (10 chars), 'CRE Team' (8), 'CRE Market Valuations' (21) and 'CLO Equity Outlook' (18). None carries the brand or matches the h1 (e.g. h1 'PPM America Bolsters Commercial Real Estate Team'). Their meta descriptions are 323, 436, 353 and 268 chars. The listing titles ('Blog | PPM America') are fine."
+      },
+      "businessImpact": "The SERP shows 'CRE Team' instead of the headline. Descriptions are truncated at about 155 chars mid-sentence, and every CIO letter will share the same 'CIO Letter' title.",
+      "fix": "Set each title to '<h1 headline> | PPM America' (60 chars or less) and trim descriptions to 150-160 chars that state the takeaway.",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-013",
+      "severity": "P2",
+      "dimension": "performance",
+      "title": "Desktop layout shift in the title band: CLS 0.196 median on the hub",
+      "evidence": {
+        "type": "measurement",
+        "ref": "measurements.cwv",
+        "observed": "Cold desktop (1440x900) hub runs measured CLS 0.369, 0.196 and 0.181 (median 0.196, needs-improvement); the blog article measured 0.186. Shift sources are the title-band grid growing from 58px to 275px as the 620x275 banner loads, and a card image. 5 of 15 hub images and 6 of 9 article images lack width/height attributes."
+      },
+      "businessImpact": "Content jumps under the reader's cursor on first visit, on the surface the firm's institutional audience mostly reads at a desk.",
+      "fix": "Add width/height (or aspect-ratio) to the banner and card images, and reserve the title-band media box in CSS.",
+      "guides": [
+        "mwg:performance",
+        "mwg:optimize-image-priority"
+      ],
+      "ledgerId": null
+    },
+    {
+      "id": "F-014",
+      "severity": "P2",
+      "dimension": "visual-hierarchy-craft",
+      "title": "The hub is a category-interchangeable equal-weight grid that buries the CIO view",
+      "evidence": {
+        "type": "screenshot",
+        "ref": "assets/screenshots/news-and-insights.png, hero + Featured grid",
+        "observed": "A stock meeting photo fills the hero (right). The Featured section is a 3x2 grid of identical cards, so the CIO Letter gets the same one-sixth weight as a press release. The 'Our Advantage' band pairs a stock photo with 6 unproven bullets. In the impeccable critique, Assessment A judged the hub 'category-interchangeable' and scored its heuristics 15/36."
+      },
+      "businessImpact": "Nothing on the hub tells a consultant what PPM believes this quarter. The firm's differentiator, its named investment voices, reads as filler.",
+      "fix": "Lead the hub with the latest CIO letter as one large feature: portrait, thesis line in the Key Takeaway treatment, author. Give the remaining cards their one-sentence takeaway. Replace the Advantage bullets with evidence such as AUM and the 1990 founding date (already stated in the press boilerplate).",
+      "guides": [
+        "mwg:card"
+      ],
+      "ledgerId": null
+    },
+    {
+      "id": "F-015",
+      "severity": "P2",
+      "dimension": "visual-hierarchy-craft",
+      "title": "Listings are unpaginated, unfiltered walls of cards; press releases use placeholder tiles",
+      "evidence": {
+        "type": "screenshot",
+        "ref": "assets/screenshots/news-and-insights-press-releases.png, full grid",
+        "observed": "The press-releases listing shows 23 tiles. Each image is one of 4 rotating flat chevron placeholders (News_620x275_light-green/blue/teal/black.jpg) and no tile has an excerpt. The market-insights listing has 39 cards and 47 images. None of the 3 listings has a filter, sort or pagination. Search is hidden behind a header icon."
+      },
+      "businessImpact": "Due-diligence readers look for research by asset class and date. A full-archive scroll with no filters, and placeholder art that repeats every 4 tiles, makes the archive look unmaintained.",
+      "fix": "Add asset-class and type filters (reuse the 5 Investment Solutions strategies) and group by year. Render press releases as a dated text list with one-line summaries instead of placeholder tiles. Show the search field on the hub.",
+      "guides": [
+        "mwg:card",
+        "mwg:css-layout"
+      ],
+      "ledgerId": null
+    },
+    {
+      "id": "F-016",
+      "severity": "P3",
+      "dimension": "brand-expression",
+      "title": "Mint carries the brand's paint; the primary teal is reserved for one button",
+      "evidence": {
+        "type": "tension",
+        "ref": "T-color-imbalance",
+        "observed": "Hub pixel sample: #47d7ac mint accounts for 5,611 of 6,664 brand-hue samples (84%), yet it is used as background only. #008578 teal accounts for 156 samples, all from the single OUR STORY button. #5c068c purple appears once, as text only (measurements.brandColorShare)."
+      },
+      "businessImpact": "The brand reads as 'mint band plus grey' rather than a deliberate system. The interactive color never accumulates recognition.",
+      "fix": "Decide the roles: mint as the takeaway/highlight surface, teal as the single action color used for every primary ask, purple dropped or given a defined role.",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-017",
+      "severity": "P3",
+      "dimension": "brand-expression",
+      "title": "No token layer and a single raster logo",
+      "evidence": {
+        "type": "tension",
+        "ref": "T-no-tokens",
+        "observed": "0 CSS custom properties on :root on all 8 pages (T-no-tokens). The only logo is a 1108x167 PNG rendered at 263x40, with no SVG, monochrome or inverted variant (T-logo-variants)."
+      },
+      "businessImpact": "Every color and size is hard-coded, so brand consistency depends on page authors. The raster logo softens on high-DPI screens and cannot invert on the teal bands.",
+      "fix": "Introduce a token layer (color roles, type scale, spacing) and an SVG logo set (full color, mono, reversed).",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-018",
+      "severity": "P3",
+      "dimension": "visual-hierarchy-craft",
+      "title": "Ad-hoc type scale and over-long text lines",
+      "evidence": {
+        "type": "measurement",
+        "ref": "measurements.typeScale",
+        "observed": "Heading sizes are 48, 32, 24 and 20px, with ratios 1.5 / 1.333 / 1.2 (T-scale). The impeccable detector flagged line-length: the hub intro runs about 157 characters per line, blog body paragraphs about 97-101 and disclaimers about 235. It also flagged body text 15px from the viewport edge."
+      },
+      "businessImpact": "Long measures slow reading of dense credit commentary, and the inconsistent ratio flattens hierarchy between card titles and section titles.",
+      "fix": "Adopt one modular ratio (e.g. 1.25) across h1-h5, cap prose at 65-75 characters per line, and widen the page gutter.",
+      "guides": [
+        "mwg:css-layout"
+      ],
+      "ledgerId": null
+    },
+    {
+      "id": "F-019",
+      "severity": "P3",
+      "dimension": "technical-seo",
+      "title": "The http entry takes a 2-hop redirect chain",
+      "evidence": {
+        "type": "check",
+        "ref": "measurements.redirectChain",
+        "observed": "http://ppmamerica.com/news-and-insights -> 301 https://ppmamerica.com/news-and-insights -> 301 https://www.ppmamerica.com/news-and-insights."
+      },
+      "businessImpact": "Each extra hop adds latency on first visit and dilutes link signals slightly.",
+      "fix": "Redirect http://ppmamerica.com/* straight to https://www.ppmamerica.com/* in one 301.",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-020",
+      "severity": "P3",
+      "dimension": "content-llm-visibility",
+      "title": "No llms.txt",
+      "evidence": {
+        "type": "check",
+        "ref": "measurements.llmsTxt",
+        "observed": "/llms.txt returns 404 (the site's HTML not-found page)."
+      },
+      "businessImpact": "Answer engines that read llms.txt get no curated map of the research streams and authors.",
+      "fix": "Publish /llms.txt listing the three streams (Blog, Market Insights, Press Releases), the investment strategies and canonical author pages, each with a one-line description.",
+      "guides": [],
+      "ledgerId": null
+    },
+    {
+      "id": "F-021",
+      "severity": "P3",
+      "dimension": "accessibility",
+      "title": "Small tap targets on mobile",
+      "evidence": {
+        "type": "check",
+        "ref": "measurements.mobileUi",
+        "observed": "At 375x667, 8 of 18 visible interactive elements are under 44px. Examples: the 'Home' breadcrumb at 31x10 (10px text), the LinkedIn link at 24x16 and footer links 18px tall."
+      },
+      "businessImpact": "Mis-taps on phones, and the 10px breadcrumb is hard to read.",
+      "fix": "Raise tap targets to at least 44x44px (padding, not font size) and set breadcrumb text to at least 13px.",
+      "guides": [
+        "mwg:form-factor-adaptation"
+      ],
+      "ledgerId": null
+    },
+    {
+      "id": "F-022",
+      "severity": "P3",
+      "dimension": "accessibility",
+      "title": "Nav transitions ignore prefers-reduced-motion",
+      "evidence": {
+        "type": "check",
+        "ref": "measurements.motion",
+        "observed": "50 elements carry transitions, e.g. nav height 0.35s and the secondary nav 'all 1s'. 0 prefers-reduced-motion rules appear in any readable stylesheet."
+      },
+      "businessImpact": "Users who ask the OS for reduced motion still get the animated mega-menu expansion.",
+      "fix": "Wrap the non-essential transitions in @media (prefers-reduced-motion: no-preference), or shorten them to instant state changes under reduce.",
+      "guides": [
+        "mwg:motion"
+      ],
+      "ledgerId": null
+    },
+    {
+      "id": "F-023",
+      "severity": "P3",
+      "dimension": "accessibility",
+      "title": "Whole-card links announce the full excerpt as the link name",
+      "evidence": {
+        "type": "check",
+        "ref": "measurements.landmarks",
+        "observed": "Each hub card is one <a> wrapping eyebrow, title and excerpt. The CIO card's link name runs to the full excerpt, and the hub category links read 'BLOG We dig deep every day inspiring each other...' (pages/news-and-insights.json#links)."
+      },
+      "businessImpact": "Screen-reader link lists become paragraph-length and hard to scan.",
+      "fix": "Make the title the link (with a stretched ::after hit area) and leave eyebrow and excerpt outside the accessible name.",
+      "guides": [
+        "mwg:card",
+        "mwg:accessibility"
+      ],
+      "ledgerId": null
+    }
+  ],
+  "benchmarks": {
+    "status": "skipped",
+    "reason": "refero MCP unreachable (no mcp__refero__* tools exposed in this session)",
+    "references": []
+  },
+  "upliftDirections": [
+    {
+      "id": "A",
+      "pitch": "Tomorrow's version of the site you have today.",
+      "summary": "Same IA and the same teal/mint/Century-serif surface, with the P1/P2 defects fixed. Every detail page gets an end-of-article next-step module (related insights, strategy team, subscribe). Hub excerpts are bound to their articles. Alt text, <main>, a skip link and a named mobile menu are added. Section/card headings are re-levelled, a modular type scale and a 65-75ch measure are adopted, and listings get filters with a dated text list for press releases.",
+      "addressesFindings": [
+        "F-001",
+        "F-002",
+        "F-003",
+        "F-004",
+        "F-006",
+        "F-007",
+        "F-015",
+        "F-018",
+        "F-021",
+        "F-023"
+      ]
+    },
+    {
+      "id": "B",
+      "pitch": "What if we amplified the Key Takeaway?",
+      "summary": "The mint Key Takeaway band with its one-line serif thesis appears only on the blog article (news-and-insights-blog-2026-10-cre-market-valuations.png). Here it becomes the compositional spine. The hub leads with the latest CIO letter's thesis and portrait instead of the stock meeting photo. Every card leads with its one-sentence house view and named author. Mint becomes the deliberate 'house view' signal and teal the single action color. CIO letters and outlooks publish their key points in HTML above the PDF.",
+      "addressesFindings": [
+        "F-014",
+        "F-016",
+        "F-009",
+        "F-002"
+      ]
+    },
+    {
+      "id": "C",
+      "pitch": "What if motion was part of the identity?",
+      "register": "editorial",
+      "summary": "Same IA as A. The editorial register suits a measured, professional-formal publication brand (PRODUCT.md observed personality, 'no playful motion' anti-reference). Motion is limited to slow reading-paced reveals of the takeaway line, chart lines drawing in on scroll for the data exhibits, and calm cross-fades between listing filters. Kinetic entrances are refused, and every move honours prefers-reduced-motion.",
+      "addressesFindings": [
+        "F-022"
+      ]
+    }
+  ],
+  "degradations": [
+    {
+      "capability": "impeccable",
+      "status": "available",
+      "effect": "critique ran dual-agent (Assessment A design review, Assessment B detector + browser overlay). The snapshot write to .impeccable/critique/ was skipped because this run may only write under stardust/. The critique's 'ask the user' step was skipped because the run is non-interactive. The version check reported unknown."
+    },
+    {
+      "capability": "refero-mcp",
+      "status": "absent",
+      "effect": "Phase 5 benchmarking skipped"
+    },
+    {
+      "capability": "marketing-skills",
+      "status": "absent",
+      "effect": "SEO and LLM-visibility checks run directly (curl/Playwright)"
+    },
+    {
+      "capability": "modern-web-guidance",
+      "status": "available",
+      "effect": "guide ids cited in findings[].guides; no SEO-specific guides were returned for sitemap/OG/JSON-LD/titles, so those carry guides: []"
+    },
+    {
+      "capability": "pagespeed-insights",
+      "status": "unreachable",
+      "effect": "keyless API returned HTTP 429 (daily quota exhausted); Playwright-only lab metrics; lab TBT proxies INP"
+    },
+    {
+      "capability": "rollout-ledger",
+      "status": "absent",
+      "effect": "no findings.mjs recording; ledgerId null on every finding"
+    },
+    {
+      "capability": "ai-readability-script",
+      "status": "degraded",
+      "effect": "deploy/scripts/ai-readability.mjs could not launch because the playwright npm package is not resolvable here. Its strict formula was reproduced in the session browser. The served side was fetched with a Chrome UA because the ChatGPT-User UA timed out at the edge."
+    },
+    {
+      "capability": "origin-curl",
+      "status": "degraded",
+      "effect": "plain curl to www.ppmamerica.com hangs (Akamai), so live checks used Playwright navigation. curl was used only for the apex redirect chain."
+    }
+  ]
+}

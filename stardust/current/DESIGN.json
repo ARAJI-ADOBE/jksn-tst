@@ -1,0 +1,929 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-18T08:37:53.369Z",
+    "readArtifacts": [
+      "stardust/current/_brand-extraction.json",
+      "stardust/current/_computed-styles.json"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.37.2",
+    "mode": "descriptive (current state)"
+  },
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-18T08:37:53.369Z",
+  "title": "Design System: PPM America — News and Insights (current state)",
+  "tokens": {
+    "colors": {
+      "paper": "#ffffff",
+      "mist": "#f4f4f4",
+      "ink": "#25282a",
+      "slate": "#6a737b",
+      "teal": "#008578",
+      "deep-teal": "#004f59",
+      "mint": "#47d7ac",
+      "plum": "#5c068c"
+    },
+    "typography": {
+      "display": {
+        "fontFamily": "CenturyStd-Book, Georgia, serif",
+        "fontSize": "48px",
+        "fontWeight": 500,
+        "lineHeight": "57.6px",
+        "letterSpacing": "normal"
+      },
+      "display-sm": {
+        "fontFamily": "CenturyStd-Book, Georgia, serif",
+        "fontSize": "32px",
+        "fontWeight": 500,
+        "lineHeight": "38.4px",
+        "letterSpacing": "normal"
+      },
+      "title-caps": {
+        "fontFamily": "AzoSans-Bold, sans-serif",
+        "fontSize": "24px",
+        "fontWeight": 500,
+        "lineHeight": "28.8px",
+        "letterSpacing": "1.2px"
+      },
+      "eyebrow-caps": {
+        "fontFamily": "AzoSans-Regular, sans-serif",
+        "fontSize": "20px",
+        "fontWeight": 500,
+        "lineHeight": "24px",
+        "letterSpacing": "2.992px"
+      },
+      "body": {
+        "fontFamily": "AzoSans-Light, sans-serif",
+        "fontSize": "18px",
+        "fontWeight": 400,
+        "lineHeight": "32px",
+        "letterSpacing": "normal"
+      },
+      "ui": {
+        "fontFamily": "AzoSans-Light, sans-serif",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": "normal",
+        "letterSpacing": "normal"
+      },
+      "small": {
+        "fontFamily": "AzoSans-Light, sans-serif",
+        "fontSize": "12px",
+        "fontWeight": 400,
+        "lineHeight": "normal",
+        "letterSpacing": "normal"
+      }
+    },
+    "rounded": {
+      "none": "0px",
+      "sm": "2px"
+    },
+    "spacing": {}
+  },
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "background",
+        "displayName": "Paper"
+      },
+      "mist": {
+        "role": "surface",
+        "displayName": "Mist (title bands, footer)"
+      },
+      "ink": {
+        "role": "text-primary",
+        "displayName": "Ink"
+      },
+      "slate": {
+        "role": "text-secondary",
+        "displayName": "Slate (nav)"
+      },
+      "teal": {
+        "role": "primary",
+        "displayName": "PPM Teal (buttons)"
+      },
+      "deep-teal": {
+        "role": "primary-dark",
+        "displayName": "Deep Teal (breadcrumb, panels, hover)"
+      },
+      "mint": {
+        "role": "accent",
+        "displayName": "Mint (takeaway / CTA band)"
+      },
+      "plum": {
+        "role": "accent-2",
+        "displayName": "Plum (inline link, 1 use)"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Century serif display",
+        "purpose": "Page H1 in the title band on every page"
+      },
+      "title-caps": {
+        "displayName": "Azo caps title",
+        "purpose": "Card titles / section headings, uppercase, tracked"
+      },
+      "eyebrow-caps": {
+        "displayName": "Azo caps eyebrow",
+        "purpose": "Card category | date lines, uppercase, wide tracking"
+      },
+      "body": {
+        "displayName": "Azo Light body",
+        "purpose": "Ledes, excerpts, article body"
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "button-hover",
+        "value": "background-color swap #008578 -> #004f59",
+        "purpose": "only observed hover delta on buttons"
+      }
+    ],
+    "componentStyle": {
+      "buttons": {
+        "primary": {
+          "background": "rgb(0, 133, 120)",
+          "color": "rgb(255, 255, 255)",
+          "borderRadius": "2px",
+          "padding": "10px 60px",
+          "border": "2px solid rgb(0, 133, 120)",
+          "fontFamily": "AzoSans-Light",
+          "fontSize": "16px",
+          "fontWeight": 400,
+          "shadow": null,
+          "hoverDelta": "background -> rgb(0, 79, 89), border -> #ffffff"
+        }
+      },
+      "dualCTAPattern": null,
+      "cards": {
+        "background": "transparent",
+        "borderRadius": "0px",
+        "padding": null,
+        "shadow": null,
+        "border": null,
+        "note": "image-top cards, no chrome; whole card is one <a>"
+      },
+      "links": {
+        "nav": {
+          "color": "#6a737b",
+          "hover": "#000000"
+        },
+        "inline": {
+          "color": "#5c068c",
+          "hover": "rgb(13, 14, 15)"
+        }
+      },
+      "inputs": {
+        "note": "only a hidden header search field (form#ppm-nav-desktop-search-form, GET /search)"
+      }
+    },
+    "motifs": {
+      "borderRadius": {
+        "primary": "2px",
+        "secondary": null,
+        "pill": null,
+        "primarySources": [
+          "news-and-insights",
+          "news-and-insights-market-insights-2026-10-cio-letter",
+          "news-and-insights-market-insights-2026-10-clo-equity-outlook"
+        ],
+        "occurrences": {
+          "2px": 3
+        }
+      },
+      "shadows": [],
+      "gradients": [],
+      "patterns": [
+        {
+          "name": "title-band-with-banner-image",
+          "evidence": "listing pages + hub: H1 serif title + lede on a light band, 620x275 banner photo right (news-and-insights, blog, market-insights, press-releases)"
+        },
+        {
+          "name": "breadcrumb-band",
+          "evidence": "deep-teal breadcrumb strip under header on all 8 pages"
+        },
+        {
+          "name": "card-grid",
+          "evidence": "3-column cards: 620x275 image, uppercase tracked eyebrow (category | date), uppercase title, light excerpt (hub 6, blog 17+, market-insights ~60, press-releases)"
+        },
+        {
+          "name": "cta-band",
+          "evidence": "Our Advantage teal (#004f59) panel + photo + OUR STORY button — hub only in this crawl (experience fragment ctas/our-advantage---teal)"
+        },
+        {
+          "name": "article-with-author-rail",
+          "evidence": "blog + press release detail: body left, round headshot author card right"
+        },
+        {
+          "name": "key-takeaway-band",
+          "evidence": "mint #47d7ac band with serif takeaway quote (blog article)"
+        },
+        {
+          "name": "pdf-download-cta",
+          "evidence": "teal \"Download the Full PDF\" button on market-insight details"
+        },
+        {
+          "name": "disclaimer-band",
+          "evidence": "small-print disclosure text above footer on detail pages"
+        }
+      ]
+    },
+    "voice": {
+      "heroHeadline": "News and Insights",
+      "heroSubcopy": "We publish a range of research articles and outlooks to help keep you updated on key themes across the financial markets.",
+      "heroImage": {
+        "url": "https://www.ppmamerica.com/content/ppm/us/en/news-and-insights/_jcr_content/root/container_79929675/container/herotitle.coreimg.jpeg/1779203969041/banner-news-and-insignts-620x275.jpeg",
+        "alt": "",
+        "source": "img",
+        "domPath": "#herotitle (cmp-herotitle) img",
+        "localPath": "stardust/current/assets/media/banner-news-and-insignts-620x275-824dbc.jpeg",
+        "rect": {
+          "x": 805,
+          "y": 147,
+          "width": 620,
+          "height": 275
+        }
+      },
+      "heroMedium": null,
+      "primaryCTALabel": "Our Story",
+      "ctaSamples": [
+        "OUR STORY",
+        "DOWNLOAD THE FULL PDF",
+        "Contact Us"
+      ],
+      "navItems": [
+        "Investment Solutions",
+        "News and Insights",
+        "Our Commitments",
+        "Our Story"
+      ],
+      "footerHeadings": [],
+      "footerLinks": [
+        "Contact Us",
+        "Privacy Policy",
+        "Terms and Conditions",
+        "Social",
+        "Visit our LinkedIn Page"
+      ],
+      "firstParagraph": "We publish a range of research articles and outlooks to help keep you updated on key themes across the financial markets.",
+      "tone": {
+        "guess": "professional-formal",
+        "evidence": "third-person institutional voice (\"We publish a range of research articles and outlooks...\"), market-commentary vocabulary, dated bylines, compliance disclaimers"
+      }
+    },
+    "voiceTable": {
+      "ctaFrequency": [
+        {
+          "label": "News and Insights",
+          "total": 15,
+          "pageCount": 8,
+          "pages": [
+            "news-and-insights",
+            "news-and-insights-blog",
+            "news-and-insights-market-insights",
+            "news-and-insights-press-releases",
+            "news-and-insights-market-insights-2026-10-cio-letter",
+            "news-and-insights-market-insights-2026-10-clo-equity-outlook",
+            "news-and-insights-blog-2026-10-cre-market-valuations",
+            "news-and-insights-press-releases-2026-08-cre-team"
+          ]
+        },
+        {
+          "label": "Investment Solutions",
+          "total": 8,
+          "pageCount": 8,
+          "pages": [
+            "news-and-insights",
+            "news-and-insights-blog",
+            "news-and-insights-market-insights",
+            "news-and-insights-press-releases",
+            "news-and-insights-market-insights-2026-10-cio-letter",
+            "news-and-insights-market-insights-2026-10-clo-equity-outlook",
+            "news-and-insights-blog-2026-10-cre-market-valuations",
+            "news-and-insights-press-releases-2026-08-cre-team"
+          ]
+        },
+        {
+          "label": "Our Commitments",
+          "total": 8,
+          "pageCount": 8,
+          "pages": [
+            "news-and-insights",
+            "news-and-insights-blog",
+            "news-and-insights-market-insights",
+            "news-and-insights-press-releases",
+            "news-and-insights-market-insights-2026-10-cio-letter",
+            "news-and-insights-market-insights-2026-10-clo-equity-outlook",
+            "news-and-insights-blog-2026-10-cre-market-valuations",
+            "news-and-insights-press-releases-2026-08-cre-team"
+          ]
+        },
+        {
+          "label": "Our Story",
+          "total": 8,
+          "pageCount": 8,
+          "pages": [
+            "news-and-insights",
+            "news-and-insights-blog",
+            "news-and-insights-market-insights",
+            "news-and-insights-press-releases",
+            "news-and-insights-market-insights-2026-10-cio-letter",
+            "news-and-insights-market-insights-2026-10-clo-equity-outlook",
+            "news-and-insights-blog-2026-10-cre-market-valuations",
+            "news-and-insights-press-releases-2026-08-cre-team"
+          ]
+        },
+        {
+          "label": "Home",
+          "total": 8,
+          "pageCount": 8,
+          "pages": [
+            "news-and-insights",
+            "news-and-insights-blog",
+            "news-and-insights-market-insights",
+            "news-and-insights-press-releases",
+            "news-and-insights-market-insights-2026-10-cio-letter",
+            "news-and-insights-market-insights-2026-10-clo-equity-outlook",
+            "news-and-insights-blog-2026-10-cre-market-valuations",
+            "news-and-insights-press-releases-2026-08-cre-team"
+          ]
+        },
+        {
+          "label": "Contact Us",
+          "total": 8,
+          "pageCount": 8,
+          "pages": [
+            "news-and-insights",
+            "news-and-insights-blog",
+            "news-and-insights-market-insights",
+            "news-and-insights-press-releases",
+            "news-and-insights-market-insights-2026-10-cio-letter",
+            "news-and-insights-market-insights-2026-10-clo-equity-outlook",
+            "news-and-insights-blog-2026-10-cre-market-valuations",
+            "news-and-insights-press-releases-2026-08-cre-team"
+          ]
+        },
+        {
+          "label": "Privacy Policy",
+          "total": 8,
+          "pageCount": 8,
+          "pages": [
+            "news-and-insights",
+            "news-and-insights-blog",
+            "news-and-insights-market-insights",
+            "news-and-insights-press-releases",
+            "news-and-insights-market-insights-2026-10-cio-letter",
+            "news-and-insights-market-insights-2026-10-clo-equity-outlook",
+            "news-and-insights-blog-2026-10-cre-market-valuations",
+            "news-and-insights-press-releases-2026-08-cre-team"
+          ]
+        },
+        {
+          "label": "Terms and Conditions",
+          "total": 8,
+          "pageCount": 8,
+          "pages": [
+            "news-and-insights",
+            "news-and-insights-blog",
+            "news-and-insights-market-insights",
+            "news-and-insights-press-releases",
+            "news-and-insights-market-insights-2026-10-cio-letter",
+            "news-and-insights-market-insights-2026-10-clo-equity-outlook",
+            "news-and-insights-blog-2026-10-cre-market-valuations",
+            "news-and-insights-press-releases-2026-08-cre-team"
+          ]
+        }
+      ],
+      "headingFrequency": [
+        {
+          "text": "Higher Growth Driving Higher Yields",
+          "total": 3,
+          "pageCount": 3,
+          "level": 2
+        },
+        {
+          "text": "CLO Equity Outlook",
+          "total": 3,
+          "pageCount": 3,
+          "level": 2
+        },
+        {
+          "text": "CRE Valuations: Why We Expect a Flat Road Ahead",
+          "total": 3,
+          "pageCount": 3,
+          "level": 2
+        },
+        {
+          "text": "PPM America Bolsters Commercial Real Estate Team",
+          "total": 3,
+          "pageCount": 3,
+          "level": 2
+        }
+      ],
+      "toneMetrics": {
+        "headingsTotal": 188,
+        "headingsUppercasePercent": 1,
+        "headingsCssUppercasePercent": 95,
+        "distinctHeadings": 144,
+        "distinctCtaLabels": 49
+      }
+    },
+    "systemComponents": [
+      {
+        "name": "site-header",
+        "kind": "header",
+        "occurrences": 8,
+        "headingSequence": [],
+        "ctaLabels": [
+          "PPM Logo",
+          "INVESTMENT SOLUTIONS",
+          "NEWS AND INSIGHTS",
+          "OUR COMMITMENTS",
+          "OUR STORY"
+        ],
+        "domFingerprintHash": "sha256:1b1e26705c69790d",
+        "exampleSlug": "news-and-insights",
+        "exampleSelector": "div#cmp-desktop-mobile-ppm-header-container > header.cmp-header",
+        "examplePages": [
+          "news-and-insights",
+          "news-and-insights-blog",
+          "news-and-insights-market-insights",
+          "news-and-insights-press-releases",
+          "news-and-insights-market-insights-2026-10-cio-letter",
+          "news-and-insights-market-insights-2026-10-clo-equity-outlook",
+          "news-and-insights-blog-2026-10-cre-market-valuations",
+          "news-and-insights-press-releases-2026-08-cre-team"
+        ]
+      },
+      {
+        "name": "site-primary-nav",
+        "kind": "nav-secondary",
+        "occurrences": 8,
+        "headingSequence": [],
+        "ctaLabels": [
+          "INVESTMENT SOLUTIONS",
+          "NEWS AND INSIGHTS",
+          "OUR COMMITMENTS",
+          "OUR STORY"
+        ],
+        "domFingerprintHash": "sha256:f64819315b86cdd2",
+        "exampleSlug": "news-and-insights",
+        "exampleSelector": "nav#ppm-nav-desktop",
+        "examplePages": [
+          "news-and-insights",
+          "news-and-insights-blog",
+          "news-and-insights-market-insights",
+          "news-and-insights-press-releases",
+          "news-and-insights-market-insights-2026-10-cio-letter",
+          "news-and-insights-market-insights-2026-10-clo-equity-outlook",
+          "news-and-insights-blog-2026-10-cre-market-valuations",
+          "news-and-insights-press-releases-2026-08-cre-team"
+        ],
+        "note": "primary nav inside header (#ppm-nav-desktop)"
+      },
+      {
+        "name": "site-breadcrumb",
+        "kind": "breadcrumb",
+        "occurrences": 8,
+        "headingSequence": [],
+        "ctaLabels": [
+          "Home"
+        ],
+        "domFingerprintHash": "sha256:d2032097bdaf01e4",
+        "exampleSlug": "news-and-insights",
+        "exampleSelector": "nav#breadcrumb-9b1d76ae3b",
+        "examplePages": [
+          "news-and-insights",
+          "news-and-insights-blog",
+          "news-and-insights-market-insights",
+          "news-and-insights-press-releases",
+          "news-and-insights-market-insights-2026-10-cio-letter",
+          "news-and-insights-market-insights-2026-10-clo-equity-outlook",
+          "news-and-insights-blog-2026-10-cre-market-valuations",
+          "news-and-insights-press-releases-2026-08-cre-team"
+        ]
+      },
+      {
+        "name": "site-footer",
+        "kind": "footer",
+        "occurrences": 8,
+        "headingSequence": [],
+        "ctaLabels": [
+          "Visit our LinkedIn Page ",
+          "Contact Us",
+          "Privacy Policy",
+          "Terms and Conditions",
+          "Social"
+        ],
+        "domFingerprintHash": "sha256:dacde1d50579b585",
+        "exampleSlug": "news-and-insights",
+        "exampleSelector": "div#container-e5f82026e6 > div.aem-Grid.aem-Grid--12 > div.footer",
+        "examplePages": [
+          "news-and-insights",
+          "news-and-insights-blog",
+          "news-and-insights-market-insights",
+          "news-and-insights-press-releases",
+          "news-and-insights-market-insights-2026-10-cio-letter",
+          "news-and-insights-market-insights-2026-10-clo-equity-outlook",
+          "news-and-insights-blog-2026-10-cre-market-valuations",
+          "news-and-insights-press-releases-2026-08-cre-team"
+        ]
+      },
+      {
+        "name": "disclosure-gate",
+        "kind": "other",
+        "occurrences": 8,
+        "headingSequence": [
+          "Disclosure Agreement"
+        ],
+        "ctaLabels": [
+          "ACCEPT",
+          "DECLINE"
+        ],
+        "domFingerprintHash": null,
+        "exampleSlug": "news-and-insights",
+        "exampleSelector": ".cmp-modal",
+        "examplePages": [
+          "news-and-insights",
+          "news-and-insights-blog",
+          "news-and-insights-market-insights",
+          "news-and-insights-press-releases",
+          "news-and-insights-market-insights-2026-10-cio-letter",
+          "news-and-insights-market-insights-2026-10-clo-equity-outlook",
+          "news-and-insights-blog-2026-10-cre-market-valuations",
+          "news-and-insights-press-releases-2026-08-cre-team"
+        ],
+        "note": "institutional-investor disclosure modal present in the DOM on every page; dismissed via ACCEPT before capture"
+      }
+    ],
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "sizes": [
+        48,
+        32,
+        24,
+        20
+      ],
+      "ratios": [
+        1.5,
+        1.333,
+        1.2
+      ],
+      "matchedScale": null
+    },
+    "fontFiles": [
+      {
+        "url": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/fonts/357E5E_5_0.woff2",
+        "family": "AzoSans-Light",
+        "weight": "normal",
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/357E5E_5_0-6e3156.woff2",
+        "sourceCssRule": "@font-face { font-family: AzoSans-Light; src: url(\"clientlib-site/resources/fonts/357E5E_5_0.woff2\") format(\"woff2\"), url(\"clientlib-site/resources/fonts/357E5E_5_0.woff\") format(\"woff\"), url(\"clientlib-site/resources/fonts/357E5E_5_0.ttf\") format(\"truetype\"); }",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/fonts/357E5E_1_0.woff2",
+        "family": "AzoSans-Bold",
+        "weight": "normal",
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/357E5E_1_0-b0ebc4.woff2",
+        "sourceCssRule": "@font-face { font-family: AzoSans-Bold; src: url(\"clientlib-site/resources/fonts/357E5E_1_0.woff2\") format(\"woff2\"), url(\"clientlib-site/resources/fonts/357E5E_1_0.woff\") format(\"woff\"), url(\"clientlib-site/resources/fonts/357E5E_1_0.ttf\") format(\"truetype\"); }",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/fonts/357E5E_E_0.woff2",
+        "family": "CenturyStd-Book",
+        "weight": "normal",
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/357E5E_E_0-dcb0d3.woff2",
+        "sourceCssRule": "@font-face { font-family: CenturyStd-Book; src: url(\"clientlib-site/resources/fonts/357E5E_E_0.woff2\") format(\"woff2\"), url(\"clientlib-site/resources/fonts/357E5E_E_0.woff\") format(\"woff\"), url(\"clientlib-site/resources/fonts/357E5E_E_0.ttf\") format(\"truetype\"); }",
+        "licensingFlag": "private"
+      },
+      {
+        "url": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/fonts/357E5E_9_0.woff2",
+        "family": "AzoSans-Regular",
+        "weight": "normal",
+        "style": "normal",
+        "unicodeRange": null,
+        "localPath": "stardust/current/assets/fonts/357E5E_9_0-9314c9.woff2",
+        "sourceCssRule": "@font-face { font-family: AzoSans-Regular; src: url(\"clientlib-site/resources/fonts/357E5E_9_0.woff2\") format(\"woff2\"), url(\"clientlib-site/resources/fonts/357E5E_9_0.woff\") format(\"woff\"), url(\"clientlib-site/resources/fonts/357E5E_9_0.ttf\") format(\"truetype\"); }",
+        "licensingFlag": "private"
+      }
+    ],
+    "register": "brand",
+    "breakpoints": {
+      "containerMaxWidth": "1410px",
+      "probeWidth": 2560,
+      "shellMaxWidth": null,
+      "caps": [
+        {
+          "kind": "module",
+          "px": 1410,
+          "via": "max-width",
+          "selector": "div.container.responsivegrid > div.cmp-container > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "pages": [
+            "https://www.ppmamerica.com/news-and-insights",
+            "https://www.ppmamerica.com/news-and-insights/market-insights",
+            "https://www.ppmamerica.com/news-and-insights/blog/2026/10/cre-market-valuations"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1029,
+          "via": "fixed",
+          "selector": "div.cmp-footer > div.cmp-footer__content > div.cmp-footer__content_row > div.cmp-footer__address",
+          "pages": [
+            "https://www.ppmamerica.com/news-and-insights",
+            "https://www.ppmamerica.com/news-and-insights/market-insights",
+            "https://www.ppmamerica.com/news-and-insights/blog/2026/10/cre-market-valuations"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 910,
+          "via": "fixed",
+          "selector": "#container-f31dbdac62 > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "pages": [
+            "https://www.ppmamerica.com/news-and-insights/blog/2026/10/cre-market-valuations"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 822,
+          "via": "fixed",
+          "selector": "div.cmp-footer > div.cmp-footer__content > div.cmp-footer__content_row.buffer > div.cmp-footer__policy",
+          "pages": [
+            "https://www.ppmamerica.com/news-and-insights",
+            "https://www.ppmamerica.com/news-and-insights/market-insights",
+            "https://www.ppmamerica.com/news-and-insights/blog/2026/10/cre-market-valuations"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 790,
+          "via": "fixed",
+          "selector": "div.aem-Grid.aem-Grid--12 > div.herotitle.teaser > div.cmp-herotitle > div.cmp-herotitle__content",
+          "pages": [
+            "https://www.ppmamerica.com/news-and-insights",
+            "https://www.ppmamerica.com/news-and-insights/market-insights"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 690,
+          "via": "fixed",
+          "selector": "#staticcard-b71bc28ab7 > div.cmp-card__wrapper > div.cmp-card__image",
+          "pages": [
+            "https://www.ppmamerica.com/news-and-insights"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 620,
+          "via": "fixed",
+          "selector": "div.aem-Grid.aem-Grid--12 > div.herotitle.teaser > div.cmp-herotitle > div.cmp-herotitle__image",
+          "pages": [
+            "https://www.ppmamerica.com/news-and-insights",
+            "https://www.ppmamerica.com/news-and-insights/market-insights"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 588,
+          "via": "fixed",
+          "selector": "div.cmp-footer > div.cmp-footer__content > div.cmp-footer__content_row.buffer > div.cmp-footer__copyright",
+          "pages": [
+            "https://www.ppmamerica.com/news-and-insights",
+            "https://www.ppmamerica.com/news-and-insights/market-insights",
+            "https://www.ppmamerica.com/news-and-insights/blog/2026/10/cre-market-valuations"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 450,
+          "via": "fixed",
+          "selector": "#container-eac06e35aa > div.aem-Grid.aem-Grid--12 > div.staticcard.teaser",
+          "pages": [
+            "https://www.ppmamerica.com/news-and-insights",
+            "https://www.ppmamerica.com/news-and-insights/market-insights",
+            "https://www.ppmamerica.com/news-and-insights/blog/2026/10/cre-market-valuations"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 421,
+          "via": "fixed",
+          "selector": "div.cmp-card__wrapper > div.cmp-card__content-wrapper > div.cmp-card__content > div.cmp-card__pre-title",
+          "pages": [
+            "https://www.ppmamerica.com/news-and-insights",
+            "https://www.ppmamerica.com/news-and-insights/market-insights"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 390,
+          "via": "fixed",
+          "selector": "div.cmp-card__wrapper > div.cmp-card__content-wrapper > div.cmp-card__content > div.cmp-card__pre-title",
+          "pages": [
+            "https://www.ppmamerica.com/news-and-insights",
+            "https://www.ppmamerica.com/news-and-insights/market-insights"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 364,
+          "via": "fixed",
+          "selector": "div.cmp-card__wrapper > div.cmp-card__content-wrapper > div.cmp-card__content > div.cmp-card__pre-title",
+          "pages": [
+            "https://www.ppmamerica.com/news-and-insights",
+            "https://www.ppmamerica.com/news-and-insights/market-insights"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 320,
+          "via": "fixed",
+          "selector": "div.cmp-card__wrapper > div.cmp-card__content-wrapper > div.cmp-card__content > div.cmp-card__pre-title",
+          "pages": [
+            "https://www.ppmamerica.com/news-and-insights/market-insights"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 297,
+          "via": "fixed",
+          "selector": "div.cmp-card__wrapper > div.cmp-card__content-wrapper > div.cmp-card__content > div.cmp-title.cmp-title--card",
+          "pages": [
+            "https://www.ppmamerica.com/news-and-insights",
+            "https://www.ppmamerica.com/news-and-insights/market-insights"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 260,
+          "via": "fixed",
+          "selector": "div.cmp-card__wrapper > div.cmp-card__content-wrapper > div.cmp-card__content > div.cmp-card__action-container",
+          "pages": [
+            "https://www.ppmamerica.com/news-and-insights",
+            "https://www.ppmamerica.com/news-and-insights/market-insights"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://www.ppmamerica.com/news-and-insights",
+          "section": 0,
+          "selector": "#container-d2a96eb86d > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": null
+        },
+        {
+          "url": "https://www.ppmamerica.com/news-and-insights",
+          "section": 1,
+          "selector": "#container-d2a96eb86d > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": 1410
+        },
+        {
+          "url": "https://www.ppmamerica.com/news-and-insights",
+          "section": 2,
+          "selector": "#container-d2a96eb86d > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": 1410
+        },
+        {
+          "url": "https://www.ppmamerica.com/news-and-insights",
+          "section": 3,
+          "selector": "#container-d2a96eb86d > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": 1410
+        },
+        {
+          "url": "https://www.ppmamerica.com/news-and-insights",
+          "section": 4,
+          "selector": "#container-d2a96eb86d > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": 1410
+        },
+        {
+          "url": "https://www.ppmamerica.com/news-and-insights/market-insights",
+          "section": 0,
+          "selector": "#container-0a1a4f4dec > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": null
+        },
+        {
+          "url": "https://www.ppmamerica.com/news-and-insights/market-insights",
+          "section": 1,
+          "selector": "#container-0a1a4f4dec > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": 1410
+        },
+        {
+          "url": "https://www.ppmamerica.com/news-and-insights/market-insights",
+          "section": 2,
+          "selector": "#container-0a1a4f4dec > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": 1410
+        },
+        {
+          "url": "https://www.ppmamerica.com/news-and-insights/market-insights",
+          "section": 3,
+          "selector": "#container-0a1a4f4dec > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": 1410
+        },
+        {
+          "url": "https://www.ppmamerica.com/news-and-insights/market-insights",
+          "section": 4,
+          "selector": "#container-0a1a4f4dec > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": 1410
+        },
+        {
+          "url": "https://www.ppmamerica.com/news-and-insights/market-insights",
+          "section": 5,
+          "selector": "#container-0a1a4f4dec > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": 1410
+        },
+        {
+          "url": "https://www.ppmamerica.com/news-and-insights/blog/2026/10/cre-market-valuations",
+          "section": 0,
+          "selector": "#container-d2a96eb86d > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": null
+        },
+        {
+          "url": "https://www.ppmamerica.com/news-and-insights/blog/2026/10/cre-market-valuations",
+          "section": 1,
+          "selector": "#container-d2a96eb86d > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": 1410
+        },
+        {
+          "url": "https://www.ppmamerica.com/news-and-insights/blog/2026/10/cre-market-valuations",
+          "section": 2,
+          "selector": "#container-d2a96eb86d > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": 1410
+        },
+        {
+          "url": "https://www.ppmamerica.com/news-and-insights/blog/2026/10/cre-market-valuations",
+          "section": 3,
+          "selector": "#container-d2a96eb86d > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": 1410
+        },
+        {
+          "url": "https://www.ppmamerica.com/news-and-insights/blog/2026/10/cre-market-valuations",
+          "section": 4,
+          "selector": "#container-d2a96eb86d > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+          "px": 1410
+        }
+      ],
+      "capRegister": [],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-11-18T08:37:53.812Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://www.ppmamerica.com/news-and-insights",
+          "https://www.ppmamerica.com/news-and-insights/market-insights",
+          "https://www.ppmamerica.com/news-and-insights/blog/2026/10/cre-market-valuations"
+        ]
+      }
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Solid teal rectangle, 2px radius, light-weight label (OUR STORY, DOWNLOAD THE FULL PDF).",
+      "html": "<a class=\"ppm-btn\" href=\"#\">OUR STORY</a>",
+      "css": ".ppm-btn{display:inline-block;background:#008578;color:#fff;border:2px solid #008578;border-radius:2px;padding:10px 60px;font:400 16px/1.2 AzoSans-Light,sans-serif;text-decoration:none}.ppm-btn:hover{background:#004f59;border-color:#fff}"
+    },
+    {
+      "name": "Insight Card",
+      "kind": "card",
+      "refersTo": null,
+      "description": "Image-top card; whole card is a link. Uppercase tracked eyebrow, uppercase title, light excerpt. No border, no shadow, square corners.",
+      "html": "<a class=\"ppm-card\" href=\"#\"><img src=\"\" alt=\"\"><p class=\"eyebrow\">INSIGHTS | OCTOBER 27, 2026</p><h2>CLO EQUITY OUTLOOK</h2><p>Excerpt…</p></a>",
+      "css": ".ppm-card{display:block;color:#25282a;text-decoration:none}.ppm-card img{width:100%;aspect-ratio:620/275;object-fit:cover}.ppm-card .eyebrow{font:500 20px/24px AzoSans-Regular,sans-serif;letter-spacing:2.992px;text-transform:uppercase}.ppm-card h2{font:500 24px/28.8px AzoSans-Bold,sans-serif;letter-spacing:1.2px;text-transform:uppercase}.ppm-card p{font:400 18px/32px AzoSans-Light,sans-serif}"
+    },
+    {
+      "name": "Breadcrumb Band",
+      "kind": "nav",
+      "refersTo": null,
+      "description": "Deep-teal strip under the header with small white links.",
+      "html": "<nav class=\"ppm-crumb\"><a href=\"#\">Home</a> / <a href=\"#\">News and Insights</a></nav>",
+      "css": ".ppm-crumb{background:#004f59;color:#fff;padding:3px 10px 6px;font:400 16px AzoSans-Light,sans-serif}.ppm-crumb a{color:#fff}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Institutional research desk",
+    "overview": "Descriptive: a restrained white-and-mist editorial frame, a serif display H1 per page, uppercase tracked sans labels, one teal action colour and a deep-teal band colour, mint as a rare highlight. Square geometry, no shadows, no gradients.",
+    "keyCharacteristics": [
+      "Serif display + caps sans pairing",
+      "Square corners (2px only on buttons)",
+      "Flat: no shadows, no gradients",
+      "Teal family carries all action and chrome colour",
+      "Photography + chevron tiles carry visual variety"
+    ],
+    "rules": [],
+    "dos": [],
+    "donts": []
+  }
+}

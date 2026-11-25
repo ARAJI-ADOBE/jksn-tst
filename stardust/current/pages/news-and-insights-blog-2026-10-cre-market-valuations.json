@@ -1,0 +1,815 @@
+{
+  "_provenance": {
+    "renderedBy": "playwright",
+    "fetchedAt": "2026-11-18T08:27:34.332Z",
+    "waitMode": "medium",
+    "waitMs": 2500,
+    "httpStatus": 200,
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-18T08:37:15.982Z",
+    "readArtifacts": [
+      "https://www.ppmamerica.com/news-and-insights/blog/2026/10/cre-market-valuations",
+      "stardust/current/pages/news-and-insights-blog-2026-10-cre-market-valuations.html",
+      "stardust/current/_computed-styles.json"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.37.2",
+    "contentType": "text/html",
+    "heroSource": "dom",
+    "enrichment": {
+      "by": "playwright live pass (sequential, 1440x900, reduced-motion, disclosure gate accepted)",
+      "fetchedStatus": 200,
+      "ms": 4061,
+      "fields": [
+        "heroHeadline",
+        "heroLede",
+        "landmarks",
+        "links",
+        "media.images",
+        "forms",
+        "components",
+        "perSectionStyle",
+        "stats"
+      ]
+    }
+  },
+  "slug": "news-and-insights-blog-2026-10-cre-market-valuations",
+  "url": "https://www.ppmamerica.com/news-and-insights/blog/2026/10/cre-market-valuations",
+  "finalUrl": "https://www.ppmamerica.com/news-and-insights/blog/2026/10/cre-market-valuations",
+  "title": "CRE Market Valuations",
+  "metaDescription": "CRE valuations remain about 10% below their 2022 peak. In our new PPM blog, Joe Burke lays out his expectations for income growth to offset negative leverage and keep valuations roughly flat. He is watching Fed rate movements, consumer health metrics and the continuing return-to-work trend for early signs of an improving CRE market in the medium term.",
+  "description": "CRE valuations remain about 10% below their 2022 peak. In our new PPM blog, Joe Burke lays out his expectations for income growth to offset negative leverage and keep valuations roughly flat. He is watching Fed rate movements, consumer health metrics and the continuing return-to-work trend for early signs of an improving CRE market in the medium term.",
+  "heroHeadline": "CRE Valuations: Why We Expect a Flat Road Ahead",
+  "heroLede": "Valuations are a critical barometer of health in the US commercial real estate (CRE) market, shaping transaction activity and investment returns.",
+  "og": {
+    "title": null,
+    "description": null,
+    "image": null,
+    "type": null
+  },
+  "themeColor": {},
+  "language": "en",
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "CRE Valuations: Why We Expect a Flat Road Ahead"
+    },
+    {
+      "tag": "h4",
+      "text": "October 13, 2026 | 4 Minute Read"
+    },
+    {
+      "tag": "h2",
+      "text": "Key Takeaway"
+    },
+    {
+      "tag": "h3",
+      "text": "We expect income growth to offset negative leverage and keep CRE market valuations roughly flat."
+    },
+    {
+      "tag": "h4",
+      "text": "Author"
+    },
+    {
+      "tag": "h5",
+      "text": "Joe Burke, CRI"
+    }
+  ],
+  "landmarks": [
+    {
+      "role": "banner",
+      "tag": "header",
+      "selector": "div#cmp-desktop-mobile-ppm-header-container > header.cmp-header",
+      "ariaLabel": null,
+      "headingSequence": [],
+      "linkLabels": [
+        "PPM Logo",
+        "INVESTMENT SOLUTIONS",
+        "NEWS AND INSIGHTS",
+        "OUR COMMITMENTS",
+        "OUR STORY"
+      ]
+    },
+    {
+      "role": "navigation",
+      "tag": "nav",
+      "selector": "nav#ppm-nav-desktop",
+      "ariaLabel": null,
+      "headingSequence": [],
+      "linkLabels": [
+        "INVESTMENT SOLUTIONS",
+        "NEWS AND INSIGHTS",
+        "OUR COMMITMENTS",
+        "OUR STORY"
+      ]
+    },
+    {
+      "role": "navigation",
+      "tag": "nav",
+      "selector": "nav#breadcrumb-9b1d76ae3b",
+      "ariaLabel": "Breadcrumb",
+      "headingSequence": [],
+      "linkLabels": [
+        "Home",
+        "News and Insights",
+        "Blog"
+      ]
+    },
+    {
+      "role": "contentinfo",
+      "tag": "div",
+      "selector": "div#container-e5f82026e6 > div.aem-Grid.aem-Grid--12 > div.footer",
+      "ariaLabel": null,
+      "headingSequence": [],
+      "linkLabels": [
+        "Visit our LinkedIn Page ",
+        "Contact Us",
+        "Privacy Policy",
+        "Terms and Conditions",
+        "Social"
+      ],
+      "note": "no <footer> element; AEM experience-fragment div.footer > .cmp-footer carries the site footer"
+    }
+  ],
+  "body": [
+    "Investment Solutions Public Fixed Income Commercial Real Estate Debt Private and Structured Credit Private Equity Collateralized Loan Obligations",
+    "News and Insights Blog Market Insights Press Releases",
+    "Our Commitments Responsible Investment Community Engagement Inclusion and Engagement",
+    "Our Story Our Values Our Team Careers Contact Us",
+    "Home",
+    "News and Insights",
+    "Blog",
+    "CRE Market Valuations",
+    "Valuations are a critical barometer of health in the US commercial real estate (CRE) market, shaping transaction activity and investment returns.",
+    "During the Global Financial Crisis, CRE market valuations dropped approximately 35%.1 Then, during the recovery phase, the market averaged high-single-digit annual increases from 2011 through 2021.",
+    "The rate hiking cycle in 2022 and 2023 halted the CRE recovery, as the fed funds rate increased by 525 bps. With higher market interest rates, CRE valuations decreased by more than 10% during this period, with a notably larger decline for office properties in central business districts affected by the work-from-home trend. CRE valuations have increased only modestly since hitting a low in early 2024, remaining about 10% below their 2022 peak.",
+    "CRE valuations have three major components: income growth, cap rates and leverage. Income growth has generally been positive over the past two years. Absent a broad economic slowdown, we project slow-to-moderate income growth over the next 2-3 years.",
+    "Cap rates and leverage trends have been less supportive. They are somewhat related, with the CRE market benefiting during periods of positive leverage (cap rates above debt financing costs). From 2010 through 2021, cap rates exceeded debt costs by about 140 bps on average.2 Since 2022, that spread has narrowed to roughly zero and at times has turned negative. To illustrate:",
+    "At times in the prior decade, an investor could purchase a property at a 4.50% cap rate, compared to debt financing at 3.50%. If that spread of 100 bps was leveraged at 65%, the investment could earn a return on equity in the first year of approximately 6.40%.",
+    "Today, we are seeing the potential for negative leverage, with a hypothetical investor buying at a cap rate of 5.50% and financing with a fixed rate of 6.25%. Under that scenario and applying 65% leverage, the negative spread reduces the implied first-year return, from the cap rate of 5.50% to a return on equity of about 4.10%.",
+    "The outlook for the CRE market today is uncertain given the current negative leverage for many property types. While our expectation is for income growth to offset negative leverage and keep valuations roughly flat over the next 12 months (-5% to +5%), further rate increases could result in a more negative outcome. We expect origination volumes will be pressured, as acquisition activity involving leverage as well as any discretionary debt financing and refinancing slows through year-end. We are closely watching Fed rate movements, consumer health metrics and the continuing return-to-work trend for early signs of an improving CRE market in the medium term. One area we see a potential opportunity is in mid-to-smaller metropolitan statistical areas (MSAs). Those with growth prospects and below replacement cost pricing can offer higher cap rates that provide a positive spread over debt costs.",
+    "Head of Commercial Real Estate",
+    "(1) Bloomberg. 21 September 2026. Based upon the RCA CPPI National All Property Index. (2) Green Street. 3 September 2026.",
+    "Unless otherwise stated, the information presented has been prepared from market observations and other sources believed in good faith to be reliable. Information and opinions expressed by PPM are current as of the date indicated and are subject to change without notice. Forward-looking statements are subject to uncertainties that could cause actual developments and results to differ materially from the expectations expressed.",
+    "Past performance is no guarantee of future results. Investments involve varying degrees of risk and may lose value.",
+    "© 2026 PPM America, Inc. All rights reserved.",
+    "225 West Wacker Drive",
+    "Suite 1200",
+    "Chicago, IL 60606",
+    "312-634-2500",
+    "Contact Us",
+    "Privacy Policy",
+    "Terms and Conditions",
+    "Social"
+  ],
+  "codeBlocks": [],
+  "ctas": [
+    {
+      "label": "Investment Solutions",
+      "href": "/investment-solutions"
+    },
+    {
+      "label": "News and Insights",
+      "href": "/news-and-insights"
+    },
+    {
+      "label": "Our Commitments",
+      "href": "/our-commitments"
+    },
+    {
+      "label": "Our Story",
+      "href": "/our-story"
+    },
+    {
+      "label": "Home",
+      "href": "/home"
+    },
+    {
+      "label": "News and Insights",
+      "href": "/news-and-insights"
+    },
+    {
+      "label": "Blog",
+      "href": "/news-and-insights/blog"
+    },
+    {
+      "label": "Joe Burke, CRI Head of Commercial Real Estate",
+      "href": "/our-story/our-team/commercial-real-estate-team/joe-burke"
+    },
+    {
+      "label": "Contact Us",
+      "href": "/our-story/contact-us"
+    },
+    {
+      "label": "Privacy Policy",
+      "href": "/privacy-policy"
+    },
+    {
+      "label": "Terms and Conditions",
+      "href": "/terms-and-conditions"
+    },
+    {
+      "label": "Social",
+      "href": "/social"
+    }
+  ],
+  "links": {
+    "internal": [
+      {
+        "text": "PPM Logo",
+        "href": "https://www.ppmamerica.com/home"
+      },
+      {
+        "text": "INVESTMENT SOLUTIONS",
+        "href": "https://www.ppmamerica.com/investment-solutions"
+      },
+      {
+        "text": "NEWS AND INSIGHTS",
+        "href": "https://www.ppmamerica.com/news-and-insights"
+      },
+      {
+        "text": "OUR COMMITMENTS",
+        "href": "https://www.ppmamerica.com/our-commitments"
+      },
+      {
+        "text": "OUR STORY",
+        "href": "https://www.ppmamerica.com/our-story"
+      },
+      {
+        "text": "Home",
+        "href": "https://www.ppmamerica.com/home"
+      },
+      {
+        "text": "News and Insights",
+        "href": "https://www.ppmamerica.com/news-and-insights"
+      },
+      {
+        "text": "Blog",
+        "href": "https://www.ppmamerica.com/news-and-insights/blog"
+      },
+      {
+        "text": "JOE BURKE, CRI Head of Commercial Real Estate",
+        "href": "https://www.ppmamerica.com/our-story/our-team/commercial-real-estate-team/joe-burke"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://www.ppmamerica.com/our-story/contact-us"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://www.ppmamerica.com/privacy-policy"
+      },
+      {
+        "text": "Terms and Conditions",
+        "href": "https://www.ppmamerica.com/terms-and-conditions"
+      },
+      {
+        "text": "Social",
+        "href": "https://www.ppmamerica.com/social"
+      }
+    ],
+    "external": [
+      {
+        "text": "Visit our LinkedIn Page ",
+        "href": "https://www.linkedin.com/company/ppm-america-inc-/"
+      }
+    ]
+  },
+  "linkUrls": [
+    "https://www.ppmamerica.com/home",
+    "https://www.ppmamerica.com/investment-solutions",
+    "https://www.ppmamerica.com/investment-solutions/fixed-income",
+    "https://www.ppmamerica.com/investment-solutions/commercial-real-estate-debt",
+    "https://www.ppmamerica.com/investment-solutions/private-and-structured-credit",
+    "https://www.ppmamerica.com/investment-solutions/private-equity",
+    "https://www.ppmamerica.com/investment-solutions/collateralized-loan-obligations",
+    "https://www.ppmamerica.com/news-and-insights",
+    "https://www.ppmamerica.com/news-and-insights/blog",
+    "https://www.ppmamerica.com/news-and-insights/market-insights",
+    "https://www.ppmamerica.com/news-and-insights/press-releases",
+    "https://www.ppmamerica.com/our-commitments",
+    "https://www.ppmamerica.com/our-commitments/responsible-investment",
+    "https://www.ppmamerica.com/our-commitments/community-engagement",
+    "https://www.ppmamerica.com/our-commitments/inclusion-and-engagement",
+    "https://www.ppmamerica.com/our-story",
+    "https://www.ppmamerica.com/our-story/our-values",
+    "https://www.ppmamerica.com/our-story/our-team",
+    "https://www.ppmamerica.com/our-story/careers",
+    "https://www.ppmamerica.com/our-story/contact-us",
+    "https://www.ppmamerica.com/our-story/our-team/commercial-real-estate-team/joe-burke",
+    "https://www.linkedin.com/company/ppm-america-inc-/",
+    "https://www.ppmamerica.com/privacy-policy",
+    "https://www.ppmamerica.com/terms-and-conditions",
+    "https://www.ppmamerica.com/social"
+  ],
+  "media": {
+    "imgs": [
+      {
+        "src": "https://www.ppmamerica.com/content/experience-fragments/ppm/language-masters/en/site/header/master/_jcr_content/root/header/image.coreimg.png/1782482847451/ppmlogo.png",
+        "alt": "PPM Logo",
+        "w": 1108,
+        "h": 167
+      },
+      {
+        "src": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/icons/search-icon.svg",
+        "alt": "",
+        "w": 23,
+        "h": 23
+      },
+      {
+        "src": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/icons/search-icon.svg",
+        "alt": "",
+        "w": 23,
+        "h": 23
+      },
+      {
+        "src": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/icons/x-icon.svg",
+        "alt": "PPM Cross Icon",
+        "w": 20,
+        "h": 20
+      },
+      {
+        "src": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/icons/search-icon-white.svg",
+        "alt": "",
+        "w": 23,
+        "h": 23
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/ppm/us/en/news-and-insights/blog/2026/10/cre-market-valuations/_jcr_content/root/container/container_541741467/container/image.coreimg.jpeg/1791902418035/2026-10-12-line-chart-blog-cre.jpeg",
+        "alt": "Line chart showing monthly data from January 2010 through September 2026 for US commercial real estate cap rates and secured debt rates, as well as the spread between the two.",
+        "w": 1280,
+        "h": 892
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-team/Burke-Joseph.png",
+        "alt": "",
+        "w": 540,
+        "h": 540
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/experience-fragments/ppm/language-masters/en/site/footer/master/_jcr_content/root/footer/logo.coreimg.png/1782482847451/ppmlogo.png",
+        "alt": "PPM logo",
+        "w": 1108,
+        "h": 167
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/experience-fragments/ppm/language-masters/en/site/footer/master/_jcr_content/root/footer/image.coreimg.svg/1745420422247/linkedinlogo.svg",
+        "alt": "Visit our LinkedIn Page ",
+        "w": 24,
+        "h": 23
+      }
+    ],
+    "allImgCount": 9,
+    "cssBackgrounds": [],
+    "modals": [],
+    "videos": [],
+    "iframes": [],
+    "images": [
+      {
+        "src": "https://www.ppmamerica.com/content/experience-fragments/ppm/language-masters/en/site/header/master/_jcr_content/root/header/image.coreimg.png/1782482847451/ppmlogo.png",
+        "srcset": null,
+        "alt": "PPM Logo",
+        "intrinsicWidth": 1108,
+        "intrinsicHeight": 167,
+        "visible": true,
+        "rect": {
+          "x": 20,
+          "y": 33,
+          "width": 263,
+          "height": 40
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/icons/search-icon.svg",
+        "srcset": null,
+        "alt": "",
+        "intrinsicWidth": 23,
+        "intrinsicHeight": 23,
+        "visible": true,
+        "rect": {
+          "x": 1351,
+          "y": 36,
+          "width": 37,
+          "height": 37
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/icons/search-icon.svg",
+        "srcset": null,
+        "alt": "",
+        "intrinsicWidth": 23,
+        "intrinsicHeight": 23,
+        "visible": false,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/icons/x-icon.svg",
+        "srcset": null,
+        "alt": "PPM Cross Icon",
+        "intrinsicWidth": 20,
+        "intrinsicHeight": 20,
+        "visible": false,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/etc.clientlibs/ppm/clientlibs/clientlib-site/resources/icons/search-icon-white.svg",
+        "srcset": null,
+        "alt": null,
+        "intrinsicWidth": 23,
+        "intrinsicHeight": 23,
+        "visible": false,
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/ppm/us/en/news-and-insights/blog/2026/10/cre-market-valuations/_jcr_content/root/container/container_541741467/container/image.coreimg.jpeg/1791902418035/2026-10-12-line-chart-blog-cre.jpeg",
+        "srcset": null,
+        "alt": "Line chart showing monthly data from January 2010 through September 2026 for US commercial real estate cap rates and secured debt rates, as well as the spread between the two.",
+        "intrinsicWidth": 1280,
+        "intrinsicHeight": 892,
+        "visible": true,
+        "rect": {
+          "x": 15,
+          "y": 1481,
+          "width": 910,
+          "height": 634
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/dam/ppm/en/images/our-team/Burke-Joseph.png",
+        "srcset": null,
+        "alt": "",
+        "intrinsicWidth": 540,
+        "intrinsicHeight": 540,
+        "visible": true,
+        "rect": {
+          "x": 1015,
+          "y": 732,
+          "width": 168,
+          "height": 168
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/experience-fragments/ppm/language-masters/en/site/footer/master/_jcr_content/root/footer/logo.coreimg.png/1782482847451/ppmlogo.png",
+        "srcset": null,
+        "alt": "PPM logo",
+        "intrinsicWidth": 1108,
+        "intrinsicHeight": 167,
+        "visible": true,
+        "rect": {
+          "x": 15,
+          "y": 2817,
+          "width": 212,
+          "height": 32
+        },
+        "resolves": true,
+        "localPath": null
+      },
+      {
+        "src": "https://www.ppmamerica.com/content/experience-fragments/ppm/language-masters/en/site/footer/master/_jcr_content/root/footer/image.coreimg.svg/1745420422247/linkedinlogo.svg",
+        "srcset": null,
+        "alt": "Visit our LinkedIn Page ",
+        "intrinsicWidth": 24,
+        "intrinsicHeight": 23,
+        "visible": true,
+        "rect": {
+          "x": 1401,
+          "y": 2817,
+          "width": 24,
+          "height": 23
+        },
+        "resolves": true,
+        "localPath": null
+      }
+    ],
+    "heroImage": null
+  },
+  "forms": [
+    {
+      "selector": "form#ppm-nav-desktop-search-form",
+      "action": "/search",
+      "method": "get",
+      "visible": false,
+      "fields": [
+        {
+          "type": "text",
+          "name": "searchTerm",
+          "placeholder": "Search"
+        }
+      ]
+    },
+    {
+      "selector": "li#ppm-nav-mobile-search-input-list-item > form",
+      "action": "/search",
+      "method": "get",
+      "visible": false,
+      "fields": [
+        {
+          "type": "text",
+          "name": "searchTerm",
+          "placeholder": "Search"
+        }
+      ]
+    }
+  ],
+  "widgets": {
+    "dialogs": [
+      {
+        "selector": ".cmp-modal",
+        "role": "Disclosure Agreement (institutional-investor gate)",
+        "actions": [
+          "ACCEPT",
+          "DECLINE"
+        ]
+      }
+    ]
+  },
+  "components": {
+    "cards": {
+      "count": 1,
+      "examples": [
+        "div#biocard-71c02e97c0 > a.cmp-biocard__link"
+      ]
+    },
+    "grids": {
+      "count": 0,
+      "examples": []
+    },
+    "accordions": {
+      "count": 0,
+      "examples": []
+    },
+    "tabs": {
+      "count": 0,
+      "examples": []
+    },
+    "tables": {
+      "count": 0,
+      "examples": []
+    },
+    "modals": {
+      "count": 1,
+      "examples": [
+        ".cmp-modal (Disclosure Agreement, hidden after Accept)"
+      ]
+    },
+    "carousels": {
+      "count": 0,
+      "examples": []
+    },
+    "videos": {
+      "count": 0,
+      "examples": []
+    },
+    "iframes": {
+      "count": 0,
+      "examples": []
+    },
+    "dataVizEmbeds": {
+      "count": 0,
+      "examples": []
+    },
+    "teamTiles": {
+      "count": 0,
+      "examples": []
+    },
+    "pricingTiles": {
+      "count": 0,
+      "examples": []
+    },
+    "testimonialCards": {
+      "count": 0,
+      "examples": []
+    },
+    "logoStrip": {
+      "count": 0,
+      "examples": []
+    },
+    "timeline": {
+      "count": 0,
+      "examples": []
+    },
+    "breadcrumbs": {
+      "count": 1,
+      "examples": [
+        "nav#breadcrumb-9b1d76ae3b"
+      ]
+    },
+    "statRow": {
+      "count": 0,
+      "examples": []
+    },
+    "ctaBand": {
+      "count": 0,
+      "examples": []
+    },
+    "formFields": {
+      "count": 0,
+      "examples": []
+    },
+    "other": []
+  },
+  "perSectionStyle": [
+    {
+      "sectionRef": "div#container-d2a96eb86d > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+      "index": 0,
+      "purpose": "header",
+      "heading": null,
+      "rect": {
+        "y": 0,
+        "h": 106
+      },
+      "background": {
+        "color": "rgb(255, 255, 255)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(106, 115, 123)"
+      },
+      "spacing": {
+        "paddingBlock": "0px 0px",
+        "paddingInline": "0px 0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "AzoSans-Light",
+        "AzoSans-Bold"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "div#container-d2a96eb86d > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+      "index": 1,
+      "purpose": "breadcrumb",
+      "heading": null,
+      "rect": {
+        "y": 106,
+        "h": 43
+      },
+      "background": {
+        "color": "rgb(255, 255, 255)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(255, 255, 255)"
+      },
+      "spacing": {
+        "paddingBlock": "0px 0px",
+        "paddingInline": "0px 0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "AzoSans-Light"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "div#container-d2a96eb86d > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+      "index": 2,
+      "purpose": "hero",
+      "heading": "CRE Valuations: Why We Expect a Flat Road Ahead",
+      "rect": {
+        "y": 149,
+        "h": 148
+      },
+      "background": {
+        "color": "rgb(255, 255, 255)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(37, 40, 42)"
+      },
+      "spacing": {
+        "paddingBlock": "0px 0px",
+        "paddingInline": "0px 0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "AzoSans-Light",
+        "CenturyStd-Book"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "div#container-d2a96eb86d > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+      "index": 3,
+      "purpose": "content",
+      "heading": "KEY TAKEAWAY",
+      "rect": {
+        "y": 297,
+        "h": 2303
+      },
+      "background": {
+        "color": "rgb(255, 255, 255)",
+        "hasImage": true,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(37, 40, 42)"
+      },
+      "spacing": {
+        "paddingBlock": "0px 0px",
+        "paddingInline": "0px 0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "AzoSans-Light",
+        "AzoSans-Regular",
+        "AzoSans-Bold",
+        "CenturyStd-Book"
+      ],
+      "shadowsUsed": []
+    },
+    {
+      "sectionRef": "div#container-d2a96eb86d > div.aem-Grid.aem-Grid--12 > div.container.responsivegrid",
+      "index": 4,
+      "purpose": "footer",
+      "heading": null,
+      "rect": {
+        "y": 2600,
+        "h": 394
+      },
+      "background": {
+        "color": "rgb(255, 255, 255)",
+        "hasImage": false,
+        "hasGradient": false
+      },
+      "text": {
+        "dominantColor": "rgb(37, 40, 42)"
+      },
+      "spacing": {
+        "paddingBlock": "0px 0px",
+        "paddingInline": "0px 0px",
+        "gap": "normal"
+      },
+      "borderRadius": "0px",
+      "fontFamilies": [
+        "AzoSans-Light",
+        "CenturyStd-Book"
+      ],
+      "shadowsUsed": []
+    }
+  ],
+  "embedDominance": {
+    "dominated": false,
+    "iframeSrc": null,
+    "viewportCoveragePct": null,
+    "mainHeightCoveragePct": null,
+    "screenshot": null
+  },
+  "cssCustomProperties": [],
+  "customProps": {},
+  "_signals": {
+    "filteredInterstitials": 0,
+    "distinctHeadings": 6,
+    "mainTextLen": 6933,
+    "realImageCount": 9,
+    "trackingOnlyMedia": false,
+    "spaShellSuspect": false,
+    "screenshotMode": "fullPage"
+  },
+  "screenshot": "stardust/current/assets/screenshots/news-and-insights-blog-2026-10-cre-market-valuations.png",
+  "renderedHtml": "stardust/current/pages/news-and-insights-blog-2026-10-cre-market-valuations.html",
+  "stats": {
+    "wordCount": 656,
+    "ctaCount": 12,
+    "internalLinkCount": 13,
+    "externalLinkCount": 1,
+    "imageCount": 9
+  }
+}

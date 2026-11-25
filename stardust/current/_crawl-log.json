@@ -1,0 +1,210 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-18T08:42:12.329Z",
+    "stardustVersion": "0.37.2"
+  },
+  "discovery": {
+    "fetchTechnique": "chromium-fallback",
+    "count": 8,
+    "concurrency": 1,
+    "entryUrl": "https://www.ppmamerica.com/news-and-insights",
+    "inputUrlRedirect": "http://ppmamerica.com/news-and-insights -> https://www.ppmamerica.com/news-and-insights (2 hops; Apache origin behind Akamai)",
+    "source": "in-page links (BFS depth 1 from entry, narrowed to /news-and-insights subtree)",
+    "sourceUrl": "https://www.ppmamerica.com/news-and-insights",
+    "fetchedAt": "2026-11-18T08:23:56.588Z",
+    "sitemap": {
+      "/sitemap.xml": 500,
+      "/sitemap_index.xml": 404,
+      "robotsTxt": "200, \"User-agent: * / Disallow:\" — no Sitemap directive"
+    },
+    "curlNote": "plain curl to the origin hung (>2 min) — likely Akamai fingerprinting; browser navigation and Playwright APIRequestContext both returned 200 immediately",
+    "scope": "/news-and-insights subtree (path semantics of the entry URL); out-of-subtree nav links (investment-solutions, our-commitments, our-story, privacy, terms, social, home) excluded",
+    "discovered": [
+      "https://www.ppmamerica.com/news-and-insights",
+      "https://www.ppmamerica.com/news-and-insights/blog",
+      "https://www.ppmamerica.com/news-and-insights/market-insights",
+      "https://www.ppmamerica.com/news-and-insights/press-releases",
+      "https://www.ppmamerica.com/news-and-insights/market-insights/2026/10/cio-letter",
+      "https://www.ppmamerica.com/news-and-insights/market-insights/2026/10/clo-equity-outlook",
+      "https://www.ppmamerica.com/news-and-insights/market-insights/2026/10/emd-outlook",
+      "https://www.ppmamerica.com/news-and-insights/market-insights/2026/10/hy-outlook",
+      "https://www.ppmamerica.com/news-and-insights/blog/2026/10/cre-market-valuations",
+      "https://www.ppmamerica.com/news-and-insights/press-releases/2026/08/cre-team"
+    ],
+    "totalDiscovered": 10,
+    "filteredAsJunk": [],
+    "requiresAuth": [],
+    "cap": 8,
+    "capSource": "--cap",
+    "selection": "user named N=8 (link-first rule). Within the subtree the entry links to 9 pages; strict link-first order would keep emd-outlook + hy-outlook (same Quarterly Insights template as clo-equity-outlook) and cut the only blog-article and press-release detail pages. Assumption: substituted those two for template variety (page-selection checklist: hub, 3 listings, 4 detail templates).",
+    "selected": [
+      "https://www.ppmamerica.com/news-and-insights",
+      "https://www.ppmamerica.com/news-and-insights/blog",
+      "https://www.ppmamerica.com/news-and-insights/market-insights",
+      "https://www.ppmamerica.com/news-and-insights/press-releases",
+      "https://www.ppmamerica.com/news-and-insights/market-insights/2026/10/cio-letter",
+      "https://www.ppmamerica.com/news-and-insights/market-insights/2026/10/clo-equity-outlook",
+      "https://www.ppmamerica.com/news-and-insights/blog/2026/10/cre-market-valuations",
+      "https://www.ppmamerica.com/news-and-insights/press-releases/2026/08/cre-team"
+    ],
+    "cut": [
+      "https://www.ppmamerica.com/news-and-insights/market-insights/2026/10/emd-outlook",
+      "https://www.ppmamerica.com/news-and-insights/market-insights/2026/10/hy-outlook"
+    ],
+    "userChoice": "non-interactive (audit Phase 0): defaults taken, no confirmation gate",
+    "crawler": "skills/extract/scripts/crawl.mjs --pages <7 subtree paths> --max 8 --concurrency 1 --wait medium --page-timeout 90"
+  },
+  "consent": {
+    "method": "auto",
+    "dismissed": "button:has-text(\"Accept\") — the site-wide institutional-investor \"Disclosure Agreement\" modal (.cmp-modal, ACCEPT / DECLINE); no cookie banner observed",
+    "note": "accepting the disclosure is a self-certification click, not authentication; the modal text is preserved in each page record media.modals[]"
+  },
+  "botBlock": null,
+  "favicon": {
+    "crawler": null,
+    "enrichment": "https://www.ppmamerica.com/favicon.ico 200 image/x-icon -> assets/favicon.ico"
+  },
+  "crawl": {
+    "failures": [],
+    "pageTimeoutMs": 90000,
+    "captured": 8,
+    "perPage": [
+      {
+        "slug": "news-and-insights",
+        "url": "https://www.ppmamerica.com/news-and-insights",
+        "waitMode": "medium",
+        "waitMs": 2500,
+        "httpStatus": 200,
+        "fetchedAt": "2026-11-18T08:23:56.588Z",
+        "imgs": 15,
+        "cssBackgrounds": 0
+      },
+      {
+        "slug": "news-and-insights-blog",
+        "url": "https://www.ppmamerica.com/news-and-insights/blog",
+        "waitMode": "medium",
+        "waitMs": 2500,
+        "httpStatus": 200,
+        "fetchedAt": "2026-11-18T08:24:33.165Z",
+        "imgs": 26,
+        "cssBackgrounds": 0
+      },
+      {
+        "slug": "news-and-insights-market-insights",
+        "url": "https://www.ppmamerica.com/news-and-insights/market-insights",
+        "waitMode": "medium",
+        "waitMs": 2500,
+        "httpStatus": 200,
+        "fetchedAt": "2026-11-18T08:25:11.418Z",
+        "imgs": 47,
+        "cssBackgrounds": 0
+      },
+      {
+        "slug": "news-and-insights-press-releases",
+        "url": "https://www.ppmamerica.com/news-and-insights/press-releases",
+        "waitMode": "medium",
+        "waitMs": 2500,
+        "httpStatus": 200,
+        "fetchedAt": "2026-11-18T08:25:47.283Z",
+        "imgs": 28,
+        "cssBackgrounds": 0
+      },
+      {
+        "slug": "news-and-insights-market-insights-2026-10-cio-letter",
+        "url": "https://www.ppmamerica.com/news-and-insights/market-insights/2026/10/cio-letter",
+        "waitMode": "medium",
+        "waitMs": 2500,
+        "httpStatus": 200,
+        "fetchedAt": "2026-11-18T08:26:22.961Z",
+        "imgs": 8,
+        "cssBackgrounds": 0
+      },
+      {
+        "slug": "news-and-insights-market-insights-2026-10-clo-equity-outlook",
+        "url": "https://www.ppmamerica.com/news-and-insights/market-insights/2026/10/clo-equity-outlook",
+        "waitMode": "medium",
+        "waitMs": 2500,
+        "httpStatus": 200,
+        "fetchedAt": "2026-11-18T08:26:58.576Z",
+        "imgs": 8,
+        "cssBackgrounds": 0
+      },
+      {
+        "slug": "news-and-insights-blog-2026-10-cre-market-valuations",
+        "url": "https://www.ppmamerica.com/news-and-insights/blog/2026/10/cre-market-valuations",
+        "waitMode": "medium",
+        "waitMs": 2500,
+        "httpStatus": 200,
+        "fetchedAt": "2026-11-18T08:27:34.332Z",
+        "imgs": 9,
+        "cssBackgrounds": 0
+      },
+      {
+        "slug": "news-and-insights-press-releases-2026-08-cre-team",
+        "url": "https://www.ppmamerica.com/news-and-insights/press-releases/2026/08/cre-team",
+        "waitMode": "medium",
+        "waitMs": 2500,
+        "httpStatus": 200,
+        "fetchedAt": "2026-11-18T08:28:10.259Z",
+        "imgs": 9,
+        "cssBackgrounds": 0
+      }
+    ],
+    "supplementaryLivePasses": [
+      "style-census.mjs (8 pages @1440, concurrency 1) -> _computed-styles.json",
+      "enrichment pass (Playwright, sequential, one page at a time): hero, landmarks, per-section style, components, forms, links split, image alt/resolves, font files (4 woff2), logo, favicon",
+      "APIRequestContext media fetch: 45 of 76 unique visible content images saved to assets/media/ (cap 45)",
+      "cap-probe.mjs (3 archetypes) -> DESIGN.json extensions.breakpoints (content cap 1410px)"
+    ]
+  },
+  "visionCheck": [
+    {
+      "slug": "news-and-insights",
+      "verdict": "ok",
+      "notes": "H1 \"News and Insights\" + 620x275 office banner; 3 stream intros, 6-card featured grid, Our Advantage CTA band; no overlay visible"
+    },
+    {
+      "slug": "news-and-insights-blog",
+      "verdict": "ok",
+      "notes": "H1 \"Blog\" + banner; 3-col grid (~19 cards), no pagination; read in 2 thumbnail segments"
+    },
+    {
+      "slug": "news-and-insights-market-insights",
+      "verdict": "ok",
+      "notes": "H1 \"Market Insights\" + banner; ~60-card grid with caps eyebrows; read in 3 segments"
+    },
+    {
+      "slug": "news-and-insights-press-releases",
+      "verdict": "ok",
+      "notes": "H1 + banner; cards use abstract chevron tiles (raster), date eyebrows"
+    },
+    {
+      "slug": "news-and-insights-market-insights-2026-10-cio-letter",
+      "verdict": "ok",
+      "notes": "serif H1 on gray band, CIO Perspective, teal PDF button, round author photo"
+    },
+    {
+      "slug": "news-and-insights-market-insights-2026-10-clo-equity-outlook",
+      "verdict": "ok",
+      "notes": "H1, summary, teal PDF button, 620x275 image; no author block"
+    },
+    {
+      "slug": "news-and-insights-blog-2026-10-cre-market-valuations",
+      "verdict": "ok",
+      "notes": "mint Key Takeaway band (serif quote), line chart, right-rail author card"
+    },
+    {
+      "slug": "news-and-insights-press-releases-2026-08-cre-team",
+      "verdict": "ok",
+      "notes": "H1, body with inline plum link, 1280x720 group photo, author rail"
+    }
+  ],
+  "visionCheckNotes": "cssBackgrounds [] confirmed correct on all pages (no CSS background imagery in pixels). Logo visible in header on every page. Header/footer identical on all 8.",
+  "siblingCandidates": [],
+  "siblingDiscovery": "no candidates: no hreflang alternates, no og:site_name, footer/nav link out only to linkedin.com (social, not a brand property)",
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  }
+}

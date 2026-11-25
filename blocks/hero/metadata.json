@@ -1,0 +1,13 @@
+{
+  "variantName": "hero",
+  "baseBlock": "hero",
+  "canonicalModel": "hero",
+  "visualCharacteristics": "Default: full-bleed background image with the heading over it. Split option: image on the right (about 50%) beside the text column (h1, intro paragraph, bullet list), on the section background; stacks with the image first on narrow screens.",
+  "contentPattern": "One block, rows: image (picture) and text (h1, paragraph, optional list, optional CTA link). The image may share a cell with the text; the block finds the first picture wherever it is authored.",
+  "options": [
+    { "class": "split", "label": "Split (image beside text)" }
+  ],
+  "memberVariantIds": ["hero-split"],
+  "usage": "Page-top hero. Use the split option when the image sits beside the text instead of behind it, as on /financial-professional/annuity-products/product-match-pro (light-grey section).",
+  "reuseGuidance": "Reuse hero split for any page-top text|image hero. Pair with section metadata style light-grey for the grey band."
+}
